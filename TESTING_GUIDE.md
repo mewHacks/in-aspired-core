@@ -243,7 +243,7 @@ Previously, backend tests were purely mocked. To ensure security logic (like tok
     - [/] `getProfile`: Secure data return.
 - [/] `chat.controller.ts` (Chatbot history/clear) — **NOW TESTED**
 - [/] `notification.controller.ts` — **NOW TESTED**
-- [/] `payment.controller.ts` — **NOW TESTED**
+# [Proprietary] `payment.controller.ts` — not included in open source
 - [/] `admin.controller.ts` — **NOW TESTED**
 - [/] `feedback.controller.ts` — **NOW TESTED**
 
@@ -252,8 +252,8 @@ Previously, backend tests were purely mocked. To ensure security logic (like tok
 - [/] `email.service.ts`: Mock `nodemailer` to fail/succeed.
 - [/] `recommendation.service.ts`: Algorithm correctness.
 - [/] `notification.service.ts` — **NOW TESTED** (16 tests: CRUD, socket emit, helpers)
-- [/] `payment.service.ts` — **NOW TESTED** (22 tests: checkout, HMAC, fulfillment, retry)
-- [/] `pdf.service.ts`: Tested via payment service integration
+# [Proprietary] `payment.service.ts` — not included in open source
+- [/] `pdf.service.ts`: PDF generation (used by proprietary payment extension)
 
 ### Middleware
 - [/] `auth.middleware.ts`: Blocks requests without valid JWT.

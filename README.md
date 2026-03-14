@@ -63,7 +63,7 @@ The platform is a production-grade monorepo with a React SPA, a Node.js API back
 | **Career Discovery** | Career listings matched to RIASEC profile with salary data and study path guidance |
 | **AI Chatbot** | Gemini-powered assistant for course, career, and platform queries; detects intent, uses context data, supports English, Chinese, Malay, and Tamil |
 | **Virtual Study Rooms** | Real-time rooms with WebRTC video, shared whiteboard (Excalidraw), chat, file resources, to-do lists, ambient music, and synchronized countdown timer |
-| **Premium Reports** | LemonSqueezy-gated 14-page PDF career analysis report, generated via Puppeteer and delivered by email |
+| **Premium Reports** | 14-page PDF career analysis report, generated via Puppeteer and delivered by email (payment integration available as proprietary extension) |
 | **User Profile** | Avatar, bio, password management, Google OAuth login, optional TOTP 2FA |
 | **Notifications** | In-app notification center and Web Push notifications via VAPID |
 | **Saved Items** | Bookmark courses and careers for later reference |
@@ -108,7 +108,7 @@ The platform is a production-grade monorepo with a React SPA, a Node.js API back
 | Cache / State | Redis (ioredis) |
 | AI | Google Gemini (chat: `gemini-2.5-flash`; embeddings: `gemini-embedding-001`) |
 | PDF | Puppeteer + Chromium |
-| Payments | LemonSqueezy |
+| Payments | (Proprietary extension) |
 | Email | Nodemailer (Gmail / SMTP) |
 | Auth | HttpOnly cookies, JWT, bcrypt, TOTP (speakeasy) |
 | Testing | Jest, Supertest |
@@ -141,7 +141,7 @@ flowchart LR
     subgraph "External"
         MongoDB[("MongoDB Atlas")]
         Gemini["Google Gemini API"]
-        LS["LemonSqueezy"]
+        Pay["Payment Provider"]
         SMTP["SMTP / Gmail"]
         Push["Web Push (VAPID)"]
     end
@@ -172,7 +172,7 @@ Browser
 
 - **Cookie-based auth with refresh rotation** — access tokens in httpOnly cookies; a silent refresh retries once on 401 before redirecting to login
 - **Background-tolerant boot** — HTTP server starts immediately; MongoDB reconnect retries in the background without blocking the process
-- **Async PDF fulfillment** — PDF generation and email delivery run after the webhook response is sent, so LemonSqueezy always gets a fast 200
+- **Async PDF fulfillment** — PDF generation and email delivery run asynchronously to respond quickly to payment webhooks
 - **Redis-backed room state** — timer, whiteboard, and participant state live in Redis so they survive process restarts and scale across instances
 
 ---
@@ -194,7 +194,7 @@ in-aspired/
 ├── server/node-backend/         # Express API + Socket.IO backend
 │   ├── src/
 │   │   ├── controllers/         # Route handlers (thin layer, delegates to services)
-│   │   ├── services/            # Business logic (AI, PDF, payment, email)
+│   │   ├── services/            # Business logic (AI, PDF, email)
 │   │   ├── models/              # Mongoose schemas
 │   │   ├── routes/              # Express route definitions
 │   │   ├── socket/              # Socket.IO event handlers and room state store
@@ -261,10 +261,10 @@ Open `http://localhost:5173`.
 | `VAPID_PUBLIC_KEY` | Push notifications | VAPID public key |
 | `VAPID_PRIVATE_KEY` | Push notifications | VAPID private key |
 | `VAPID_SUBJECT` | Push notifications | Mailto URI for VAPID contact |
-| `LEMONSQUEEZY_STORE_ID` | Payments | LemonSqueezy store ID |
-| `LEMONSQUEEZY_VARIANT_ID` | Payments | Product variant ID |
-| `LEMONSQUEEZY_API_KEY` | Payments | LemonSqueezy API key |
-| `LEMONSQUEEZY_WEBHOOK_SECRET` | Payments | Webhook signing secret |
+# | `LEMONSQUEEZY_STORE_ID` | Payments | LemonSqueezy store ID (proprietary) |
+# | `LEMONSQUEEZY_VARIANT_ID` | Payments | Product variant ID (proprietary) |
+# | `LEMONSQUEEZY_API_KEY` | Payments | LemonSqueezy API key (proprietary) |
+# | `LEMONSQUEEZY_WEBHOOK_SECRET` | Payments | Webhook signing secret (proprietary) |
 | `PUPPETEER_EXECUTABLE_PATH` | PDF (production) | Path to Chromium binary in Docker |
 
 ### Frontend — `client/.env`
@@ -340,7 +340,7 @@ Not all features require all services. Use this table to decide what to configur
 | Password reset, report delivery | SMTP |
 | Google sign-in | Google OAuth credentials |
 | Web push notifications | VAPID keys |
-| Premium PDF report and payment | LemonSqueezy + SMTP + Puppeteer/Chromium |
+| Premium PDF report | SMTP + Puppeteer/Chromium |
 
 ---
 

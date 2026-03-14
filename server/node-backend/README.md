@@ -177,9 +177,11 @@ This means the chatbot remains functional even during a complete Gemini API outa
 | `data/systemInfo.ts` | Static knowledge base about app features for SYSTEM_INFO queries |
 
 ## Payment System
-Integrates **LemonSqueezy** for processing.
+*(Proprietary extension - not included in open source)*
+
+The payment system integrates with payment providers for premium PDF report fulfillment.
 1. **Secure Checkout**: Generates signed checkout URLs.
-2. **Webhook Verification**: Validates `X-Signature`.
+2. **Webhook Verification**: Validates webhook signatures.
 3. **Automated Fulfillment**: Creates transaction, generates PDF, sends email.
 
 ## Database Models

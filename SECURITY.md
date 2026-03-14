@@ -31,7 +31,7 @@ Our automated workflows are designed to validate security logic in realistic env
 ### ✅ Comprehensive Test Coverage
 - **Backend**: 344 tests across 30 test suites covering all controllers, services, middleware, and models.
 - **Frontend**: 55 tests covering core components and pages.
-- **Security Impact**: Comprehensive test coverage helps prevent security regressions in authentication, authorization, payment processing, and input validation.
+- **Security Impact**: Comprehensive test coverage helps prevent security regressions in authentication, authorization, and input validation.
 
 ---
 
