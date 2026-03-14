@@ -42,7 +42,7 @@
     "@types/react-dom": "^18.3.1",
     "@types/simple-peer": "^9.11.9",
     "@vitejs/plugin-react": "^5.1.2",
-    "@vitest/coverage-v8": "^2.1.8",
+    "@vitest/coverage-v8": "^4.1.0",
     "@vitest/ui": "^2.1.8",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.17.0",
