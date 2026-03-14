@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-sans text-dark-900 bg-white antialiased;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-serif;
+    }
+}
+
+.glass-panel {
+    @apply bg-white/60 backdrop-blur-xl border border-white/40 shadow-xl shadow-primary-500/10;
+}
+
+.btn-neobrutalism {
+    @apply border-2 border-primary-900 transition-all;
+    box-shadow: 4px 4px 0px 0px rgba(76, 29, 149, 1);
+}
+
+.btn-neobrutalism:active {
+    @apply translate-y-[2px] translate-x-[2px];
+    box-shadow: 2px 2px 0px 0px rgba(76, 29, 149, 1);
+}
+
+.aurora-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 via-secondary-500 to-accent-pink;
+}
+
+.aurora-bg {
+    @apply bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-transparent dark:via-transparent dark:to-transparent;
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    /* Neon Border Beam Animation */
+    .neon-border-container {
+        position: relative;
+        padding: 4px;
+        /* Space for the border beam */
+        background: #fff;
+        border-radius: 1.5rem;
+        /* 3xl */
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .neon-border-beam {
+        position: absolute;
+        inset: -100%;
+        background: conic-gradient(from 0deg,
+                #fbbf24,
+                /* Yellow-400 */
+                #ec4899,
+                /* Pink-500 */
+                #8b5cf6,
+                /* Purple-500 */
+                #3b82f6,
+                /* Blue-500 */
+                #fbbf24
+                /* Loop back to yellow */
+            );
+        animation: rotate-neon 3s linear infinite;
+        z-index: -1;
+    }
+
+    .neon-content-mask {
+        @apply bg-white rounded-[1.25rem] w-full h-full relative z-10;
+        /* Slight inset from the container to show the beam */
+    }
+
+    @keyframes rotate-neon {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}

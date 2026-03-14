@@ -1,0 +1,56 @@
+# ──────────────────────────────────────────────────────────
+# In-Aspired Docker Compose (Development)
+# Start everything: docker compose up --build
+# Stop everything:  docker compose down
+# ──────────────────────────────────────────────────────────
+
+services:
+
+  # ─── React Frontend ──────────────────────────────────
+  client:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./client/src:/app/client/src # Hot reload source
+      - ./client/public:/app/client/public # Static assets
+      - ./client/index.html:/app/client/index.html
+      - ./shared/src:/app/shared/src # Shared workspace sync
+    env_file:
+      - ./client/.env
+    depends_on:
+      - server-node
+
+  # ─── Node.js Backend ─────────────────────────────────
+  server-node:
+    build:
+      context: .
+      dockerfile: server/node-backend/Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./server/node-backend/src:/app/server/node-backend/src # Hot reload
+      - ./shared/src:/app/shared/src # Shared sync
+    env_file:
+      - ./server/node-backend/.env
+    environment:
+      - NODE_ENV=development
+      - CLIENT_URL=http://localhost:5173
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - redis
+
+  # ─── Redis (Socket State + Adapter) ────────────────
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1400

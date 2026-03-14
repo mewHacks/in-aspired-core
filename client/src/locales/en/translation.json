@@ -1,0 +1,2410 @@
+{
+  "settings_nav": {
+    "title": "Settings",
+    "language": {
+      "title": "Language",
+      "subtitle": "Change interface language",
+      "placeholder": "Select Language"
+    }
+  },
+  "virtualRoom": {
+    "loading": "Loading Room...",
+    "wantsToJoin": "Wants to join this room",
+    "approve": "Approve",
+    "deny": "Deny",
+    "cameraOff": "Camera is off",
+    "you": "You",
+    "muted": "(Muted)",
+    "connecting": "Connecting...",
+    "connectionFailed": "Connection Failed",
+    "waitingForPeers": "Waiting for peers...",
+    "whiteboardReadOnly": "Whiteboard is read-only",
+    "muteMic": "Mute Microphone",
+    "unmuteMic": "Unmute Microphone",
+    "micDisabled": "Microphone disabled by host",
+    "turnOffCamera": "Turn Off Camera",
+    "turnOnCamera": "Turn On Camera",
+    "cameraDisabled": "Camera disabled by host",
+    "toggleWhiteboard": "Toggle Whiteboard",
+    "enterFullScreen": "Enter Full Screen",
+    "exitFullScreen": "Exit Full Screen",
+    "shareRoom": "Share Room",
+    "leave": "Leave",
+    "roomControls": "Room Controls",
+    "helpGuide": "Help & Guide",
+    "chatAndTools": "Chat & Tools",
+    "tabs": {
+      "chat": "Chat",
+      "resources": "Resources",
+      "todo": "To-Do"
+    },
+    "chat": {
+      "today": "Today",
+      "me": "Me",
+      "typeMessage": "Type a message..."
+    },
+    "timerStatus": {
+      "left": "Left",
+      "endingSoon": "Ending Soon",
+      "paused": "Paused"
+    },
+    "sessionEnded": {
+      "title": "Session Completed 🎉",
+      "desc1": "Great work! The session has ended.",
+      "desc2": "Would you like to continue?",
+      "extend": "Extend for 25 Minutes (Standard)",
+      "endAll": "End Session for Everyone",
+      "autoEndingWarn": "Auto-ending in 60 seconds...",
+      "waitingHost": "Waiting for host decision...",
+      "roomAutoCloseWarn": "Room will close automatically if no action is taken."
+    },
+    "guide": {
+      "title": "Study Room Guide",
+      "subtitle": "Everything you need to know here!",
+      "videoAudio": "Video and Audio",
+      "videoAudioDesc": "Toggle your microphone and camera using the bottom control bar.",
+      "videoAudioTip": "Keep muted when not speaking to reduce background noise.",
+      "whiteboard": "Whiteboard",
+      "whiteboardDesc": "Click the pencil icon to switch to collaborative whiteboard mode.",
+      "whiteboardTip": "Draw, add text, and shapes. Everyone sees changes in real-time.",
+      "chatResources": "Chat and Resources",
+      "chatResourcesDesc": "Use Chat for messages and Resources to share study materials.",
+      "chatResourcesTip": "Upload PDFs (20MB) and images (5MB) to share with the room.",
+      "timer": "Session Timer",
+      "timerDesc": "Sessions run for 25 minutes using the Pomodoro technique.",
+      "timerTip": "You'll get warnings at 5 min and 1 min remaining.",
+      "todo": "To-Do List",
+      "todoDesc": "Track your personal tasks in the sidebar To-Do tab.",
+      "todoTip": "Private to you and stored for the current session only.",
+      "music": "Music Player",
+      "musicDesc": "Play focus music privately—only you can hear it.",
+      "musicTip": "Volume auto-lowers when your mic is active.",
+      "hostControlsTitle": "Host Controls",
+      "hostBadge": "You're the host",
+      "hostDesc1": "Manage participant permissions",
+      "hostDesc2": "Remove disruptive users",
+      "hostDesc3": "Toggle camera/audio/whiteboard",
+      "hostDesc4": "Extend or end sessions",
+      "proTip": "Pro tip:",
+      "proTipDesc": "Use full screen mode for immersive focus sessions, and respect the 25-minute focus blocks for maximum productivity.",
+      "gotIt": "Got it!"
+    },
+    "hostControls": {
+      "title": "Room Controls",
+      "participants": "Participants",
+      "you": "(You)",
+      "kick": "Kick",
+      "roomSettings": "Room Settings",
+      "camera": "Camera",
+      "microphone": "Microphone",
+      "whiteboard": "Whiteboard",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "close": "Close"
+    },
+    "toast": {
+      "joined": "{{name}} joined the room",
+      "left": "{{name}} left the room",
+      "extended": "Session extended!",
+      "ended": "Session ended by host or timeout.",
+      "cameraDisabled": "Camera disabled by host",
+      "micDisabled": "Microphone disabled by host",
+      "settingsUpdated": "Room settings updated by host",
+      "kicked": "You were removed from the room by the host",
+      "wantsToJoin": "{{name}} wants to join",
+      "userRemoved": "{{name}} has been removed",
+      "requestApproved": "Join request approved ✅",
+      "requestDenied": "Join request denied ❌",
+      "youLeft": "You left the room"
+    },
+    "alert": {
+      "kickConfirm": "Kick {{name}} from the room?",
+      "leaveConfirm": "Are you sure you want to leave the study session?"
+    },
+    "resources": {
+      "fillTitleUrl": "Please fill in title and URL/Link",
+      "addSuccess": "Resource added successfully",
+      "addFail": "Failed to add resource",
+      "networkError": "Network error",
+      "reportConfirm": "Report this content? It will be hidden if verified.",
+      "reportSuccess": "Content reported. Thank you.",
+      "reportFail": "Failed to report",
+      "subtitle": "Shared materials & reading",
+      "add": "Add",
+      "recommended": "Recommended",
+      "readOnly": "Read Only",
+      "sessionUploads": "Session Uploads",
+      "items": "items",
+      "noResources": "No resources shared yet.",
+      "shareSomething": "Share something",
+      "unknown": "Unknown",
+      "openLink": "Open Link",
+      "preview": "Preview",
+      "download": "Download",
+      "report": "Report",
+      "shareResource": "Share Resource",
+      "link": "Link",
+      "pdf": "PDF",
+      "image": "Image",
+      "titleLabel": "Title",
+      "egArticle": "e.g. Helpful Article",
+      "egNotes": "e.g. Lecture Notes",
+      "urlLabel": "URL / Link",
+      "adultWarning": "Adult content domains are blocked.",
+      "uploadPdf": "Upload PDF Document",
+      "uploadImage": "Upload Image",
+      "sharing": "Sharing..."
+    },
+    "todo": {
+      "title": "My Session Goals",
+      "subtitle": "Tasks are private and saved for this session.",
+      "complete": "Complete",
+      "validated": "Validated",
+      "noGoals": "No goals set for this session.",
+      "getStarted": "Add a task to get started!",
+      "deleteTask": "Delete task",
+      "addGoal": "Add a new goal..."
+    },
+    "share": {
+      "linkCopied": "Link copied!",
+      "failedCopy": "Failed to copy",
+      "codeCopied": "Code copied!",
+      "sharePrivate": "Share Private Room",
+      "sharePublic": "Share Public Room",
+      "roomCode": "Room Code",
+      "copyCode": "Copy code",
+      "shareCodeDesc": "Share this code with people you want to invite",
+      "inviteLink": "Invite Link",
+      "shareLink": "Share Link",
+      "copyLinkTooltip": "Copy link",
+      "linkIncludesCode": "This link includes the room code for instant access",
+      "privateInfo": "Only people with the code or invite link can join this room.",
+      "publicInfo": "Anyone with the link can join this public room.",
+      "done": "Done"
+    },
+    "music": {
+      "nowPlaying": "Now Playing:",
+      "onlyYou": "only u",
+      "prevStation": "Previous Station",
+      "nextStation": "Next Station",
+      "unavailable": "Radio Unavailable"
+    },
+    "modals": {
+      "leaveRoomMessage": "Are you sure you want to leave the study session?"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "personalityTest": "Personality Test",
+    "infographicHub": "Infographic Hub",
+    "courses": "Courses",
+    "careers": "Careers",
+    "virtualStudyRooms": "Virtual Study Rooms",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "settings": "Settings",
+    "help": "Help",
+    "logout": "Log Out",
+    "joinPrompt": "Join In-Aspired to access this feature!\n\nWould you like to sign up now?",
+    "logoutSuccess": "You have been logged out",
+    "dashboard": "Dashboard",
+    "contact": "Contact"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "help": "Help",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "ui": {
+    "loading": {
+      "quotes": [
+        "Designing your future...",
+        "Unlocking potential...",
+        "Finding your path...",
+        "Connecting to opportunities...",
+        "Building your career...",
+        "Exploring new horizons..."
+      ]
+    },
+    "logoHeader": {
+      "title": "In-Aspired",
+      "subtitle": "Discover Your Potential"
+    },
+    "logout": "Log Out",
+    "toasts": {
+      "savedItem": "Saved \"{{name}}\".",
+      "viewSavedCareers": "View Saved Careers",
+      "viewSavedCourses": "View Saved Courses",
+      "removedItem": "Removed \"{{name}}\" from saved",
+      "alreadySaved": "This item is already saved",
+      "notSaved": "This item is not saved",
+      "archivedItem": "Archived \"{{name}}\".",
+      "unarchivedItem": "Unarchived \"{{name}}\"",
+      "viewArchivedCourses": "View Archived Courses",
+      "viewArchivedCareers": "View Archived Careers"
+    },
+    "buttons": {
+      "save": "Save",
+      "saved": "Saved",
+      "archive": "Archive",
+      "unarchive": "Unarchive",
+      "viewDetails": "View Details",
+      "quickEdit": "Quick Edit",
+      "removeSave": "Remove from saved"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to continue your journey of self-discovery",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign In",
+      "orContinueWith": "Or continue with",
+      "newToPlatform": "New to In-Aspired?",
+      "createAccount": "Create your free account",
+      "googleLogin": "Google"
+    },
+    "signup": {
+      "title": "Create Your Account",
+      "subtitle": "Join our community and discover your true potential",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Doe",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create a strong password",
+      "confirmPasswordLabel": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter your password",
+      "agreeTo": "I agree to the ",
+      "and": " and ",
+      "newsletterOptIn": "Yes, I'd like to receive career insights, tips, and updates from In-Aspired (optional)",
+      "submit": "Create Account",
+      "orSignUpWith": "Or sign up with",
+      "googleSignup": "Sign up with Google",
+      "alreadyHaveAccount": "Already have an account?",
+      "signIn": "Sign in to your account"
+    },
+    "validation": {
+      "8chars": "8 characters",
+      "uppercase": "uppercase letter",
+      "lowercase": "lowercase letter",
+      "number": "number",
+      "special": "special character",
+      "passwordNeeds": "Password needs: ",
+      "passwordsMismatch": "Passwords do not match",
+      "confirmPasswordRequired": "Please confirm your password"
+    },
+    "recovery": {
+      "forgotTitle": "Forgot Password?",
+      "forgotSubtitle": "Enter your email address to receive a reset link.",
+      "requestResetLink": "Request Reset Link",
+      "resetLinkSent": "Reset link sent!",
+      "checkEmail": "Check your email inbox for instructions to reset your password.",
+      "tryAnotherEmail": "Try another email",
+      "backToLogin": "Back to Login",
+      "resetTitle": "Reset Password",
+      "resetSubtitle": "Set New Password",
+      "newPasswordLabel": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmNewPasswordLabel": "Confirm Password",
+      "confirmNewPasswordPlaceholder": "Confirm new password",
+      "resetPasswordBtn": "Reset Password",
+      "resetSuccessTitle": "Password Reset Successful!",
+      "resetSuccessDesc": "Your password has been updated. Redirecting you to login...",
+      "goToLogin": "Go to Login Now"
+    },
+    "security": {
+      "secure": "Secure and encrypted",
+      "private": "Your data is private and protected"
+    },
+    "alerts": {
+      "googleError": "Google social authentication failed",
+      "signupSuccess": "Registration successful. Please check your email to verify your account before logging in.",
+      "loginFailed": "Login failed. Please check your credentials.",
+      "networkError": "Network error or server is down. Please try again.",
+      "signupFailed": "Signup failed. Please try again."
+    }
+  },
+  "core": {
+    "domains": {
+      "computing": "Computing and Data",
+      "engineering": "Engineering and Built Environment",
+      "health": "Health and Life Sciences",
+      "environment": "Environmental and Sustainability Studies",
+      "business": "Business, Finance and Economics",
+      "marketing": "Marketing, Sales and Entrepreneurship",
+      "arts": "Creative Arts and Design",
+      "media": "Media, Communication and Performing Arts",
+      "social_sciences": "Education, Psychology and Social Sciences",
+      "law": "Law, Public Policy and Governance",
+      "hospitality": "Hospitality, Tourism and Events",
+      "sports": "Sports, Fitness and Human Performance",
+      "trades": "Skilled Trades and Applied Technology",
+      "admin": "Administration, Operations and Data Support"
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "subtitle": "Welcome back! Here's an overview of the platform's performance and activity.",
+      "lastRefresh": "Last Dashboard Refresh",
+      "lastRefreshMobile": "Last refresh",
+      "justNow": "Just now",
+      "minutesAgo": "{{count}}m ago",
+      "hoursAgo": "{{count}}h ago",
+      "yesterday": "Yesterday",
+      "loading": "Loading...",
+      "systemStatus": "System Status: All systems operational",
+      "savedVault": {
+        "title": "Saved Vault",
+        "desc": "Courses & Careers you bookmarked",
+        "badge": "{{count}} new",
+        "courses": "Courses",
+        "careers": "Careers"
+      },
+      "archivedVault": {
+        "title": "Archived Vault",
+        "desc": "Hidden items from main view",
+        "badge": "{{count}} archived"
+      },
+      "userMonitoring": {
+        "title": "User Monitoring",
+        "desc": "Real-time user activity & management",
+        "badge": "{{count}} active now",
+        "active": "Active",
+        "suspended": "Suspended",
+        "newToday": "New today",
+        "item_one": "item",
+        "item_other": "items"
+      },
+      "reportsCenter": {
+        "title": "Reports Center",
+        "desc": "Resolve user reports & feedback",
+        "badge": "{{count}} pending review",
+        "pending": "Pending",
+        "resolved": "Resolved",
+        "resolve": "Resolve"
+      }
+    },
+    "saved": {
+      "signInRequired": {
+        "title": "Sign In Required",
+        "desc": "Please sign in to view saved content.",
+        "button": "Sign In"
+      },
+      "header": {
+        "back": "Back",
+        "badge": "Personal Collection",
+        "title": "Saved Vault",
+        "desc": "Your personal collection of bookmarked courses and careers.",
+        "savedCourses": "Saved Courses",
+        "savedCareers": "Saved Careers"
+      },
+      "tabs": {
+        "courses": "Saved Courses",
+        "careers": "Saved Careers"
+      },
+      "search": {
+        "placeholderCourses": "Search saved courses...",
+        "placeholderCareers": "Search saved careers...",
+        "clear": "Clear Search",
+        "showingCourses": "{{filtered}} of {{total}} saved courses",
+        "showingCareers": "{{filtered}} of {{total}} saved careers",
+        "filteredBy": "Filtered by: \"{{query}}\""
+      },
+      "empty": {
+        "coursesTitle": "No saved courses yet",
+        "coursesDesc": "Start exploring courses and save the ones you're interested in.",
+        "exploreCourses": "Explore Courses",
+        "careersTitle": "No saved careers yet",
+        "careersDesc": "Start exploring careers and save the ones you're interested in.",
+        "exploreCareers": "Explore Careers",
+        "noMatchCoursesTitle": "No matching courses found",
+        "noMatchCoursesDesc": "No saved courses match your search for \"{{query}}\".",
+        "noMatchCareersTitle": "No matching careers found",
+        "noMatchCareersDesc": "No saved careers match your search for \"{{query}}\"."
+      }
+    },
+    "quiz": {
+      "resumePrompt": {
+        "title": "Resume Your Test",
+        "desc": "You have an unfinished personality test. Would you like to resume from where you left off, or start over?",
+        "resumeBtn": "Resume Test",
+        "restartBtn": "Start Over"
+      },
+      "q1": {
+        "scenario": "When solving a complex problem at work/school, you prefer to:",
+        "o1": "Analyze data and conduct research to find the logical answer.",
+        "o2": "Brainstorm creative, out-of-the-box solutions with no limits.",
+        "o3": "Organize the team and delegate tasks to get it done efficiently."
+      },
+      "q2": {
+        "scenario": "Ideally, your workspace would look like:",
+        "o1": "A workshop with tools, machines, or outdoor equipment.",
+        "o2": "A quiet, well-organized office with clear filing systems.",
+        "o3": "A bustling collaborative space where you can help people."
+      },
+      "q3": {
+        "scenario": "You have a deadline approaching. Your approach is to:",
+        "o1": "Execute a strategic, detailed plan to ensure everything runs perfectly.",
+        "o2": "Dive in hands-on and just start building/fixing it immediately.",
+        "o3": "Rely on your intuition and flow, improvising as you go."
+      },
+      "q4": {
+        "scenario": "Which role appeals to you most in a group project?",
+        "o1": "The Negotiator: Persuading others and selling the group's idea.",
+        "o2": "The Helper: ensuring everyone feels included and supported.",
+        "o3": "The Scientist: Fact-checking and ensuring technical accuracy."
+      },
+      "q5": {
+        "scenario": "You feel most accomplished when you have:",
+        "o1": "Built or repaired something tangible with your hands.",
+        "o2": "Taught someone a new skill or helped them through a tough time.",
+        "o3": "Successfully led a team to achieve a high-revenue goal."
+      },
+      "q6": {
+        "scenario": "If you had to write a book, it would likely be:",
+        "o1": "A technical manual or a non-fiction analysis of a complex topic.",
+        "o2": "An expressive novel, poetry collection, or screenplay.",
+        "o3": "A guide on productivity, data management, or accounting."
+      },
+      "q7": {
+        "scenario": "It's a free Saturday. You are most likely to do:",
+        "o1": "Go hiking, fix a car, or do woodworking.",
+        "o1_v": "Hands-on Projects",
+        "o2": "Visit an art gallery or attend a concert.",
+        "o2_v": "Creative Activities",
+        "o3": "Optimize your personal finances or organize your digital life.",
+        "o3_v": "Planning & Organizing"
+      },
+      "q8": {
+        "scenario": "You want to learn a new skill. You pick:",
+        "o1": "Public speaking or sales negotiation.",
+        "o2": "Counseling or first aid to assist others.",
+        "o3": "Computer programming or advanced mathematics."
+      },
+      "q9": {
+        "scenario": "Pick a TV show to watch:",
+        "o1": "Documentaries about science, nature, or history.",
+        "o1_v": "Documentary",
+        "o2": "Reality shows about business competitions or politics.",
+        "o2_v": "Reality TV",
+        "o3": "Talk shows or dramas focused on relationships and people.",
+        "o3_v": "Talk Show"
+      },
+      "q10": {
+        "scenario": "You are at a bookstore. You head straight for the section on:",
+        "o1": "Art, Design, or Fiction.",
+        "o1_v": "Arts & Fiction",
+        "o2": "Technology, Engineering, or Mechanics.",
+        "o2_v": "Tech & Innovation",
+        "o3": "Business, Finance, or Law.",
+        "o3_v": "Business & Law"
+      },
+      "q11": {
+        "scenario": "You're planning a vacation. Your style is:",
+        "o1": "No fixed plan, just exploring culture and taking photos.",
+        "o1_v": "Wilderness Adventure",
+        "o2": "A group tour where you can meet locals and other travelers.",
+        "o2_v": "Group Culture Tour",
+        "o3": "A meticulously planned itinerary with spreadsheets.",
+        "o3_v": "Luxury Itinerary"
+      },
+      "q12": {
+        "scenario": "If you won the lottery, you would:",
+        "o1": "Start your own company or invest aggressively.",
+        "o2": "Buy a farm/workshop and work with machines/animals.",
+        "o3": "Fund a research lab to solve global mysteries."
+      },
+      "q13": {
+        "scenario": "In a conversation, you enjoy talking about:",
+        "o1": "Abstract ideas, feelings, and artistic expression.",
+        "o2": "Concrete facts, numbers, and processes.",
+        "o3": "Strategies, leadership, and future ambitions."
+      },
+      "q14": {
+        "scenario": "Your friends describe you as:",
+        "o1": "The Problem Solver who fixes things.",
+        "o2": "The Intellectual who knows a lot of facts.",
+        "o3": "The Empath who is always there to listen."
+      },
+      "q15": {
+        "scenario": "What matters most to you in a career?",
+        "o1": "Prestige, status, and the ability to influence others.",
+        "o2": "Stability, organization, and clear procedures.",
+        "o3": "Making a difference in people's lives directly."
+      },
+      "q16": {
+        "scenario": "You see a complex machine. You wonder:",
+        "o1": "How does it work? (The physics/mechanics)",
+        "o2": "How can I operate it? (Hands-on usage)",
+        "o3": "How can this simplify my filing system? (Efficiency)"
+      },
+      "q17": {
+        "scenario": "You are asked to give a presentation. You focus on:",
+        "o1": "Inspiring the audience emotionally with visuals.",
+        "o2": "Persuading them to take a specific action or buy in.",
+        "o3": "Sharing accurate research findings and data."
+      },
+      "q18": {
+        "scenario": "Volunteering opportunity! You choose to:",
+        "o1": "Build houses for the homeless.",
+        "o2": "Mentor logic/math students.",
+        "o3": "Organize the fundraising gala."
+      },
+      "q19": {
+        "scenario": "You prefer tasks that are:",
+        "o1": "Physical and active (outdoors or hands-on).",
+        "o2": "Social and interactive (teaching/healing).",
+        "o3": "Creative and expressive (design/writing)."
+      },
+      "q20": {
+        "scenario": "A software update changes your workflow. You:",
+        "o1": "Immediately read the documentation to understand the logic.",
+        "o2": "Make sure records are updated and compliant with new rules.",
+        "o3": "Ask colleagues how they feel about the change."
+      },
+      "q21": {
+        "scenario": "Which high school subject did you (or would you) prefer?",
+        "o1": "Shop Class, Athletics, or Agriculture.",
+        "o1_v": "Workshop",
+        "o2": "Debate, Student Council, or Business.",
+        "o2_v": "Debate Hall",
+        "o3": "Art, Drama, or Creative Writing.",
+        "o3_v": "Art Studio"
+      },
+      "q22": {
+        "scenario": "You need to organize a party. You take charge of:",
+        "o1": "Creating the guest list and managing the budget.",
+        "o1_v": "Guest List",
+        "o2": "Making sure everyone is having a good time.",
+        "o2_v": "Crowd/People",
+        "o3": "Setting up the lights, sound system, and decorations.",
+        "o3_v": "DJ Booth"
+      },
+      "q23": {
+        "scenario": "You encounter a theory that contradicts your beliefs. You:",
+        "o1": "Research it deeply to see if it makes logical sense.",
+        "o2": "Debate the person to prove your point of view.",
+        "o3": "Use it as inspiration for a story or artwork."
+      },
+      "q24": {
+        "scenario": "Your ideal retirement involves:",
+        "o1": "Running a small bed & breakfast or consulting firm.",
+        "o2": "Cataloging your massive collection of something.",
+        "o3": "Living in a cabin, fishing, and fixing things."
+      },
+      "q25": {
+        "scenario": "You have to work on a team. What frustrates you most?",
+        "o1": "Lack of specific instructions or disorganized workflows.",
+        "o2": "Restrictions on creativity and rigid rules.",
+        "o3": "People being insensitive or unkind to each other."
+      },
+      "q26": {
+        "scenario": "You fit best in a role where:",
+        "o1": "You are the expert analyzing complex problems.",
+        "o2": "You are the boss making high-stakes decisions.",
+        "o3": "You are the artisan creating something unique."
+      },
+      "q27": {
+        "scenario": "If you could intern anywhere for a week, you'd choose:",
+        "o1": "A busy hospital ER helping patients.",
+        "o2": "A high-tech robotics manufacturing plant.",
+        "o3": "A major accounting firm during tax season."
+      },
+      "q28": {
+        "scenario": "You are buying a computer. You care most about:",
+        "o1": "The specs, processor speed, and technical benchmarks.",
+        "o2": "The aesthetics, design, and screen quality for art.",
+        "o3": "The brand prestige and resale value."
+      },
+      "q29": {
+        "scenario": "A friend comes to you with a problem. You:",
+        "o1": "Listen empathetically and offer emotional support.",
+        "o2": "Offer a practical, step-by-step fix.",
+        "o3": "Analyze the root cause of why it happened."
+      },
+      "q30": {
+        "scenario": "At a networking event, you are:",
+        "o1": "Working the room, exchanging cards, and making deals.",
+        "o2": "Talking to one person deeply about their life story.",
+        "o3": "Standing back, observing the dynamics, or checking the schedule."
+      },
+      "q31": {
+        "scenario": "You're assigned a project with vague instructions. You:",
+        "o1": "Love it! It's a blank canvas for my ideas.",
+        "o2": "Hate it. I need clear guidelines and expectations.",
+        "o3": "Research similar projects to determine the best approach."
+      },
+      "q32": {
+        "scenario": "Your dream startup would be:",
+        "o1": "A non-profit dedicated to community health.",
+        "o2": "A construction or landscaping business.",
+        "o3": "A marketing agency with high growth potential."
+      },
+      "q33": {
+        "scenario": "You perform best when you are:",
+        "o1": "Working independently on abstract concepts.",
+        "o2": "Working with your hands and tools.",
+        "o3": "Working with data, numbers, and details."
+      },
+      "q34": {
+        "scenario": "Which word best describes your ideal self?",
+        "o1": "Imaginative.",
+        "o2": "Ambitious.",
+        "o3": "Helpful."
+      },
+      "q35": {
+        "scenario": "You find satisfaction in:",
+        "o1": "Accuracy and precision.",
+        "o2": "Discovery and knowledge.",
+        "o3": "Expression and originality."
+      },
+      "q36": {
+        "scenario": "Final Question: If you had to pick a uniform, you'd choose:",
+        "o1": "A suit or professional business attire.",
+        "o1_v": "The Executive",
+        "o2": "Practical workwear (jeans, boots, safety gear).",
+        "o2_v": "The Maker",
+        "o3": "Clothing that reflects my personality, creativity, or mood.",
+        "o3_v": "The Creative"
+      },
+      "nav": {
+        "back": "Back",
+        "next": "Next",
+        "finish": "Finish",
+        "noSignal": "NO SIGNAL",
+        "selectItem": "Select an item",
+        "followArrows": "Follow the arrows to find your path."
+      }
+    }
+  },
+  "browsing": {
+    "courses": {
+      "title": "Explore Courses",
+      "subtitle": "Find your ideal path from {{count}} accredited programs. <br />Search by course name, university, or keywords.",
+      "searchPlaceholder": "Search courses, universities (e.g. 'Computer Science', 'Sunway')...",
+      "createNew": "Create New",
+      "filterBtn": "Filter Courses",
+      "sections": {
+        "recommended": "Recommended for You",
+        "featured": "Featured Programs",
+        "popular": "Popular with Students",
+        "others": "Explore All Courses"
+      },
+      "empty": {
+        "title": "No courses found",
+        "desc": "Try adjusting your search or filters to find what you're looking for.",
+        "clearFilters": "Clear all filters"
+      }
+    },
+    "careers": {
+      "title": "Explore Careers",
+      "subtitle": "Discover potential career paths and see what fits you best.",
+      "searchPlaceholder": "Search careers...",
+      "createNew": "Create New",
+      "filterBtn": "Filter Careers",
+      "filter": {
+        "title": "Filters",
+        "domain": "Field of Interest",
+        "outlook": "Market Outlook",
+        "reset": "Reset all filters"
+      },
+      "sections": {
+        "recommendedAdmin": "Recommended Careers",
+        "recommendedUser": "Recommended for You",
+        "popular": "Popular Careers",
+        "others": "Explore All Careers"
+      },
+      "empty": {
+        "title": "No careers found",
+        "desc": "Try adjusting your search or filters to find what you're looking for.",
+        "clearFilters": "Clear all filters"
+      }
+    }
+  },
+  "rooms": {
+    "listing": {
+      "title": "Virtual Study Rooms",
+      "subtitle": "Join a live session, focus with peers, and conquer your goals together.",
+      "searchPlaceholder": "Find a topic (e.g. Python, Calculus)...",
+      "createBtn": "Create Room",
+      "lockedReason": "Participate in {{threshold}} study sessions to unlock. <br />You have completed: <span className=\"text-amber-400 font-bold\">{{count}}/{{threshold}}</span>.",
+      "lockedTitle": "Locked: Experience Required",
+      "filterBtn": "Filter Rooms",
+      "filter": {
+        "title": "Filters",
+        "domain": "Field of Interest",
+        "level": "Education Level",
+        "type": "Access Type",
+        "reset": "Reset all filters",
+        "levels": {
+          "Foundation": "Foundation",
+          "Diploma": "Diploma",
+          "General Pre-U": "General Pre-U",
+          "All Levels": "All Levels"
+        },
+        "types": {
+          "public": "Public",
+          "private": "Private"
+        }
+      },
+      "sections": {
+        "recommended": "Recommended for You",
+        "popular": "Popular Sessions",
+        "others": "All Active Rooms"
+      },
+      "empty": {
+        "title": "No matching rooms found",
+        "titleEmpty": "No active rooms yet",
+        "desc": "Try adjusting your filters or search terms to find what you're looking for.",
+        "descEmpty": "Be the first to start a session and invite others to join you!",
+        "clearBtn": "Clear All Filters",
+        "refreshBtn": "Refresh List"
+      }
+    },
+    "create": {
+      "title": "Host a Study Session",
+      "subtitle": "Create a space for others to join and focus.",
+      "backBtn": "Back to Virtual Study Room",
+      "fields": {
+        "coverPhoto": "Cover Photo (Optional)",
+        "name": "Room Name",
+        "namePlaceholder": "e.g. Late Night Python",
+        "desc": "Description",
+        "descPlaceholder": "What are we studying?",
+        "maxParticipants": "Max Participants",
+        "privacy": "Privacy",
+        "privacyPublic": "Public",
+        "privacyPrivate": "Private",
+        "roomCode": "Room Code (Auto-generated)",
+        "roomCodePlaceholder": "ABC123",
+        "roomCodeHint": "Share this code with people you want to invite",
+        "level": "Education Level",
+        "domain": "Field of Interest",
+        "courseId": "Course ID (Optional)",
+        "courseIdPlaceholder": "e.g. apu-cs-foundation",
+        "duration": "Session Duration",
+        "durationHint": "Timer will start automatically when room is created."
+      },
+      "submitBtn": "Create Room",
+      "submittingBtn": "Creating...",
+      "toast": {
+        "noCode": "Join Code is required for private rooms",
+        "success": "Room created successfully!",
+        "missingId": "Room created but ID is missing",
+        "fail": "Failed to create room",
+        "networkError": "Network error"
+      }
+    },
+    "detail": {
+      "backBtn": "Back to Virtual Study Rooms",
+      "enrolled": "{{enrolled}} enrolled / {{max}} max capacity",
+      "activeSession": "Session Active Now",
+      "hostedBy": "Hosted by {{host}}",
+      "readyTitle": "Ready to join?",
+      "entryCode": "Room Entry Code",
+      "askCode": "Ask host for code",
+      "askSending": "Sending...",
+      "enterCodePlaceholder": "Enter 6-digit code",
+      "waitingApproval": "Waiting for host approval...",
+      "joinBtn": "Enter Virtual Room",
+      "joiningBtn": "Checking...",
+      "terms": "By joining, you agree to our community guidelines.",
+      "toast": {
+        "notFound": "Room not found",
+        "joining": "Joining room...",
+        "invalidCode": "Invalid invite code",
+        "networkError": "Network error joining room",
+        "failJoin": "Failed to join",
+        "approved": "Host approved your request!",
+        "denied": "Host denied your request.",
+        "reqSent": "Request sent to host..."
+      }
+    }
+  },
+  "admin": {
+    "archived": {
+      "time": {
+        "justNow": "Just now",
+        "mAgo": "{{count}}m ago",
+        "hAgo": "{{count}}h ago",
+        "yesterday": "Yesterday",
+        "dAgo": "{{count}}d ago"
+      },
+      "toast": {
+        "fetchError": "Failed to load archived content"
+      },
+      "auth": {
+        "adminArchive": "Admin Archive",
+        "signInReq": "Sign In Required",
+        "signInDesc": "Please sign in to access archived content.",
+        "signIn": "Sign In",
+        "adminReq": "Admin Access Required",
+        "adminDesc": "This page is only accessible to administrators.",
+        "backDashboard": "Back to Dashboard"
+      },
+      "header": {
+        "back": "Back",
+        "title": "Archived Vault",
+        "lastUpdated": "Last updated",
+        "loading": "Loading...",
+        "coursesCount": "Courses",
+        "careersCount": "Careers"
+      },
+      "tabs": {
+        "courses": "Archived Courses",
+        "careers": "Archived Careers",
+        "search": "Search archived {{type}}...",
+        "showing": "Showing",
+        "ofCourses": "{{count}} of {{total}} archived courses",
+        "ofCareers": "{{count}} of {{total}} archived careers",
+        "filteredBy": "Filtered by:",
+        "archivedBadge": "Archived"
+      },
+      "empty": {
+        "noMatchCourses": "No matching courses found",
+        "noMatchCoursesDesc": "No archived courses match your search for \"{{query}}\".",
+        "clearSearch": "Clear Search",
+        "noCourses": "No archived courses",
+        "noCoursesDesc": "No courses have been archived yet. Archived courses will appear here.",
+        "noMatchCareers": "No matching careers found",
+        "noMatchCareersDesc": "No archived careers match your search for \"{{query}}\".",
+        "noCareers": "No archived careers",
+        "noCareersDesc": "No careers have been archived yet. Archived careers will appear here."
+      }
+    },
+    "report": {
+      "time": {
+        "justNow": "Just now",
+        "mAgo": "{{count}}m ago",
+        "hAgo": "{{count}}h ago",
+        "yesterday": "Yesterday",
+        "dAgo": "{{count}}d ago"
+      },
+      "toast": {
+        "fetchFail": "Failed to load feedback",
+        "resolveSuccess": "Feedback resolved!",
+        "resolveFail": "Failed to resolve feedback",
+        "deleteConfirm": "Are you sure you want to delete this feedback? This cannot be undone.",
+        "deleteSuccess": "Feedback deleted!",
+        "deleteFail": "Failed to delete feedback"
+      },
+      "header": {
+        "back": "Back",
+        "badge": "Feedback Management",
+        "title": "Report Center",
+        "subtitle": "User feedback and issue tracking",
+        "refresh": "Refresh"
+      },
+      "stats": {
+        "total": "Total Feedback",
+        "pending": "Pending",
+        "resolved": "Resolved"
+      },
+      "actions": {
+        "resolve": "Resolve"
+      },
+      "filters": {
+        "search": "Search feedback...",
+        "statusAll": "All Status",
+        "statusPending": "Pending",
+        "statusResolved": "Resolved",
+        "typeAll": "All Types",
+        "typeBug": "🐛 Bugs",
+        "typeContent": "📝 Content Issues",
+        "typeFeature": "💡 Features",
+        "typeGeneral": "💬 General"
+      },
+      "list": {
+        "recent": "Recent Feedback ({{count}})",
+        "loading": "Loading feedback...",
+        "empty": "No feedback found",
+        "emptyDesc": "Try adjusting your filters",
+        "more": "+{{count}}",
+        "moreLabel": "more"
+      },
+      "modal": {
+        "title": "All Attachments",
+        "image": "Image",
+        "video": "Video"
+      }
+    },
+    "monitor": {
+      "time": {
+        "justNow": "Just now",
+        "mAgo": "{{count}}m ago",
+        "hAgo": "{{count}}h ago",
+        "yesterday": "Yesterday",
+        "dAgo": "{{count}}d ago"
+      },
+      "status": {
+        "live": "Live Monitoring",
+        "reconnecting": "Reconnecting...",
+        "active": "Active",
+        "suspended": "Suspended"
+      },
+      "header": {
+        "back": "Back",
+        "title": "User Monitoring",
+        "subtitle": "Real-time user activity & management",
+        "feedTitle": "Live Activity Feed",
+        "feedSubtitle": "Platform-wide updates",
+        "hide": "Hide",
+        "show": "Show",
+        "activities": "{{count}} activities"
+      },
+      "stats": {
+        "active": "Active",
+        "suspended": "Suspended",
+        "newToday": "New Today",
+        "total": "Total"
+      },
+      "filters": {
+        "search": "Search users by name or email...",
+        "statusAll": "All Status",
+        "statusActive": "Active",
+        "statusSuspended": "Suspended",
+        "refresh": "Refresh",
+        "showing": "Showing",
+        "ofUsers": "{{filtered}} of {{total}} users",
+        "filteredBy": "Filtered by:"
+      },
+      "table": {
+        "user": "User",
+        "email": "Email",
+        "role": "Role",
+        "status": "Status",
+        "lastActive": "Last Active",
+        "actions": "Actions",
+        "viewActivity": "View activity",
+        "suspendUser": "Suspend user",
+        "unsuspendUser": "Unsuspend user",
+        "noUsers": "No users found",
+        "noUsersDesc": "Try adjusting your search or filters"
+      },
+      "feed": {
+        "noActivity": "No recent activity",
+        "unknownUser": "Unknown User"
+      },
+      "modal": {
+        "title": "Activity Log",
+        "loading": "Loading...",
+        "noActivity": "No activity found",
+        "activities": "{{count}} activities",
+        "close": "Close",
+        "catAll": "All",
+        "catAuth": "Auth",
+        "catCourse": "Course",
+        "catCareer": "Career",
+        "catRoom": "Room",
+        "catUser": "User",
+        "catAdmin": "Admin Action"
+      }
+    },
+    "createCourse": {
+      "title": "Create New Course",
+      "subtitle": "Add a new educational program to the platform",
+      "backBtn": "Back to Courses",
+      "basicInfo": "Basic Information",
+      "descSection": "Description",
+      "academicDetails": "Academic Details",
+      "financialDetails": "Financial Details",
+      "accreditation": "Accreditation",
+      "campuses": "Available Campuses",
+      "domains": "Interest Domains",
+      "relatedCareers": "Related Careers",
+      "relatedCareersDesc": "Add career pathways that this course can lead to.",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Create Course",
+      "submittingBtn": "Creating...",
+      "fields": {
+        "title": "Course Title",
+        "titlePlaceholder": "e.g., Bachelor of Computer Science (Hons)",
+        "institution": "Institution",
+        "institutionPlaceholder": "Select an institution",
+        "applyUrl": "Application URL",
+        "applyUrlPlaceholder": "https://example.com/apply",
+        "level": "Study Level",
+        "type": "Institution Type",
+        "descPlaceholder": "Provide a comprehensive description of the course...",
+        "mqa": "MQA Code",
+        "mqaPlaceholder": "e.g., MQA/PA12345",
+        "duration": "Duration",
+        "difficulty": "Difficulty",
+        "cost": "Cost Level",
+        "accFrom": "Valid From",
+        "accTo": "Valid To",
+        "addDomain": "Add Domain",
+        "careerPlaceholder": "Select a career",
+        "addCareer": "Add Career",
+        "tags": "Highlights & Tags",
+        "tagsDesc": "Add relevant tags to help users discover this course (e.g., STEM, Creative, Business, etc.)",
+        "tagsPlaceholder": "e.g., STEM, Creative Arts",
+        "addTag": "Add Tag"
+      },
+      "toast": {
+        "fetchError": "Failed to fetch required data",
+        "formError": "Please check the form for errors",
+        "success": "Course created successfully!",
+        "fail": "Failed to create course"
+      }
+    },
+    "createCareer": {
+      "title": "Create New Career",
+      "subtitle": "Fill in the details below to create a new career pathway",
+      "backBtn": "Back to Careers",
+      "basicInfo": "Basic Information",
+      "riasec": "RIASEC Profile:",
+      "mascoDesc": "International Standard Classification of Occupations code",
+      "salaryEst": "Estimated monthly salary:",
+      "educationPathway": "Education Pathway",
+      "educationPathwayDesc": "Add educational programs or courses that lead to this career.",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Create Career",
+      "submittingBtn": "Creating...",
+      "fields": {
+        "name": "Career Name",
+        "namePlaceholder": "e.g., Software Engineer, Data Scientist",
+        "desc": "Description",
+        "descPlaceholder": "Describe the career, typical responsibilities, and career outlook...",
+        "domain": "Interest Domain",
+        "domainPlaceholder": "Select an interest domain",
+        "masco": "MASCO Code",
+        "mascoPlaceholder": "e.g., 2512",
+        "education": "Minimum Education",
+        "salary": "Monthly Salary Range (RM)",
+        "salaryMin": "Minimum",
+        "salaryMax": "Maximum",
+        "demand": "Market Demand",
+        "industry": "Primary Industry",
+        "industryPlaceholder": "e.g., Technology, Healthcare",
+        "environment": "Work Environment",
+        "skills": "Key Skills",
+        "skillsPlaceholder": "e.g., Communication, Problem Solving, Teamwork",
+        "addSkill": "Add Skill",
+        "coursePlaceholder": "Select a course",
+        "addCourse": "Add Course"
+      },
+      "toast": {
+        "fetchError": "Failed to load courses",
+        "formError": "Please fix the errors in the form",
+        "riasecError": "RIASEC code could not be generated",
+        "success": "Career created successfully!",
+        "fail": "Failed to create career"
+      }
+    },
+    "alerts": {
+      "deleteConfirm": "Are you sure you want to delete this feedback? This cannot be undone."
+    }
+  },
+  "courseDetail": {
+    "notFound": {
+      "title": "Course not found",
+      "backBtn": "Back to courses"
+    },
+    "archivedBanner": "This course is archived and hidden from students.",
+    "backLabels": {
+      "archived": "Back to Archived",
+      "saved": "Back to Saved",
+      "courses": "Back to Courses"
+    },
+    "actions": {
+      "quickEdit": "Quick Edit",
+      "delete": "Delete",
+      "deleting": "Deleting..."
+    },
+    "confirmDelete": "Are you sure you want to delete \"{{title}}\"? This action cannot be undone.",
+    "toast": {
+      "deleteSuccess": "Course deleted successfully",
+      "deleteFail": "Failed to delete course",
+      "loadFail": "Failed to load course data",
+      "updateSuccess": "Course updated successfully!"
+    },
+    "labels": {
+      "mqa": "MQA Code: {{code}}",
+      "overview": "Course Overview",
+      "learnAbout": "You'll Learn About",
+      "careerOpps": "Career Opportunities",
+      "programDetails": "Program Details",
+      "duration": "Duration",
+      "cost": "Estimated Cost",
+      "campuses": "Campuses",
+      "accreditation": "Accreditation",
+      "applyNow": "Apply Now",
+      "highlights": "Highlights",
+      "year_one": "{{count}} year",
+      "year_other": "{{count}} years",
+      "na": "N/A",
+      "year": "{{count}} Year"
+    }
+  },
+  "careerDetail": {
+    "notFound": {
+      "title": "Career Not Found",
+      "backBtn": "Return to Careers"
+    },
+    "archivedBanner": "This career is archived and hidden from students.",
+    "backLabels": {
+      "archived": "Back to Archived",
+      "saved": "Back to Saved",
+      "careers": "Back to Careers"
+    },
+    "actions": {
+      "quickEdit": "Quick Edit",
+      "delete": "Delete",
+      "deleting": "Deleting..."
+    },
+    "confirmDelete": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+    "toast": {
+      "deleteSuccess": "Career deleted successfully",
+      "deleteFail": "Failed to delete career",
+      "loadFail": "Failed to load career data",
+      "updateSuccess": "Career updated successfully!"
+    },
+    "labels": {
+      "demand": "{{level}} Demand",
+      "na": "N/A",
+      "about": "About the Role",
+      "riasec": "RIASEC Personality Match",
+      "whatIsThis": "What is this?",
+      "keySkills": "Key Skills Required",
+      "whyThis": "Why this career?",
+      "whyDesc": "Careers in {{industry}} are typically {{demand}} demand and offer competitive salaries. Matches well with <strong>{{riasec}}</strong> personality types."
+    },
+    "relatedCourses": {
+      "desc": "Recommended programs to kickstart your journey as a {{name}}.",
+      "title": "Education Pathways",
+      "viewMore": "Browse all courses",
+      "empty": "No specific courses linked yet."
+    }
+  },
+  "landing": {
+    "hero": {
+      "title": "Redefin",
+      "education": "Education",
+      "forFuture": "for the Future",
+      "subtitle": "Discover your true potential with our personality insights, explore course and career pathways, and collaborate in virtual study rooms.",
+      "getStarted": "Get Started",
+      "learnMore": "Learn More",
+      "aspire": "Aspire to the stars",
+      "cards": {
+        "personality": "Personality Test",
+        "hub": "Infographic Hub",
+        "liveAnalysis": "Live Analysis",
+        "rooms": "Study Rooms",
+        "collaborate": "Collaborate with peers"
+      }
+    },
+    "personality": {
+      "title": "Deep Personality Analysis",
+      "description": "Go beyond surface-level traits. Our scientific assessment uses the Holland Code (RIASEC) model to map your interests to real-world career paths. Discover your true potential."
+    },
+    "hub": {
+      "title": "Interactive Infographic Hub",
+      "description": "Navigation, not just analysis. Visualize the connections between skills, courses and careers. Trace the pathways from your current studies to your dream job."
+    },
+    "partners": "Trusted Partners",
+    "rooms": {
+      "title": "Virtual Study Rooms",
+      "description": "Immerse yourself in a focused digital environment. Join live study rooms with lofi beats, pomodoro timers, and motivated peers.",
+      "live": "Live Room"
+    },
+    "ai": {
+      "title": "Ethical AI Companion",
+      "description": "Your intelligent guide, not just a search engine. Engineered with validated educational frameworks to ensure relevance and minimize hallucinations."
+    },
+    "security": {
+      "title": "Enterprise-Grade Privacy",
+      "description": "We employ end-to-end encryption. Your psychological profile is yours alone.",
+      "aes": "AES-256 Encrypted",
+      "pdpa": "PDPA Compliant"
+    },
+    "testimonials": {
+      "title": "Hear from Our Audience",
+      "items": [
+        {
+          "quote": "The personality test really helped me skip the confusion. I realized Law wasn't for me before it was too late!",
+          "author": "Ahmad F.",
+          "role": "Form 5 Student"
+        },
+        {
+          "quote": "Finding scholarship info and university courses in one place is a lifesaver for my SPM planning.",
+          "author": "Sarah T.",
+          "role": "SPM Candidate"
+        },
+        {
+          "quote": "The virtual rooms help me focus when prepping for exams. It feels like a real library.",
+          "author": "Mei Ling",
+          "role": "Form 4 Student"
+        }
+      ]
+    },
+    "common": {
+      "viewMore": "View More",
+      "unlockFeature": "Unlock Feature",
+      "confirmSignup": "Join In-Aspired to access this feature!\n\nWould you like to sign up now?",
+      "visualPlaceholder": "Visual Placeholder"
+    },
+    "intro": {
+      "redefining": "Redefin",
+      "education": "Education",
+      "skip": "Skip Intro"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Empowering Futures,",
+      "subtitle": "One student at a time.",
+      "description": "In-Aspired bridges the gap between ambition and reality. We provide the tools, data, and community you need to make informed decisions about your future."
+    },
+    "letter": {
+      "title": "A Letter from our Founders",
+      "subtitle": "A personal note on why we started this journey",
+      "greeting": "Hello Future-Seeker,",
+      "p1": "We started In-Aspired because we've lived it. We remember the paralyzing anxiety of choosing the wrong future.",
+      "p2": "The pressure to \"have it all figured out\" at 18 isn't just stressful. It's unrealistic. We saw a generation of brilliant minds lost in choices that didn't fit their DNA.",
+      "origin": {
+        "text": "That is why we're named In-Aspired.",
+        "inspire": {
+          "label": "To breathe life into",
+          "word": "Inspire"
+        },
+        "aspire": {
+          "label": "To seek to attain",
+          "word": "Aspire"
+        }
+      },
+      "p3": "In-Aspired isn't just a tech platform. It's the guide we wish we had. A way to look into the Psychological Mirror and see your path clearly before you take the first step.",
+      "founders": "Hana & Jasmine",
+      "role": "Founders, In-Aspired",
+      "tapHint": "Tap to open letter"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We believe every student deserves a clear path to success. By combining advanced personality analysis with a vast database of educational resources, we help you discover not just a career, but a calling.",
+      "values": {
+        "precision": {
+          "title": "Precision",
+          "desc": "Data-driven insights"
+        },
+        "access": {
+          "title": "Access",
+          "desc": "Global opportunities"
+        }
+      }
+    },
+    "chronicle": {
+      "title": "Our Chronicle",
+      "subtitle": "From a shared frustration to a global platform. Here is how we built the future.",
+      "milestones": [
+        {
+          "date": "Nov 2025",
+          "title": "The Vision",
+          "desc": "Identifying the 'lost generation' problem and the gap in career guidance."
+        },
+        {
+          "date": "Dec 2025",
+          "title": "The Foundation",
+          "desc": "Building the core RIASEC matching engine and Python microservice architecture."
+        },
+        {
+          "date": "Jan 2026",
+          "title": "The Shift",
+          "desc": "Launching virtual study rooms to foster collaborative discovery."
+        },
+        {
+          "date": "Feb 2026",
+          "title": "The Tech",
+          "desc": "Introducing AI-driven psych profiling and our 24/7 student companion."
+        }
+      ]
+    },
+    "offerings": {
+      "title": "What We Offer",
+      "items": {
+        "selfDiscovery": {
+          "title": "Self Discovery",
+          "desc": "Start your journey with our free RIASEC personality quiz. For a complete deep-dive, unlock our detailed Premium Report."
+        },
+        "knowledgeHub": {
+          "title": "Knowledge Hub",
+          "desc": "Access a comprehensive database of courses and careers. Search, filter, and get detailed insights on institutions offerings and details."
+        },
+        "studyRooms": {
+          "title": "Virtual Study Rooms",
+          "desc": "Collaborate with peers in personalized study rooms. Distinct collaborative tools like whiteboards and pomodoro timers help you stay focused and productive."
+        },
+        "aiCompanion": {
+          "title": "AI Companion",
+          "desc": "Get 24/7 support. Our AI chatbot is always ready to answer your questions about courses and career prospects, as well as system information."
+        }
+      }
+    },
+    "team": {
+      "title": "Meet the Team",
+      "role": "Co-Founder",
+      "social": {
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "website": "Personal Website"
+      },
+      "caption": "Building the future of education with technology and heart."
+    }
+  },
+  "privacy": {
+    "hero": {
+      "badge": "Your Privacy Matters",
+      "title": "Privacy Policy",
+      "description": "At In-Aspired, we are committed to protecting your privacy and ensuring the security of your personal information. This policy explains how we collect, use, and safeguard your data.",
+      "lastUpdated": "Last updated: {{date}}"
+    },
+    "sections": {
+      "controller": {
+        "title": "Who We Are",
+        "navLabel": "About Us",
+        "content": {
+          "sub1": "Data Controller",
+          "text1": "In-Aspired is the data controller responsible for the collection and processing of your personal data under this Privacy Policy. We operate in Malaysia and process personal data in accordance with the Personal Data Protection Act 2010 (PDPA).",
+          "sub2": "Contact Information",
+          "text2": "If you have questions about this policy or our data practices, you may contact us at privacy@in-aspired.com."
+        }
+      },
+      "collection": {
+        "title": "Information We Collect",
+        "navLabel": "Data Collection",
+        "content": {
+          "sub1": "Personal Information",
+          "text1": "When you create an account, we collect your name, email address, and password. If you take our personality assessments, we store your responses and results to provide personalized career recommendations.",
+          "sub2": "Usage Data",
+          "text2": "We automatically collect information about how you interact with our platform, including pages visited, features used, time spent on the site, and your device information (browser type, operating system, IP address).",
+          "sub3": "Cookies and Tracking",
+          "text3": "We use cookies and similar technologies to remember your preferences, maintain your session, and analyze how our services are used. You can control cookie settings through your browser.",
+          "sub4": "Sensitive Data",
+          "text4": "We do not intentionally collect sensitive personal data such as government-issued identification numbers, financial information, or health data unless explicitly required and with your consent."
+        }
+      },
+      "usage": {
+        "title": "How We Use Your Information",
+        "navLabel": "Data Usage",
+        "content": {
+          "sub1": "Service Delivery",
+          "text1": "We use your information to provide, maintain, and improve our services, including personalized career recommendations, study room features, and AI-powered assistance.",
+          "sub2": "Communication",
+          "text2": "We may send you service-related emails, updates about new features, and educational content. You can opt out of non-essential communications at any time.",
+          "sub3": "Analytics and Improvement",
+          "text3": "We analyze usage patterns to understand how users interact with In-Aspired, helping us improve our platform and develop new features."
+        }
+      },
+      "legal_basis": {
+        "title": "Legal Basis for Processing",
+        "navLabel": "Legal Basis",
+        "content": {
+          "sub1": "Consent",
+          "text1": "We process your personal data based on your consent when you create an account, use our services, or agree to receive communications from us.",
+          "sub2": "Contractual Necessity",
+          "text2": "Certain data processing is necessary to perform our services, including providing personalized recommendations and maintaining your account.",
+          "sub3": "Legitimate Interests",
+          "text3": "We may process personal data where it is necessary for our legitimate interests, such as improving our platform, ensuring security, and preventing misuse."
+        }
+      },
+      "sharing": {
+        "title": "Information Sharing",
+        "navLabel": "Sharing",
+        "content": {
+          "sub1": "Third-Party Services",
+          "text1": "We may share data with trusted third-party services that help us operate our platform (hosting, analytics, email services). These providers are bound by strict confidentiality agreements.",
+          "sub2": "Legal Requirements",
+          "text2": "We may disclose your information if required by law, court order, or government request, or to protect the rights, property, or safety of In-Aspired and our users.",
+          "sub3": "With Your Consent",
+          "text3": "We will share your personal information with other parties only when we have your explicit consent to do so.",
+          "sub4": "International Data Transfers",
+          "text4": "Some of our service providers may process data outside Malaysia. Where personal data is transferred internationally, we ensure appropriate safeguards are in place to protect your information in accordance with applicable laws."
+        }
+      },
+      "security": {
+        "title": "Data Security",
+        "navLabel": "Security",
+        "content": {
+          "sub1": "Encryption",
+          "text1": "All data transmitted between your device and our servers is encrypted using industry-standard TLS/SSL protocols. We use industry-standard encryption and security measures to protect personal data both in transit and at rest.",
+          "sub2": "Access Controls",
+          "text2": "We implement strict access controls to ensure only authorized personnel can access user data. All access is logged and monitored.",
+          "sub3": "Regular Audits",
+          "text3": "We conduct regular security audits and vulnerability assessments to identify and address potential security risks."
+        }
+      },
+      "rights": {
+        "title": "Your Rights",
+        "navLabel": "Your Rights",
+        "content": {
+          "sub1": "Access and Portability",
+          "text1": "You have the right to access your personal data and request a copy in a portable format. Contact us to request your data export.",
+          "sub2": "Correction and Deletion",
+          "text2": "You can update your personal information through your account settings. You may also request deletion of your account and associated data.",
+          "sub3": "Opt-Out",
+          "text3": "You can opt out of marketing communications, disable cookies, and control how your data is used through your privacy settings."
+        }
+      },
+      "children": {
+        "title": "Children's Privacy",
+        "navLabel": "Children",
+        "content": {
+          "sub1": "Age Limitation",
+          "text1": "Our services are not intended for children under the age of 13. We do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us so we can take appropriate action."
+        }
+      },
+      "retention": {
+        "title": "Data Retention",
+        "navLabel": "Retention",
+        "content": {
+          "sub1": "Account Data",
+          "text1": "We retain your account information for as long as your account is active. Upon account deletion, your personal data will be removed within 30 days, except where retention is required by law.",
+          "sub2": "Analytics Data",
+          "text2": "Aggregated, anonymized analytics data may be retained indefinitely for research and improvement purposes."
+        }
+      },
+      "changes": {
+        "title": "Changes to This Privacy Policy",
+        "navLabel": "Updates",
+        "content": {
+          "sub1": "Policy Updates",
+          "text1": "We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. When we make material changes, we will notify users through the platform or via email."
+        }
+      }
+    },
+    "contact": {
+      "title": "Questions About Your Privacy?",
+      "description": "If you have any questions about this Privacy Policy or how we handle your data, please don't hesitate to contact us."
+    },
+    "pdpa": {
+      "title": "PDPA Compliance",
+      "description": "This privacy policy is designed to comply with Malaysia's Personal Data Protection Act 2010 (PDPA). We are committed to ensuring that your personal data is processed in accordance with the principles outlined in the Act."
+    }
+  },
+  "terms": {
+    "hero": {
+      "badge": "Legal Agreement",
+      "title": "Terms of Service",
+      "description": "Please read these terms carefully before using In-Aspired. By using our services, you agree to be bound by these terms and conditions.",
+      "lastUpdated": "Last updated: {{date}}"
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "navLabel": "Acceptance",
+        "content": {
+          "text1": "By accessing or using In-Aspired's services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site.",
+          "sub1": "Data Processing",
+          "text2": "By using our services, you also agree to the collection and processing of your data as outlined in our Privacy Policy.",
+          "sub2": "Modifications",
+          "text3": "We reserve the right to update these Terms at any time. Any significant changes will be communicated via email or through notifications on our platform. Continued use of the services after any changes implies acceptance of the updated Terms."
+        }
+      },
+      "eligibility": {
+        "title": "Eligibility",
+        "navLabel": "Eligibility",
+        "content": {
+          "sub1": "Age Requirements",
+          "text1": "You must be at least 13 years of age to use In-Aspired. If you are under 18, you must have parental or guardian consent to use our services.",
+          "sub2": "Account Responsibility",
+          "text2": "You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use."
+        }
+      },
+      "services": {
+        "title": "Our Services",
+        "navLabel": "Services",
+        "content": {
+          "sub1": "Personality Assessments",
+          "text1": "Our RIASEC-based personality assessments are designed to provide educational guidance. Results are recommendations based on scientific models and should not be considered as professional career counseling.",
+          "sub2": "AI Companion",
+          "text2": "Our AI-powered features provide information and suggestions based on available data. While we strive for accuracy, AI responses should be verified independently for critical decisions.",
+          "sub3": "Virtual Study Rooms",
+          "text3": "Our virtual study rooms are collaborative spaces. You agree to use them respectfully and not engage in any disruptive or inappropriate behavior."
+        }
+      },
+      "conduct": {
+        "title": "Prohibited Conduct",
+        "navLabel": "Conduct",
+        "content": {
+          "text1": "When using In-Aspired, you agree NOT to:",
+          "list": [
+            "Use the service for any unlawful purpose or in violation of any laws",
+            "Harass, abuse, or harm other users",
+            "Share inappropriate, offensive, or harmful content",
+            "Attempt to gain unauthorized access to our systems",
+            "Use automated systems or bots without permission",
+            "Impersonate others or provide false information",
+            "Interfere with or disrupt the service",
+            "Collect user data without consent"
+          ]
+        }
+      },
+      "intellectual": {
+        "title": "Intellectual Property",
+        "navLabel": "IP Rights",
+        "content": {
+          "sub1": "Our Content",
+          "text1": "All content on In-Aspired, including text, graphics, logos, images, and software, is the property of In-Aspired or its licensors and is protected by intellectual property laws.",
+          "sub2": "Your Content",
+          "text2": "You retain ownership of content you create on our platform. By posting content, you grant us a non-exclusive license to use, display, and distribute it in connection with our services.",
+          "sub3": "Feedback",
+          "text3": "Any feedback, suggestions, or ideas you provide may be used by us without any obligation to compensate you."
+        }
+      },
+      "disclaimers": {
+        "title": "Disclaimers and Limitations",
+        "navLabel": "Disclaimers",
+        "content": {
+          "sub1": "No Guarantees",
+          "text1": "Our career recommendations and educational content are provided for informational purposes only. We do not guarantee specific outcomes, employment, or academic success.",
+          "sub2": "Service Availability",
+          "text2": "We strive to maintain high availability but do not guarantee uninterrupted access. We may modify, suspend, or discontinue features at any time.",
+          "sub3": "User Responsibility",
+          "text3": "While we strive to provide accurate information, users are responsible for verifying any critical decisions or actions based on the recommendations or content provided by our platform. In-Aspired is not liable for any consequences arising from decisions made using our services.",
+          "sub4": "Limitation of Liability",
+          "text4": "To the maximum extent permitted by law, In-Aspired shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services."
+        }
+      },
+      "termination": {
+        "title": "Termination",
+        "navLabel": "Termination",
+        "content": {
+          "text1": "We may terminate or suspend your account immediately, without prior notice, for any reason, including breach of these Terms. Upon termination, your right to use the service will cease immediately.",
+          "text2": "You may delete your account at any time through your account settings. Some information may be retained as required by law or for legitimate business purposes."
+        }
+      }
+    },
+    "governing_law": {
+      "title": "Governing Law",
+      "description": "These Terms shall be governed by and construed in accordance with the laws of Malaysia, without regard to its conflict of law provisions. Any disputes arising from these terms shall be resolved in the courts of Kuala Lumpur, Malaysia."
+    },
+    "contact": {
+      "title": "Questions About These Terms?",
+      "description": "If you have any questions about these Terms of Service, please contact us."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "description1": "Have a question, feedback, or partnership inquiry?",
+      "description2": "We'd love to hear from you."
+    },
+    "info": {
+      "title": "Contact Information",
+      "description": "Fill out the form and our team will get back to you within 24 hours.",
+      "emailLabel": "Email",
+      "socialsLabel": "Socials",
+      "locationLabel": "Location",
+      "locationValue": "Kuala Lumpur, Malaysia"
+    },
+    "faq": {
+      "title": "Looking for quick answers?",
+      "description": "Check out our Help Center for frequently asked questions.",
+      "button": "Visit Help Center"
+    },
+    "bug": {
+      "title": "Experiencing Technical Issues?",
+      "description": "Report bugs with screenshots and videos. Our team will investigate and fix it ASAP.",
+      "hint": "Attach screenshots & videos to help us understand the issue",
+      "button": "Report Bug or Issue"
+    },
+    "form": {
+      "title": "Send us a message",
+      "description": "For general inquiries, partnerships, or questions before signing up.",
+      "successTitle": "Message Sent!",
+      "successDescription": "Thanks for reaching out. We'll be in touch shortly.",
+      "labelName": "Full Name",
+      "labelEmail": "Email Address",
+      "labelTopic": "Topic",
+      "labelMessage": "Message",
+      "phName": "John Doe",
+      "phEmail": "john@example.com",
+      "phMessage": "How can we help you?",
+      "phTopic": "Select an option",
+      "buttonSend": "Send Message",
+      "buttonSending": "Sending...",
+      "topics": {
+        "general": "General Inquiry",
+        "support": "Technical Support",
+        "partnership": "Partnership"
+      },
+      "errors": {
+        "rateLimit": "You're doing that too much. Please try again later.",
+        "general": "Something went wrong.",
+        "network": "Failed to send message. Please check your connection."
+      }
+    },
+    "alerts": {
+      "rateLimit": "Too many requests. Please try again later.",
+      "general": "Something went wrong. Please try again.",
+      "network": "Network error. Please check your connection."
+    }
+  },
+  "help": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers to questions you may have about In-Aspired.",
+    "searchPlaceholder": "Search our help center...",
+    "noResults": "No questions found matching your search.",
+    "clearSearch": "Clear Search",
+    "stillHaveQuestions": "Still have questions?",
+    "cantFindAnswer": "Can't find the answer you're looking for? Please chat to our friendly team.",
+    "getInTouch": "Get in Touch",
+    "categories": {
+      "gettingStarted": {
+        "title": "Getting Started",
+        "faqs": [
+          {
+            "question": "How do I create an account?",
+            "answer": "Click the \"Sign Up\" button in the top right corner, fill in your email, name, and password, then verify your email address. It takes less than 2 minutes!"
+          },
+          {
+            "question": "Is In-Aspired free to use?",
+            "answer": "Yes! All core features including the RIASEC personality quiz, Virtual Study Rooms, and basic career matching are completely free. For students who want a deep-dive, we offer a \"Premium Insights Report\", a personalized career roadmap just for RM9.99 (About the price of a milk tea!)."
+          },
+          {
+            "question": "What information do I need to provide?",
+            "answer": "Just your email, name, and a password. We may ask for basic educational background (like your current form) to personalize recommendations, but it's optional."
+          },
+          {
+            "question": "Can I use In-Aspired on my phone?",
+            "answer": "Absolutely! In-Aspired is fully responsive and optimized for mobile devices. You can take tests, browse courses, and join study sessions from your phone or tablet."
+          },
+          {
+            "question": "Do I need my parents' permission to sign up?",
+            "answer": "If you're under 18, it's best to let your parents know you're using In-Aspired. While we don't require parental approval, we encourage transparency with your family about your career planning."
+          },
+          {
+            "question": "Do I need to download anything?",
+            "answer": "No downloads needed! In-Aspired works directly in your web browser (Chrome, Firefox, Safari, etc.). Just visit the website and start exploring."
+          },
+          {
+            "question": "What if I forget my password?",
+            "answer": "Click \"Forgot Password\" on the login page. We'll send a reset link to your email. Make sure to check your spam folder if you don't see it within a few minutes."
+          },
+          {
+            "question": "Can I share my account with friends?",
+            "answer": "We recommend each person has their own account for personalized test results and recommendations. Sharing accounts can mix up your personality profiles and career suggestions."
+          }
+        ]
+      },
+      "riasec": {
+        "title": "Personality Test (RIASEC)",
+        "faqs": [
+          {
+            "question": "How does the personality assessment work?",
+            "answer": "Our assessment is based on the Holland Code (RIASEC) model, a scientifically validated framework used worldwide. We analyze your responses to map your interests to six personality types: Realistic, Investigative, Artistic, Social, Enterprising, and Conventional."
+          },
+          {
+            "question": "How long does the personality test take?",
+            "answer": "The test typically takes 10 minutes to complete. You can save your progress and continue later if you need a break."
+          },
+          {
+            "question": "Can I retake the personality test?",
+            "answer": "Yes, you can retake the test whenever you want! Your interests may evolve as you grow, so feel free to retake it anytime to see how your profile changes."
+          },
+          {
+            "question": "How accurate is the personality assessment?",
+            "answer": "Our test is based on established psychological models and has an 85% accuracy rate based on user feedback. Remember, it's a guide to help you explore options, not a definitive answer!"
+          },
+          {
+            "question": "What if I'm unsure about some questions?",
+            "answer": "Just answer based on your gut feeling! There are no right or wrong answers. If you really can't decide, think about what you naturally enjoy or what feels less stressful to you."
+          },
+          {
+            "question": "Will my test results be shared with anyone?",
+            "answer": "No, never! Your test results are completely private and encrypted. We don't share them with schools, parents, or anyone else without your explicit permission."
+          },
+          {
+            "question": "What does RIASEC even mean?",
+            "answer": "RIASEC stands for the six personality types: Realistic (hands-on), Investigative (thinker), Artistic (creative), Social (people-person), Enterprising (leader), and Conventional (organizer). Most people have a combination of 2-3 types!"
+          },
+          {
+            "question": "What if I don't like my results?",
+            "answer": "Your results are suggestions based on your answers, not a life sentence! Use them as a starting point to explore, but you're not locked into those careers. Many successful people work outside their \"type.\""
+          },
+          {
+            "question": "What if I get the same score for multiple types?",
+            "answer": "That's actually common! It means you have a balanced personality with interests in multiple areas. We'll show you careers that combine those interests, giving you more options to explore."
+          },
+          {
+            "question": "Can I skip questions I don't understand?",
+            "answer": "You should try to answer all questions for the most accurate result, but if a question really doesn't make sense to you, pick the option that feels closest to your preference."
+          },
+          {
+            "question": "How is this different from BuzzFeed quizzes?",
+            "answer": "Great question! Our test is based on decades of psychology research (Holland Code) used by career counselors worldwide. BuzzFeed quizzes are fun but not scientifically validated for career planning."
+          },
+          {
+            "question": "Will this tell me exactly which course to take?",
+            "answer": "Not exactly – it gives you a range of suitable careers and courses that match your interests. Think of it as a compass pointing you in the right direction, not a GPS with one specific route!"
+          }
+        ]
+      },
+      "courses": {
+        "title": "Courses & Careers",
+        "faqs": [
+          {
+            "question": "How do I search for courses?",
+            "answer": "Use the search bar on the Courses page! You can filter by domain/field of study, education level (Foundation, Diploma, General Pre-U), cost, and institution type (Public/Private). Try keywords like \"engineering\" or \"business\" to get started."
+          },
+          {
+            "question": "Can I filter courses by budget/cost?",
+            "answer": "Yes! We categorize courses by cost levels: Low (< RM 20k), Medium (RM 20k - 50k), and High (> RM 50k). Filter by your budget to find affordable options."
+          },
+          {
+            "question": "What's the difference between Diploma and Degree?",
+            "answer": "A Diploma is usually 2-3 years and focuses on practical skills. A Degree (Bachelor's) is 3-4 years with more theory and research. Diplomas are faster and cheaper, while Degrees often lead to higher-paying jobs."
+          },
+          {
+            "question": "Which courses don't require strong science/maths?",
+            "answer": "Many options! Arts, Business, Media, Social Sciences, Hospitality, and Design courses typically focus less on science/maths. Use filters to find courses matching your SPM subjects."
+          },
+          {
+            "question": "What education levels are covered?",
+            "answer": "We cover Foundation, Diploma, Pre-U and (A-Levels, STPM, Matrix, IB). Currently, degree programs are not supported. We aim to support your transition from SPM all the way into university."
+          },
+          {
+            "question": "How do I know which university is reputable?",
+            "answer": "Check if the course is MQA (Malaysian Qualifications Agency) accredited – we show this in course details. Also look at our \"Trusted Partners\" list which includes well-established universities."
+          },
+          {
+            "question": "What are the entry requirements for each course?",
+            "answer": "Click on any course to see detailed requirements like minimum SPM grades, required subjects, and interview processes. Requirements vary by institution."
+          },
+          {
+            "question": "Can I save courses I'm interested in?",
+            "answer": "Yes! You can now preserve courses and careers to your dashboard. Simply click the 'Save' or 'Heart' icon on any course or career card to keep them for future reference."
+          },
+          {
+            "question": "Do you show career salary ranges?",
+            "answer": "Yes! Most career pages include estimated salary ranges (low to high) based on Malaysian market data. Keep in mind salaries vary by experience, location, and company size."
+          },
+          {
+            "question": "How often is course information updated?",
+            "answer": "We refresh our database quarterly by pulling data from university portals and official sources. If you notice outdated info, please contact us!"
+          },
+          {
+            "question": "Can I compare courses from different universities?",
+            "answer": "Currently, you'll need to open courses in separate tabs to compare. We're working on a side-by-side comparison feature!"
+          },
+          {
+            "question": "What if I don't know what I want to study yet?",
+            "answer": "That's totally normal! Take our personality test first to discover your interests, then browse suggested courses. You can also explore by broad fields like \"Arts,\" \"Science,\" or \"Business.\""
+          }
+        ]
+      },
+      "rooms": {
+        "title": "Virtual Study Rooms",
+        "faqs": [
+          {
+            "question": "How can I join a study room?",
+            "answer": "Navigate to the \"Virtual Study Rooms\" section from the navbar. Browse active rooms, click one that interests you, and hit \"Join.\" No account needed for public rooms!"
+          },
+          {
+            "question": "Are there rules for the study rooms?",
+            "answer": "Yes! To keep everyone focused: no harassment, no spam. Hosts can control camera, audio, and whiteboard permissions. Public rooms are open to all, while Private rooms require a join code."
+          },
+          {
+            "question": "What if I'm shy to turn on my camera?",
+            "answer": "No worries! Cameras are optional in all rooms. Many students prefer to study with video off – do whatever makes you comfortable."
+          },
+          {
+            "question": "Can I study alone in a private room?",
+            "answer": "Yes! Create your own room and set it to \"Private.\" You can study solo or invite specific friends via a link."
+          },
+          {
+            "question": "What happens if someone is being disruptive?",
+            "answer": "Room hosts can mute or remove disruptive members. If you're experiencing harassment, leave the room and report it to us via the Contact page."
+          },
+          {
+            "question": "Can I invite specific friends to my room?",
+            "answer": "Yes! When you create a room, you get a shareable link. Send it to friends via WhatsApp, Telegram, or any messaging app."
+          },
+          {
+            "question": "Is there a time limit for study sessions?",
+            "answer": "Nope! Study for as long as you want. Rooms stay active as long as someone is in them."
+          },
+          {
+            "question": "What's a pomodoro timer?",
+            "answer": "It's a study technique: work for 25 minutes, then take a 5-minute break. After 4 cycles, take a longer break. Our rooms have built-in timers to help you stay focused!"
+          },
+          {
+            "question": "Can I use the whiteboard?",
+            "answer": "Yes! The whiteboard lets you draw, write, and create shapes. The host can toggle it between read-only and editable mode for participants."
+          },
+          {
+            "question": "What if my internet connection is slow?",
+            "answer": "Turn off your camera to save bandwidth. Study rooms use minimal data for chat and timers, so even slower connections should work fine."
+          },
+          {
+            "question": "Can I listen to music while studying?",
+            "answer": "Yes! We have a built-in personal music player with multiple radio stations: Lofi Girl, Chillhop Raccoon and more. It features autoplay to keep the vibes going."
+          },
+          {
+            "question": "Will others hear my music?",
+            "answer": "No, the music player is completely personal. Only you can hear it, so you won't disturb other study room members."
+          },
+          {
+            "question": "Does the music stop when I talk?",
+            "answer": "We have a smart \"mic ducking\" feature that automatically lowers the music volume to 10% when your microphone is active, so you can speak clearly."
+          },
+          {
+            "question": "Can I track my study tasks?",
+            "answer": "Absolutely! Use the personal To-Do list in the sidebar to add, check off, and delete tasks. It includes a progress bar to keep you motivated."
+          },
+          {
+            "question": "Is my to-do list saved?",
+            "answer": "Your to-do list is session-based and private (only visible to you). It resets when you close the room to protect your privacy on shared devices."
+          },
+          {
+            "question": "Are there rooms for specific subjects?",
+            "answer": "Yes! Many students create subject-specific rooms like \"Add Maths Study Group\" or \"Biology SPM Prep.\" Check room titles when browsing."
+          }
+        ]
+      },
+      "chatbot": {
+        "title": "AI Chatbot",
+        "faqs": [
+          {
+            "question": "What is the AI chatbot?",
+            "answer": "Our AI chatbot is your 24/7 study buddy! It can answer questions about courses, careers, the platform, and help guide your career exploration journey."
+          },
+          {
+            "question": "Can the chatbot help me with homework?",
+            "answer": "The chatbot is designed for career and course guidance, not homework help. It can suggest study resources or explain concepts related to career paths, but won't do your assignments!"
+          },
+          {
+            "question": "How smart is the AI assistant?",
+            "answer": "Powered by Google Gemini AI, it's trained on career frameworks and our course database. It's very good at career advice but not perfect – think of it as a helpful guide, not a human counselor."
+          },
+          {
+            "question": "Will it understand if I type in Bahasa Malaysia?",
+            "answer": "Yes! The AI can understand and respond in both English and Bahasa Malaysia. Just type in the language you're comfortable with."
+          },
+          {
+            "question": "What questions can I ask the chatbot?",
+            "answer": "Ask about career paths, course requirements, university info, platform features, personality test results, salary expectations, and more. Try: \"What careers match my artistic interests?\""
+          },
+          {
+            "question": "Is the chatbot available 24/7?",
+            "answer": "Yes! Unlike human counselors, the AI is always online. Ask questions anytime, even at 3 AM before your SPM exam!"
+          },
+          {
+            "question": "Will the chatbot judge me for asking \"dumb\" questions?",
+            "answer": "Never! There are no dumb questions. The AI is programmed to be supportive and helpful, no matter what you ask. Don't be afraid to explore!"
+          },
+          {
+            "question": "What if the chatbot gives me wrong information?",
+            "answer": "While we train it on verified data, AI can occasionally make mistakes. Always double-check important info (like entry requirements) on official university websites or with counselors."
+          },
+          {
+            "question": "Can I have a conversation history with the chatbot?",
+            "answer": "Currently, each chat session is independent (not saved between visits). We're working on adding conversation history in future updates!"
+          },
+          {
+            "question": "Does the chatbot remember what I asked before?",
+            "answer": "Within the same session (while your page is open), yes! But if you refresh or close the page, it starts fresh. Your privacy is protected."
+          },
+          {
+            "question": "Can I ask sensitive questions about career worries?",
+            "answer": "Absolutely. Your chats are private and not shared. Feel free to discuss career fears, family pressure, or confusion – the AI is here to support you without judgment."
+          }
+        ]
+      },
+      "privacy": {
+        "title": "Account, Privacy & Safety",
+        "faqs": [
+          {
+            "question": "How do I change my password?",
+            "answer": "Go to Settings > Security > Change Password. You'll need to enter your current password, then set a new one. Choose something secure!"
+          },
+          {
+            "question": "Is my data private?",
+            "answer": "Absolutely. We use AES-256 encryption (same as banks!) and are PDPA compliant. Your personality profile and data are never shared with third parties without your explicit consent."
+          },
+          {
+            "question": "Can I delete my account?",
+            "answer": "Yes. Go to Settings > Account > Delete Account. Warning: This permanently removes all your test results and saved data. Make sure you really want to before confirming!"
+          },
+          {
+            "question": "What personal information do you collect?",
+            "answer": "We collect: email, name, password (encrypted), and optional education details. We don't ask for IC numbers, phone numbers, or sensitive personal data."
+          },
+          {
+            "question": "Can I use a nickname instead of my real name?",
+            "answer": "Yes! You can use any name you're comfortable with. Many students use nicknames for privacy."
+          },
+          {
+            "question": "Will my test answers be sold to companies?",
+            "answer": "Never. We do not sell, rent, or share your data with advertisers or third parties. Your data is for your benefit only."
+          },
+          {
+            "question": "What does PDPA compliant mean?",
+            "answer": "PDPA is Malaysia's Personal Data Protection Act. It means we legally protect your data, only use it for stated purposes, and let you control how it's used."
+          },
+          {
+            "question": "Can I make my profile private?",
+            "answer": "Your profile is already private by default. Only you can see your test results and account info unless you choose to share them."
+          },
+          {
+            "question": "What happens to my data if I delete my account?",
+            "answer": "All your personal data is permanently deleted from our servers within 30 days. We keep minimal anonymized data for statistical purposes only (no way to identify you)."
+          },
+          {
+            "question": "Will colleges see my account activity?",
+            "answer": "No. Universities have no access to your In-Aspired account or test results unless you explicitly share them (like forwarding a results screenshot)."
+          },
+          {
+            "question": "Can parents see my test results?",
+            "answer": "Not unless you share them! Your account is private. However, we encourage open conversations with parents about your career plans."
+          }
+        ]
+      },
+      "technical": {
+        "title": "Technical Issues",
+        "faqs": [
+          {
+            "question": "The website is loading slowly. What should I do?",
+            "answer": "Try refreshing the page, clearing your browser cache, or checking your internet connection. If it persists, the site might be experiencing high traffic – try again in a few minutes."
+          },
+          {
+            "question": "I can't log in. What's wrong?",
+            "answer": "Double-check your email and password for typos. Make sure Caps Lock is off! If you forgot your password, use \"Forgot Password\" to reset it."
+          },
+          {
+            "question": "The personality test froze halfway. Did I lose my progress?",
+            "answer": "Your progress is auto-saved! Refresh the page and log back in. You should be able to continue from where you left off."
+          },
+          {
+            "question": "Why can't I join a study room?",
+            "answer": "Make sure you're logged in (some rooms require accounts). Check your browser permissions – you might need to allow camera/mic access even if you don't plan to use them."
+          },
+          {
+            "question": "The chatbot isn't responding. Is it down?",
+            "answer": "The AI might be temporarily overloaded. Wait a few seconds and try again. If it still doesn't work, check your internet connection or try refreshing the page."
+          },
+          {
+            "question": "What browsers are supported?",
+            "answer": "In-Aspired works best on Chrome, Firefox, Safari, and Edge (latest versions). Older browsers might have compatibility issues."
+          },
+          {
+            "question": "Can I use In-Aspired offline?",
+            "answer": "No, you need an internet connection to use In-Aspired since it pulls live data from our servers. Download study schedules or notes beforehand if you plan to be offline."
+          },
+          {
+            "question": "I'm getting an error message. Who do I contact?",
+            "answer": "Go to the Contact page and describe the error. Include a screenshot if possible! We typically respond within 24-48 hours."
+          },
+          {
+            "question": "The page layout looks broken on my phone.",
+            "answer": "Try rotating your phone or zooming out. If it still looks wrong, let us know your device model and browser so we can fix it!"
+          },
+          {
+            "question": "Do I need to install anything?",
+            "answer": "Nope! In-Aspired is a web app that runs in your browser. No downloads, no installs, no storage space needed on your device."
+          }
+        ]
+      },
+      "parents": {
+        "title": "For Parents",
+        "faqs": [
+          {
+            "question": "Is this platform safe for teenagers?",
+            "answer": "Yes. We use enterprise-grade encryption, have strict privacy policies (PDPA compliant), and all content is educational. We don't allow inappropriate content or unsupervised interactions."
+          },
+          {
+            "question": "Can parents monitor their child's progress?",
+            "answer": "Parents don't have direct access to student accounts to protect privacy, but we encourage students to share their test results and discuss career plans with family."
+          },
+          {
+            "question": "Can schools get bulk access for students?",
+            "answer": "Yes! Contact us via the Contact page to discuss partnership options for schools. We offer special programs for educational institutions."
+          },
+          {
+            "question": "What age group is this designed for?",
+            "answer": "Primarily Form 4-6 students (ages 16-18) preparing for SPM and university applications, but useful for anyone exploring career options."
+          },
+          {
+            "question": "Are there any inappropriate content filters?",
+            "answer": "Yes. We moderate user-generated content in study rooms and have reporting systems. Our AI is programmed to refuse inappropriate requests."
+          },
+          {
+            "question": "How accurate is the career guidance compared to school counselors?",
+            "answer": "In-Aspired is a supplement, not a replacement, for professional counselors. We provide data-driven suggestions; counselors offer personalized, context-aware advice. Best used together!"
+          }
+        ]
+      }
+    }
+  },
+  "feedback": {
+    "header": {
+      "title": "Report Issue",
+      "subtitle": "Help us fix bugs & improve"
+    },
+    "type": {
+      "bug": {
+        "label": "Bug Report",
+        "desc": "Technical issues"
+      },
+      "content": {
+        "label": "Content Issue",
+        "desc": "Incorrect info"
+      },
+      "feature": {
+        "label": "Feature Request",
+        "desc": "Improvements"
+      },
+      "others": {
+        "label": "Others",
+        "desc": "Other feedback"
+      }
+    },
+    "form": {
+      "issueType": "Issue Type",
+      "describe": "Describe the issue",
+      "placeholder": "What happened? Please be as specific as possible...",
+      "minChars": "Min 10 characters",
+      "screenshots": "Screenshots / Videos (Optional)"
+    },
+    "upload": {
+      "maxReached": "Maximum files reached",
+      "clickToUpload": "Click to upload files",
+      "constraints": "Images & videos only • Max 10MB each • Up to 5 files"
+    },
+    "btn": {
+      "cancel": "Cancel",
+      "submit": "Submit Report",
+      "submitting": "Submitting..."
+    },
+    "toast": {
+      "maxFiles": "Maximum 5 files allowed",
+      "minChars": "Please provide at least 10 characters",
+      "success": "Feedback submitted! Thank you! 🎉",
+      "fail": "Failed to submit feedback"
+    }
+  },
+  "settings": {
+    "account": {
+      "title": "Personal Information",
+      "subtitle": "Manage your personal details",
+      "labels": {
+        "fullName": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "gender": "Gender",
+        "dob": "Date of Birth"
+      },
+      "placeholders": {
+        "phone": "12 345 6789",
+        "gender": "Select Gender"
+      },
+      "genders": {
+        "male": "Male",
+        "female": "Female",
+        "nonBinary": "Non-binary",
+        "preferNotToSay": "Prefer not to say"
+      },
+      "toasts": {
+        "photoUpdated": "Photo updated (click Save to apply)"
+      },
+      "deleteAccountAction": "Delete Account"
+    },
+    "security": {
+      "title": "Security",
+      "subtitle": "Protect your account and privacy",
+      "changePassword": "Change Password",
+      "managedByGoogle": "Managed by Google",
+      "googleDesc": "You signed in with Google. To change your password, please visit your Google Account settings.",
+      "googleBtn": "Google Account Security",
+      "labels": {
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm Password"
+      },
+      "phCurrent": "Enter your current password",
+      "disable2fa": {
+        "desc": "To ensure your security, please verify your identity to turn off Two-Factor Authentication."
+      },
+      "twoFactor": {
+        "title": "Two-Factor Authentication",
+        "subtitle": "Add an extra layer of security"
+      },
+      "password": {
+        "match": "Passwords match",
+        "requirements": "Requirements to save:",
+        "currentVerified": "Current password verified",
+        "newValid": "New password valid",
+        "clickEdit": "Click \"Edit\" to change your password",
+        "checking": "Checking password...",
+        "currentCorrect": "Current password is correct",
+        "currentIncorrect": "Current password is incorrect",
+        "errorChecking": "Error checking password",
+        "unableVerify": "Unable to verify password",
+        "networkError": "Network error",
+        "verifyRequired": "Please verify your current password first",
+        "currentRequired": "Current password is required"
+      },
+      "phNew": "Create a new password",
+      "phConfirm": "Confirm your new password",
+      "phLoginPass": "Enter your login password"
+    },
+    "btn": {
+      "edit": "Edit",
+      "save": "Save"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "enableAll": "Enable all notifications",
+      "email": "Email notifications",
+      "push": "Push notifications",
+      "alerts": {
+        "notSupported": "Push notifications are not supported on this device.",
+        "blocked": "Notifications are blocked. Please enable them in your browser settings.",
+        "enabled": "Push notifications enabled",
+        "enableFailed": "Failed to enable push notifications",
+        "disabled": "Push notifications disabled",
+        "disableFailed": "Failed to disable push notifications"
+      }
+    },
+    "preferences": {
+      "title": "Preferences",
+      "subtitle": "Customize your experience"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "light": "Light mode",
+      "dark": "Dark mode",
+      "system": "System mode"
+    },
+    "language": {
+      "title": "Language",
+      "subtitle": "Choose your preferred language",
+      "placeholder": "Select a language"
+    },
+    "privacy": {
+      "title": "Data and Privacy",
+      "subtitle": "Manage your data and account",
+      "cookies": {
+        "title": "Cookie Preferences",
+        "necessary": {
+          "title": "Necessary Cookies",
+          "desc": "Required for core functionality"
+        },
+        "analytics": {
+          "title": "Analytics Cookies",
+          "desc": "Help us improve our services"
+        },
+        "marketing": {
+          "title": "Marketing Cookies",
+          "desc": "Personalized ads and content"
+        }
+      },
+      "delete": {
+        "title": "Delete Account",
+        "desc": "Permanently delete your account and all of your content. This action cannot be undone.",
+        "action": "Delete Account",
+        "modal": {
+          "title": "Delete Account?",
+          "desc": "This action cannot be undone. This will permanently delete your account, saved preferences, and quiz results.",
+          "confirmLabel": "Type \"DELETE\" to confirm",
+          "confirmWord": "DELETE",
+          "submitBtn": "Delete Account"
+        },
+        "phDelete": "DELETE"
+      },
+      "phDelete": "DELETE"
+    },
+    "alerts": {
+      "themeFailed": "Failed to update theme",
+      "langFailed": "Failed to update language",
+      "sessionExpired": "Your session has expired. Please log in again.",
+      "2faGenFailed": "Failed to generate 2FA",
+      "2faEnabled": "Two-Factor Authentication Enabled!",
+      "2faInvalid": "Invalid Code. Please try again.",
+      "verifyFailed": "Verification failed."
+    }
+  },
+  "premium": {
+    "analysis": {
+      "tag": "Premium Insights",
+      "title": "Unlock Your Full Potential",
+      "subtitle": "Go beyond the basics. Get a detailed 20-page analysis of your career DNA, stress triggers, and custom growth roadmap.",
+      "advanced": "Advanced Analysis",
+      "advancedDesc": "Transform how you see yourself and skyrocket your career with insights others pay consultants $500+ to discover.",
+      "unlockBtn": "Unlock Full Report • RM9.99",
+      "loading": "Loading...",
+      "limitedTime": "Limited Time • 70% Off • Risk-Free Guarantee",
+      "sections": {
+        "personality": {
+          "title": "Your Personality Overview",
+          "subtitle": "Type & Dark Side 💡",
+          "desc": "Deep dive into your strengths and how they shift under stress."
+        },
+        "career": {
+          "title": "Career Compatibility Matrix",
+          "subtitle": "Top Careers & Full Job List 🚀",
+          "desc": "Heatmap of 50+ roles rated by your specific fit."
+        },
+        "course": {
+          "title": "Course Recommendations",
+          "subtitle": "Tailored Learning Path 📚",
+          "desc": "Specific curriculum to bridge your skill gaps."
+        },
+        "skills": {
+          "title": "Soft Skills & Action Plan",
+          "subtitle": "Daily Habits & Quick Wins ⚡",
+          "desc": "Practical exercises to improve your 'Dark Side' traits."
+        },
+        "workplace": {
+          "title": "Workplace Environment Fit",
+          "subtitle": "Team Vibes & Culture 🏢🎨",
+          "desc": "Who you work best with and what cultures to avoid."
+        },
+        "growth": {
+          "title": "Personal Growth Timeline",
+          "subtitle": "6–12 Month Roadmap ⏳",
+          "desc": "Step-by-step plan for your career acceleration."
+        },
+        "insights": {
+          "title": "Fun Insights",
+          "subtitle": "Fun Facts About You 😎",
+          "desc": "Lighthearted stats and celebrity matches."
+        }
+      }
+    },
+    "waitlist": {
+      "title": "Join the Waitlist",
+      "desc": "We're currently scaling our analysis engine. Be the first to know when the Full Report is available (and get a <strong>20% early-bird discount</strong>).",
+      "labelEmail": "Email Address",
+      "phEmail": "you@example.com",
+      "btnNotify": "Notify Me",
+      "successTitle": "You're on the list!",
+      "successDesc": "We've secured your spot. Keep an eye on your inbox—we'll send your discount code soon.",
+      "btnClose": "Close"
+    },
+    "success": {
+      "title": "Payment Successful! 🎉",
+      "subtitle": "Thank you for unlocking your premium career report",
+      "nextTitle": "What happens next?",
+      "step1Title": "We're generating your PDF",
+      "step1Desc": "Your personalized career report is being created with your RIASEC profile, top career domains, and course recommendations.",
+      "step2Title": "Check your email",
+      "step2Desc": "Your report will be sent to your registered email address within the next few minutes.",
+      "step3Title": "Explore your career path",
+      "step3Desc": "Use the insights in your report to make informed decisions about your education and career.",
+      "noEmailTitle": "Don't see the email?",
+      "noEmailDesc": "Check your spam folder or contact us if you don't receive it within 10 minutes.",
+      "redirecting": "Redirecting to homepage in {{count}} seconds...",
+      "btnHome": "Go to Homepage",
+      "btnCourses": "Explore Courses",
+      "footerHelp": "Need help? Contact us at"
+    }
+  },
+  "visuals": {
+    "riasec": {
+      "types": {
+        "R": "Realistic",
+        "I": "Investigative",
+        "A": "Artistic",
+        "S": "Social",
+        "E": "Enterprising",
+        "C": "Conventional"
+      },
+      "desc": {
+        "R": "Practical & Hands-on. Loves working with tools, machines, plants, or animals.",
+        "I": "Analytical & Curious. Loves studying, solving math or science problems.",
+        "A": "Expressive & Creative. Loves art, drama, music, or writing.",
+        "S": "Helpful & Friendly. Loves teaching, nursing, or giving first aid.",
+        "E": "Ambitious & Persuasive. Loves leading people and selling ideas.",
+        "C": "Organized & Detail-oriented. Loves working with numbers or records."
+      }
+    },
+    "careerMap": {
+      "interest": "Interest",
+      "course": "Course",
+      "career": "Career",
+      "matchFound": "Match Found"
+    }
+  },
+  "results": {
+    "hideAnalysis": "Hide Analysis",
+    "whyThisFits": "Why this fits you",
+    "retakeModalTitle": "Retake Assessment?",
+    "retakeModalDesc": "This will start a fresh personality test. Your current results will be replaced if you save the new ones.",
+    "retakeConfirm": "Yes, Start Over",
+    "cancel": "Cancel",
+    "title": "Your Personalised Roadmap",
+    "subtitle": "Based on your personality profile, here are the fields and courses where you'll naturally thrive.",
+    "personalityProfile": "Your Personality Profile",
+    "topDomains": "Your Top Interest Domains",
+    "match": "MATCH #{{num}}",
+    "recommendedCourses": "Recommended Courses",
+    "viewMoreCourses": "Want to view more courses?",
+    "noCoursesTitle": "No specific courses found just yet.",
+    "noCoursesDesc": "Try adjusting your profile or explore our full catalog.",
+    "topCareers": "Top Careers For You",
+    "viewMoreCareers": "Want to view more careers?",
+    "noCareersTitle": "No matched careers yet.",
+    "noCareersDesc": "Complete the personality test to see career recommendations.",
+    "retakeTest": "Retake Personality Test"
+  },
+  "notifications": {
+    "ui": {
+      "title": "Notifications",
+      "markAllRead": "Mark all read",
+      "empty": "No notifications yet",
+      "viewAll": "View all notifications"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "warning": "Warning",
+    "typeToConfirm": "TYPE \"{{keyword}}\" TO CONFIRM",
+    "error": "Error",
+    "cookieConsent": {
+      "title": "We value your privacy",
+      "description": "We use cookies to enhance your browsing experience, provide personalized content, and analyze our traffic. You can choose to accept all cookies, only necessary cookies, or customize your preferences.",
+      "learnMore": "Learn more in our",
+      "privacyPolicy": "Privacy Policy",
+      "acceptAll": "Accept All",
+      "necessaryOnly": "Necessary Only",
+      "rejectAll": "Reject All",
+      "customize": "Customize",
+      "save": "Save Preferences",
+      "necessary": {
+        "title": "Necessary Cookies",
+        "desc": "Required for core functionality"
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "desc": "Help us improve our services"
+      },
+      "marketing": {
+        "title": "Marketing Cookies",
+        "desc": "Personalized ads and content"
+      }
+    }
+  },
+  "quiz": {
+    "alerts": {
+      "error": "Failed to load quiz. Please try again."
+    }
+  },
+  "room": {
+    "alert": {
+      "leaveConfirm": "Are you sure you want to leave the study session?"
+    }
+  },
+  "chatbot": {
+    "welcome": "Hi there! 👋 I'm here to help you navigate your career path. Ask me anything about courses, institutions, careers, or the personality test!"
+  }
+}

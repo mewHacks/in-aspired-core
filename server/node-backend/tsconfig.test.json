@@ -1,0 +1,16 @@
+// tsconfig.test.json
+// Configuration for Jest tests while keeping production build pure
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "rootDir": ".",
+        "types": [
+            "jest",
+            "node"
+        ]
+    },
+    "include": [
+        "src/**/*",
+        "__tests__/**/*"
+    ]
+}

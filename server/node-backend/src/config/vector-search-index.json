@@ -1,0 +1,39 @@
+{
+  "mappings": {
+    "dynamic": true,
+    "fields": {
+      "vectorEmbedding": {
+        "type": "vector",
+        "numDimensions": 768,
+        "similarity": "cosine"
+      },
+      "title": {
+        "type": "text",
+        "analyzer": "lucene.standard"
+      },
+      "description": {
+        "type": "text",
+        "analyzer": "lucene.standard"
+      },
+      "tags": {
+        "type": "text",
+        "analyzer": "lucene.standard"
+      },
+      "level": {
+        "type": "token"
+      },
+      "type": {
+        "type": "token"
+      },
+      "cost_level": {
+        "type": "token"
+      },
+      "domainIds": {
+        "type": "token"
+      },
+      "institutionId": {
+        "type": "token"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+# fly.toml app configuration file generated for in-aspired-backend on 2026-03-08T14:27:38+08:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'in-aspired-backend'
+primary_region = 'sin'
+
+[build]
+  command = "NODE_ENV=production npm run build && npm run db:migrate"
+  dockerfile = "server/node-backend/Dockerfile.prod"
+
+[deploy]
+  strategy = "rolling"
+
+[env]
+  NODE_ENV = "production"
+
+[http_service]
+  internal_port = 5000
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+
+  [[http_service.checks]]
+    grace_period = "10s"
+    interval = "15s"
+    timeout = "5s"
+    path = "/health"
+
+[[vm]]
+  memory = '1024mb'
+  cpus = 1
+  memory_mb = 1024

@@ -1,0 +1,60 @@
+# ──────────────────────────────────────────────────
+# Node.js Backend Dockerfile (Production)
+# ──────────────────────────────────────────────────
+
+# --- Build Stage ---
+FROM node:20-slim AS builder
+
+WORKDIR /app
+
+# Copy EVERYTHING to ensure workspaces are correctly linked
+COPY . .
+
+# Install ALL dependencies (including devDeps) at the root
+RUN npm install
+
+# Build shared first, then backend — from root using workspace flags (reliable in Docker)
+RUN npm run build --workspace=shared
+RUN npm run build --workspace=server/node-backend
+
+# Verify the build produced the expected entry point
+RUN test -f server/node-backend/dist/index.js || (echo "ERROR: dist/index.js was not produced by tsc" && exit 1)
+
+# --- Production Stage ---
+FROM node:20-slim
+
+# Install Chromium dependencies for Puppeteer (PDF generation)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    chromium \
+    fonts-noto-cjk \
+    && rm -rf /var/lib/apt/lists/*
+
+# Tell Puppeteer to use the system-installed Chromium
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+
+WORKDIR /app
+
+# Copy root package files
+COPY package.json package-lock.json ./
+COPY shared/package.json ./shared/package.json
+COPY server/node-backend/package.json ./server/node-backend/
+
+# Install production dependencies only from root
+RUN npm install --omit=dev
+
+# Copy built outputs from builder stage
+COPY --from=builder /app/server/node-backend/dist ./server/node-backend/dist
+COPY --from=builder /app/shared/dist ./shared/dist
+
+# Set working directory to the backend
+WORKDIR /app/server/node-backend
+
+# Expose port
+EXPOSE 5000
+
+# Set environment to production
+ENV NODE_ENV=production
+
+# Start the production server
+CMD ["node", "dist/index.js"]

@@ -1,0 +1,3844 @@
+{
+  "settings_nav": {
+    "title": "设置",
+    "language": {
+      "title": "语言",
+      "subtitle": "更改界面语言",
+      "placeholder": "选择语言"
+    }
+  },
+  "virtualRoom": {
+    "loading": "正在加载房间...",
+    "wantsToJoin": "请求加入该房间",
+    "approve": "同意",
+    "deny": "拒绝",
+    "cameraOff": "摄像头已关闭",
+    "you": "你",
+    "muted": "(已静音)",
+    "connecting": "连接中...",
+    "connectionFailed": "连接失败",
+    "waitingForPeers": "等待其他人加入...",
+    "whiteboardReadOnly": "白板处于只读模式",
+    "muteMic": "关闭麦克风",
+    "unmuteMic": "开启麦克风",
+    "micDisabled": "房主已禁用麦克风",
+    "turnOffCamera": "关闭摄像头",
+    "turnOnCamera": "开启摄像头",
+    "cameraDisabled": "房主已禁用摄像头",
+    "toggleWhiteboard": "切换白板",
+    "enterFullScreen": "进入全屏",
+    "exitFullScreen": "退出全屏",
+    "shareRoom": "分享房间",
+    "leave": "离开",
+    "roomControls": "房间控制",
+    "helpGuide": "使用指南",
+    "tabs": {
+      "chat": "聊天",
+      "resources": "资源",
+      "todo": "待办事项"
+    },
+    "chat": {
+      "today": "今天",
+      "me": "我",
+      "typeMessage": "输入消息..."
+    },
+    "timerStatus": {
+      "left": "剩余",
+      "endingSoon": "即将结束",
+      "paused": "已暂停"
+    },
+    "sessionEnded": {
+      "title": "学习阶段完成 🎉",
+      "desc1": "干得漂亮！本阶段已结束。",
+      "desc2": "你想继续吗？",
+      "extend": "延长 25 分钟（标准）",
+      "endAll": "结束所有人的会话",
+      "autoEndingWarn": "60 秒后自动结束...",
+      "waitingHost": "等待房主决定...",
+      "roomAutoCloseWarn": "如果不采取任何行动，房间将自动关闭。"
+    },
+    "guide": {
+      "title": "学习房间指南",
+      "subtitle": "你需要知道的一切都在这里！",
+      "videoAudio": "视频和音频",
+      "videoAudioDesc": "使用底部的控制栏切换你的麦克风和摄像头。",
+      "videoAudioTip": "不说话时保持静音，以减少背景噪音。",
+      "whiteboard": "白板",
+      "whiteboardDesc": "点击铅笔图标切换到协作白板模式。",
+      "whiteboardTip": "画图、添加文本和形状。每个人都能实时看到变化。",
+      "chatResources": "聊天和资源",
+      "chatResourcesDesc": "使用聊天功能发送消息，在资源栏共享学习材料。",
+      "chatResourcesTip": "上传 PDF (20MB) 和图像 (5MB) 与房间内的其他人共享。",
+      "timer": "会话计时器",
+      "timerDesc": "采用番茄工作法，每个学习阶段为 25 分钟。",
+      "timerTip": "当剩余 5 分钟和 1 分钟时，你将收到警告。",
+      "todo": "待办事项列表",
+      "todoDesc": "在侧边栏的待办事项标签中跟踪你的个人任务。",
+      "todoTip": "对你私人可见，并仅在当前会话中存储。",
+      "music": "音乐播放器",
+      "musicDesc": "私下播放专注音乐——只有你能听到。",
+      "musicTip": "当你的麦克风开启时，音量会自动降低。",
+      "hostControlsTitle": "房主控制",
+      "hostBadge": "你是房主",
+      "hostDesc1": "管理参与者权限",
+      "hostDesc2": "移除干扰型用户",
+      "hostDesc3": "切换功能：摄像头/音频/白板",
+      "hostDesc4": "延长或结束当前会话",
+      "proTip": "专业提示：",
+      "proTipDesc": "使用全屏模式以获得沉浸式专注体验，并尊重 25 分钟专注块以最大化生产力。",
+      "gotIt": "知道了！"
+    },
+    "hostControls": {
+      "title": "房间控制",
+      "participants": "参与者",
+      "you": "(你)",
+      "kick": "移出",
+      "roomSettings": "房间设置",
+      "camera": "摄像头",
+      "microphone": "麦克风",
+      "whiteboard": "白板",
+      "enabled": "已启用",
+      "disabled": "已禁用",
+      "close": "关闭"
+    },
+    "toast": {
+      "joined": "{{name}} 加入了房间",
+      "left": "{{name}} 离开了房间",
+      "extended": "会议已延长！",
+      "ended": "会议由主持人结束或已超时。",
+      "cameraDisabled": "摄像头已被主持人禁用",
+      "micDisabled": "麦克风已被主持人禁用",
+      "settingsUpdated": "房间设置已由主持人更新",
+      "kicked": "你已被主持人移出房间",
+      "wantsToJoin": "{{name}} 请求加入",
+      "userRemoved": "{{name}} 已被移除",
+      "requestApproved": "加入请求已批准 ✅",
+      "requestDenied": "加入请求已拒绝 ❌",
+      "youLeft": "你离开了房间"
+    },
+    "alert": {
+      "kickConfirm": "将 {{name}} 移出房间？",
+      "leaveConfirm": "你确定要离开学习会议吗？"
+    },
+    "resources": {
+      "fillTitleUrl": "请填写标题和链接",
+      "addSuccess": "资源添加成功",
+      "addFail": "添加资源失败",
+      "networkError": "网络错误",
+      "reportConfirm": "举报此内容？如核实将被隐藏。",
+      "reportSuccess": "已举报。谢谢。",
+      "reportFail": "举报失败",
+      "subtitle": "共享材料与阅读",
+      "add": "添加",
+      "recommended": "推荐",
+      "readOnly": "只读",
+      "sessionUploads": "会议上传",
+      "items": "项",
+      "noResources": "暂无共享资源。",
+      "shareSomething": "分享一些东西",
+      "unknown": "未知",
+      "openLink": "打开链接",
+      "preview": "预览",
+      "download": "下载",
+      "report": "举报",
+      "shareResource": "分享资源",
+      "link": "链接",
+      "pdf": "PDF",
+      "image": "图片",
+      "titleLabel": "标题",
+      "egArticle": "例如：有用的文章",
+      "egNotes": "例如：课堂笔记",
+      "urlLabel": "网址 / 链接",
+      "adultWarning": "成人内容域名已被屏蔽。",
+      "uploadPdf": "上传 PDF 文档",
+      "uploadImage": "上传图片",
+      "sharing": "分享中..."
+    },
+    "todo": {
+      "title": "我的会议目标",
+      "subtitle": "任务为私有且在此次会议中保存。",
+      "complete": "完成",
+      "validated": "已验证",
+      "noGoals": "本会议尚未设定目标。",
+      "getStarted": "添加一个任务开始吧！",
+      "deleteTask": "删除任务",
+      "addGoal": "添加新目标..."
+    },
+    "share": {
+      "linkCopied": "链接已复制！",
+      "failedCopy": "复制失败",
+      "codeCopied": "房间号已复制！",
+      "sharePrivate": "分享私密房间",
+      "sharePublic": "分享公开房间",
+      "roomCode": "房间号",
+      "copyCode": "复制房间号",
+      "shareCodeDesc": "将此代码分享给您想邀请的人",
+      "inviteLink": "邀请链接",
+      "shareLink": "分享链接",
+      "copyLinkTooltip": "复制链接",
+      "linkIncludesCode": "此链接包含用于即时访问的房间号",
+      "privateInfo": "只有拥有房间号或邀请链接的人才能加入此房间。",
+      "publicInfo": "任何人都可以通过链接加入此公开房间。",
+      "done": "完成"
+    },
+    "music": {
+      "nowPlaying": "正在播放：",
+      "onlyYou": "只有你能听到",
+      "prevStation": "上一台",
+      "nextStation": "下一台",
+      "unavailable": "电台不可用"
+    },
+    "modals": {
+      "leaveRoomMessage": "您确定要离开学习课程吗？"
+    }
+  },
+  "nav": {
+    "home": "主页",
+    "about": "关于",
+    "personalityTest": "性格测试",
+    "infographicHub": "信息图表中心",
+    "courses": "课程",
+    "careers": "职业",
+    "virtualStudyRooms": "虚拟自习室",
+    "login": "登录",
+    "signup": "注册",
+    "settings": "设置",
+    "help": "帮助",
+    "logout": "登出",
+    "joinPrompt": "加入 In-Aspired 即可使用此功能！\n\n您现在要注册吗？",
+    "logoutSuccess": "您已退出登录",
+    "dashboard": "仪表板",
+    "contact": "联系我们"
+  },
+  "footer": {
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "help": "帮助",
+    "contact": "联系我们",
+    "rights": "版权所有。"
+  },
+  "ui": {
+    "loading": {
+      "quotes": [
+        "设计你的未来...",
+        "释放潜力...",
+        "寻找你的道路...",
+        "连接机遇...",
+        "建设你的职业生涯...",
+        "探索新视野..."
+      ]
+    },
+    "logoHeader": {
+      "title": "In-Aspired",
+      "subtitle": "发现你的潜力"
+    },
+    "logout": "登出",
+    "toasts": {
+      "savedItem": "已收藏 \"{{name}}\"。",
+      "viewSavedCareers": "查看收藏的职业",
+      "viewSavedCourses": "查看收藏的课程",
+      "removedItem": "已取消收藏 \"{{name}}\"",
+      "alreadySaved": "该项目已收藏",
+      "notSaved": "该项目未收藏",
+      "archivedItem": "已归档 \"{{name}}\"。",
+      "unarchivedItem": "已取消归档 \"{{name}}\"",
+      "viewArchivedCourses": "查看归档的课程",
+      "viewArchivedCareers": "查看归档的职业"
+    },
+    "buttons": {
+      "save": "收藏",
+      "saved": "已收藏",
+      "archive": "归档",
+      "unarchive": "取消归档",
+      "viewDetails": "查看详情",
+      "quickEdit": "快速编辑",
+      "removeSave": "取消收藏"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "欢迎回来",
+      "subtitle": "登录以继续你的自我探索之旅",
+      "emailLabel": "电子邮件地址",
+      "emailPlaceholder": "john@example.com",
+      "passwordLabel": "密码",
+      "passwordPlaceholder": "输入你的密码",
+      "rememberMe": "记住我",
+      "forgotPassword": "忘记密码？",
+      "submit": "登录",
+      "orContinueWith": "或使用以下方式继续",
+      "newToPlatform": "新来 In-Aspired？",
+      "createAccount": "创建免费账户",
+      "googleLogin": "谷歌 (Google)"
+    },
+    "signup": {
+      "title": "创建账户",
+      "subtitle": "加入我们的社区并发现你的真正潜力",
+      "nameLabel": "全名",
+      "namePlaceholder": "张三",
+      "passwordLabel": "密码",
+      "passwordPlaceholder": "创建一个强密码",
+      "confirmPasswordLabel": "确认密码",
+      "confirmPasswordPlaceholder": "重新输入你的密码",
+      "agreeTo": "我同意 ",
+      "and": " 和 ",
+      "newsletterOptIn": "是的，我想接收来自 In-Aspired 的职业见解、提示和更新（可选）",
+      "submit": "创建账户",
+      "orSignUpWith": "或使用以下方式注册",
+      "googleSignup": "使用谷歌注册",
+      "alreadyHaveAccount": "已经有账户？",
+      "signIn": "登录你的账户"
+    },
+    "validation": {
+      "8chars": "8 个字符",
+      "uppercase": "大写字母",
+      "lowercase": "小写字母",
+      "number": "数字",
+      "special": "特殊字符",
+      "passwordNeeds": "密码需要：",
+      "passwordsMismatch": "密码不匹配",
+      "confirmPasswordRequired": "请确认您的密码"
+    },
+    "recovery": {
+      "forgotTitle": "忘记密码？",
+      "forgotSubtitle": "输入您的电子邮件地址以接收重置链接。",
+      "requestResetLink": "请求重置链接",
+      "resetLinkSent": "重置链接已发送！",
+      "checkEmail": "检查您的电子邮件收件箱以获取重置密码的说明。",
+      "tryAnotherEmail": "尝试另一个电子邮件",
+      "backToLogin": "返回登录",
+      "resetTitle": "重置密码",
+      "resetSubtitle": "设置新密码",
+      "newPasswordLabel": "新密码",
+      "newPasswordPlaceholder": "输入新密码",
+      "confirmNewPasswordLabel": "确认密码",
+      "confirmNewPasswordPlaceholder": "确认新密码",
+      "resetPasswordBtn": "重置密码",
+      "resetSuccessTitle": "密码重置成功！",
+      "resetSuccessDesc": "您的密码已更新。正在重定向到登录界面...",
+      "goToLogin": "立即前往登录"
+    },
+    "security": {
+      "secure": "安全且加密",
+      "private": "您的数据是私密并受到保护的"
+    },
+    "alerts": {
+      "googleError": "Google 社交身份验证失败",
+      "signupSuccess": "账号创建成功！请检查您的电子邮件并在登录前点击验证链接。",
+      "loginFailed": "登录失败。请检查您的凭据。",
+      "networkError": "网络错误或服务器关闭。请再试一次。",
+      "signupFailed": "注册失败。请再试一次。"
+    }
+  },
+  "core": {
+    "domains": {
+      "computing": "计算与数据",
+      "engineering": "工程与建筑环境",
+      "health": "健康与生命科学",
+      "environment": "环境与可持续发展研究",
+      "business": "商业、金融与经济",
+      "marketing": "营销、销售与创业",
+      "arts": "创意艺术与设计",
+      "media": "媒体、传播与表演艺术",
+      "social_sciences": "教育、心理学与社会科学",
+      "law": "法律、公共政策与治理",
+      "hospitality": "酒店、旅游与会展",
+      "sports": "体育、健身与人类表现",
+      "trades": "技术与应用技术",
+      "admin": "行政、运营与数据支持",
+      "desc": {
+        "computing": "设计软件，分析数据并构建数字系统。",
+        "engineering": "设计、建造和维护结构、机器和系统。",
+        "health": "诊断、治疗和研究以改善人类和动物的健康。",
+        "environment": "保护地球并管理自然资源。",
+        "business": "管理资金、市场和组织战略。",
+        "marketing": "推广产品、达成交易并创办新企业。",
+        "arts": "通过视觉、数字和物理艺术表达想法。",
+        "media": "创作内容、表演和传播故事。",
+        "social_sciences": "教学、咨询和了解人类行为。",
+        "law": "解释法律、制定政策并倡导正义。",
+        "hospitality": "管理宾客体验、旅游和大型活动。",
+        "sports": "训练运动员，管理运动队，促进身体健康。",
+        "trades": "使用工具、机械和专业工艺进行实践工作。",
+        "admin": "组织信息、管理物流和支持运营。"
+      },
+      "matchExplanation": {
+        "computing": "你擅长解决复杂的逻辑问题（研究型），看重结构化、有组织的系统（常规型）。计算机领域能让你搭建精准的数字化解决方案。",
+        "engineering": "你喜欢操作机器和看得见的系统（现实型），同时也乐于应用科学原理（研究型）。工程学完美结合了动手实践和理论知识。",
+        "health": "你渴望利用科学知识（研究型）来治愈或帮助他人（社会型）。医疗健康领域为你提供了将分析技能造福人类的绝佳途径。",
+        "environment": "你对自然世界充满好奇（研究型），喜欢户外或与实物打交道（现实型）。环境科学非常契合你的探索天性。",
+        "business": "你是天生的领导者，喜欢在有条理的框架内（常规型）影响他人（企业型）。商业领域能让你推动成果并管理系统。",
+        "marketing": "你富有说服力（企业型），懂人心（社会型），或许还有点创意（艺术型）。市场营销让你大显身手，用心理学和策略打动受众。",
+        "arts": "你渴望自我表达和独创性（艺术型），喜欢探索新想法（研究型）。艺术为你提供了挥洒创意和思想自由的舞台。",
+        "media": "你富有创造力（艺术型），善于沟通（社会型）。媒体行业让你能发挥表现天赋，讲述故事并与受众建立连接。",
+        "social_sciences": "你对人与社会有着浓厚兴趣（社会型），喜欢分析人类行为（研究型）。社会科学让你能深入研究和理解人类的生存状态。",
+        "law": "你喜欢辩论和发挥领导力（企业型），并以研究和分析为支撑（研究型）。在法律领域，你出色的说服力和分析能力将大放异彩。",
+        "hospitality": "你热衷于管理体验、带领团队（企业型），并喜欢直接与人打交道（社会型）。酒店旅游业能让你为他创造宾至如归的环境。",
+        "sports": "你充满活力（现实型），喜欢团队合作或指导他人（社会型）。体育运动将你的身体技能和与人打交道的能力完美结合。",
+        "trades": "你喜欢看到实实在在的成果（现实型），习惯遵循精确的操作流程（常规型）。熟练技工行业会回报你的动手精度和可靠性。",
+        "admin": "你注重秩序、准确和效率（常规型），乐于支持组织目标的实现（企业型）。行政管理领域将是你大展注重细节这一“超能力”的舞台。"
+      }
+    },
+    "dashboard": {
+      "title": "管理员仪表板",
+      "subtitle": "欢迎回来！这是平台性能和活动的概述。",
+      "lastRefresh": "上次刷新",
+      "lastRefreshMobile": "上次刷新",
+      "justNow": "刚刚",
+      "minutesAgo": "{{count}} 分钟前",
+      "hoursAgo": "{{count}} 小时前",
+      "yesterday": "昨天",
+      "loading": "加载中...",
+      "systemStatus": "系统状态：所有系统运行正常",
+      "savedVault": {
+        "title": "收藏库",
+        "desc": "您添加书签的课程和职业",
+        "badge": "{{count}} 个新",
+        "courses": "课程",
+        "careers": "职业"
+      },
+      "archivedVault": {
+        "title": "归档库",
+        "desc": "主视图中隐藏的项目",
+        "badge": "{{count}} 个已归档"
+      },
+      "userMonitoring": {
+        "title": "用户监控",
+        "desc": "实时用户活动与管理",
+        "badge": "当前 {{count}} 活跃",
+        "active": "活跃",
+        "suspended": "已暂停",
+        "newToday": "今天新增",
+        "item_one": "项目",
+        "item_other": "项目"
+      },
+      "reportsCenter": {
+        "title": "报告中心",
+        "desc": "解决用户报告和反馈",
+        "badge": "{{count}} 待审核",
+        "pending": "待处理",
+        "resolved": "已解决",
+        "resolve": "处理"
+      }
+    },
+    "saved": {
+      "signInRequired": {
+        "title": "需要登录",
+        "desc": "请登录以查看已收藏的内容。",
+        "button": "登录"
+      },
+      "header": {
+        "back": "返回",
+        "badge": "个人收藏",
+        "title": "收藏库",
+        "desc": "您收藏的课程和职业的个人记录。",
+        "savedCourses": "已收藏的课程",
+        "savedCareers": "已收藏的职业"
+      },
+      "tabs": {
+        "courses": "已收藏的课程",
+        "careers": "已收藏的职业"
+      },
+      "search": {
+        "placeholderCourses": "搜索已收藏的课程...",
+        "placeholderCareers": "搜索已收藏的职业...",
+        "clear": "清除搜索",
+        "showingCourses": "{{filtered}} / {{total}} 个课程",
+        "showingCareers": "{{filtered}} / {{total}} 个职业",
+        "filteredBy": "过滤器: \"{{query}}\""
+      },
+      "empty": {
+        "coursesTitle": "暂无收藏的课程",
+        "coursesDesc": "开始探索课程并收藏您感兴趣的课程。",
+        "exploreCourses": "探索课程",
+        "careersTitle": "暂无收藏的职业",
+        "careersDesc": "开始探索职业并收藏您感兴趣的职业。",
+        "exploreCareers": "探索职业",
+        "noMatchCoursesTitle": "未找到匹配的课程",
+        "noMatchCoursesDesc": "没有匹配您搜索 \"{{query}}\" 的已收藏课程。",
+        "noMatchCareersTitle": "未找到匹配的职业",
+        "noMatchCareersDesc": "没有匹配您搜索 \"{{query}}\" 的已收藏职业。"
+      }
+    },
+    "quiz": {
+      "resumePrompt": {
+        "title": "继续您的测试",
+        "desc": "您有一个未完成的性格测试。您想从上次离开的地方继续，还是重新开始？",
+        "resumeBtn": "继续测试",
+        "restartBtn": "重新开始"
+      },
+      "q1": {
+        "scenario": "在工作/学校解决复杂问题时，您更倾向于：",
+        "o1": "分析数据并进行研究以找到合乎逻辑的答案。",
+        "o2": "进行头脑风暴，提出不受限制的创新解决方案。",
+        "o3": "组织团队并委派任务以高效完成。"
+      },
+      "q2": {
+        "scenario": "理想情况下，您的工作空间看起来像：",
+        "o1": "带有工具、机器或户外设备的工作间。",
+        "o2": "安静、井然有序的办公室，有清晰的归档系统。",
+        "o3": "熙熙攘攘的协作空间，您可以在那里帮助他人。"
+      },
+      "q3": {
+        "scenario": "截止日期临近。您的处理方式是：",
+        "o1": "执行详细的战略计划，确保一切完美运行。",
+        "o2": "亲自动手，立即开始构建/修复它。",
+        "o3": "依靠您的直觉和心流，随机应变。"
+      },
+      "q4": {
+        "scenario": "在小组项目中，哪个角色最吸引您？",
+        "o1": "谈判者：说服他人推销小组的想法。",
+        "o2": "帮助者：确保每个人都感到被包容和支持。",
+        "o3": "科学家：核对事实并确保技术上的准确性。"
+      },
+      "q5": {
+        "scenario": "当您完成以下哪项时，您会感到最有成就感：",
+        "o1": "亲手建造或修理了有形的东西。",
+        "o2": "教给某人一项新技能或帮助他们渡过难关。",
+        "o3": "成功带领团队实现高收入目标。"
+      },
+      "q6": {
+        "scenario": "如果您必须写一本书，它很可能是：",
+        "o1": "技术手册或复杂主题的非虚构分析。",
+        "o2": "富有表现力的小说、诗集或剧本。",
+        "o3": "关于生产力、数据管理或会计的指南。"
+      },
+      "q7": {
+        "scenario": "这是一个空闲的星期六。您最有可能做的是：",
+        "o1": "去远足、修车或做木工。",
+        "o1_v": "动手项目",
+        "o2": "参观美术馆或听音乐会。",
+        "o2_v": "创意活动",
+        "o3": "优化您的个人财务或整理您的数字生活。",
+        "o3_v": "计划与整理"
+      },
+      "q8": {
+        "scenario": "您想学习一项新技能。您会选择：",
+        "o1": "公开演讲或销售谈判。",
+        "o2": "心理咨询或急救以帮助他人。",
+        "o3": "计算机编程或高等数学。"
+      },
+      "q9": {
+        "scenario": "选择一个想要观看的电视节目：",
+        "o1": "关于科学、自然或历史的纪录片。",
+        "o1_v": "纪录片",
+        "o2": "关于商业竞争或政治的真人秀。",
+        "o2_v": "真人秀",
+        "o3": "关注人际关系和情感的脱口秀或戏剧。",
+        "o3_v": "脱口秀"
+      },
+      "q10": {
+        "scenario": "在书店里。您会直奔哪个区域：",
+        "o1": "艺术、设计或小说。",
+        "o1_v": "艺术与小说",
+        "o2": "技术、工程或机械。",
+        "o2_v": "科技与创新",
+        "o3": "商业、金融或法律。",
+        "o3_v": "商业与法律"
+      },
+      "q11": {
+        "scenario": "您正在计划假期。您的风格是：",
+        "o1": "没有固定计划，只是探索文化并拍照。",
+        "o1_v": "荒野探险",
+        "o2": "跟团游，您可以结识当地人和其他旅行者。",
+        "o2_v": "文化团游",
+        "o3": "使用电子表格精心策划的行程。",
+        "o3_v": "奢华行程"
+      },
+      "q12": {
+        "scenario": "如果您中了彩票，您会：",
+        "o1": "创办自己的公司或进行积极投资。",
+        "o2": "买一个农场/车间，与机器/动物一起工作。",
+        "o3": "资助一个研究实验室以解决全球谜团。"
+      },
+      "q13": {
+        "scenario": "在对话中，您喜欢谈论：",
+        "o1": "抽象的想法、情感和艺术表达。",
+        "o2": "具体的事实、数字和流程。",
+        "o3": "战略、领导力和未来抱负。"
+      },
+      "q14": {
+        "scenario": "您的朋友这样描述您：",
+        "o1": "解决问题的人（动手修复）。",
+        "o2": "知道很多事实的知识分子。",
+        "o3": "总是在倾听的共情者。"
+      },
+      "q15": {
+        "scenario": "在职业选择中，对您最重要的是什么？",
+        "o1": "声望、地位和影响他人的能力。",
+        "o2": "稳定性、组织和清晰的程序。",
+        "o3": "直接改变人们的生活。"
+      },
+      "q16": {
+        "scenario": "您看到一台复杂的机器。您会想：",
+        "o1": "它是如何工作的？（物理/力学原理）",
+        "o2": "我该如何操作它？（动手使用）",
+        "o3": "这如何简化我的归档系统？（效率）"
+      },
+      "q17": {
+        "scenario": "要求您进行演示。您会侧重于：",
+        "o1": "用视觉效果在情感上激发听众。",
+        "o2": "说服他们采取特定行动或买入。",
+        "o3": "分享准确的研究结果和数据。"
+      },
+      "q18": {
+        "scenario": "志愿服务机会！您选择：",
+        "o1": "为无家可归者建房。",
+        "o2": "辅导学生的逻辑/数学。",
+        "o3": "组织筹款晚会。"
+      },
+      "q19": {
+        "scenario": "您更喜欢的任务是：",
+        "o1": "体力且活跃的（户外或动手）。",
+        "o2": "社交且互动的（教学/治疗）。",
+        "o3": "具有创造力和表现力的（设计/写作）。"
+      },
+      "q20": {
+        "scenario": "软件更新改变了您的工作流程。您：",
+        "o1": "立即阅读文档以了解逻辑。",
+        "o2": "确保记录得到更新并符合新规则。",
+        "o3": "询问同事他们对这一变化的感受。"
+      },
+      "q21": {
+        "scenario": "您（曾经或将来）更喜欢哪门高中科目？",
+        "o1": "手工课、体育或农业。",
+        "o1_v": "手工工作坊",
+        "o2": "辩论、学生会或商业。",
+        "o2_v": "辩论厅",
+        "o3": "艺术、戏剧或创意写作。",
+        "o3_v": "艺术工作室"
+      },
+      "q22": {
+        "scenario": "您需要组织一个派对。您负责：",
+        "o1": "创建宾客名单并管理预算。",
+        "o1_v": "宾客名单",
+        "o2": "确保每个人都玩得开心。",
+        "o2_v": "人群管理",
+        "o3": "设置灯光、音响系统和装饰。",
+        "o3_v": "DJ台"
+      },
+      "q23": {
+        "scenario": "遇到与您信念相悖的理论时，您：",
+        "o1": "深入研究它以了解它是否符合逻辑。",
+        "o2": "与人辩论以证明您的观点。",
+        "o3": "将其用作故事或艺术品的灵感。"
+      },
+      "q24": {
+        "scenario": "您理想的退休生活包括：",
+        "o1": "经营小型民宿或咨询公司。",
+        "o2": "将您大量的收藏品分类归档。",
+        "o3": "住在小木屋里，钓鱼并修理东西。"
+      },
+      "q25": {
+        "scenario": "您必须在团队中工作。什么最让您感到沮丧？",
+        "o1": "缺乏具体说明或工作流程混乱。",
+        "o2": "对创造力的限制和死板的规则。",
+        "o3": "人们互不敏感或不友善。"
+      },
+      "q26": {
+        "scenario": "您最适合以下哪种角色：",
+        "o1": "分析复杂问题的专家。",
+        "o2": "做出高风险决策的老板。",
+        "o3": "创造独特事物的工匠。"
+      },
+      "q27": {
+        "scenario": "如果您可以去任何地方实习一周，您会选择：",
+        "o1": "繁忙的医院急诊室帮助病人。",
+        "o2": "高科技机器人制造厂。",
+        "o3": "在报税季节去大型会计师事务所。"
+      },
+      "q28": {
+        "scenario": "您要买电脑。您最关心的是：",
+        "o1": "规格、处理器速度和技术基准。",
+        "o2": "美观性、设计以及用于艺术创作的屏幕质量。",
+        "o3": "品牌声望和转售价值。"
+      },
+      "q29": {
+        "scenario": "朋友带着问题来找您。您会：",
+        "o1": "充满同理心地倾听并提供情感支持。",
+        "o2": "提供实用、循序渐进的修复方法。",
+        "o3": "分析其发生的根本原因。"
+      },
+      "q30": {
+        "scenario": "在社交活动中，您是：",
+        "o1": "活跃在人群中，交换名片并促成交易。",
+        "o2": "正与一个人深入交谈他们的人生故事。",
+        "o3": "站在后面，观察动态或查看日程安排。"
+      },
+      "q31": {
+        "scenario": "您被分配到一个指令模糊的项目。您：",
+        "o1": "非常喜欢！这是释放我想法的空白画布。",
+        "o2": "讨厌它。我需要清晰的指导方针和期望。",
+        "o3": "研究类似项目以确定最佳方法。"
+      },
+      "q32": {
+        "scenario": "您梦想中的初创公司将是：",
+        "o1": "一家致力于社区健康的非营利组织。",
+        "o2": "一家建筑或园林绿化公司。",
+        "o3": "一家具有高增长潜力的营销机构。"
+      },
+      "q33": {
+        "scenario": "在以下哪种情况下您表现最佳：",
+        "o1": "独立进行抽象概念工作时。",
+        "o2": "用手和工具工作时。",
+        "o3": "处理数据、数字和细节时。"
+      },
+      "q34": {
+        "scenario": "哪个词最能形容理想中的您？",
+        "o1": "富有想象力。",
+        "o2": "胸怀大志。",
+        "o3": "乐于助人。"
+      },
+      "q35": {
+        "scenario": "您在以下方面能找到满足感：",
+        "o1": "准确和精确。",
+        "o2": "发现和知识。",
+        "o3": "表达和独创性。"
+      },
+      "q36": {
+        "scenario": "最后一个问题：如果必须挑选一套制服，您会选择：",
+        "o1": "西装或专业商务装。",
+        "o1_v": "执行主管",
+        "o2": "实用的工作服（牛仔裤、靴子、安全装备）。",
+        "o2_v": "制造者",
+        "o3": "反映我个性、创造力或心情的衣服。",
+        "o3_v": "创意人士"
+      },
+      "nav": {
+        "back": "返回",
+        "next": "下一题",
+        "finish": "完成",
+        "noSignal": "无信号",
+        "selectItem": "请选择一个选项",
+        "followArrows": "跟随箭头找到你的路径。"
+      }
+    }
+  },
+  "browsing": {
+    "courses": {
+      "title": "探索课程",
+      "subtitle": "在 {{count}} 个认证项目中寻找您的理想路径。<br />通过课程名称、大学或关键字搜索。",
+      "searchPlaceholder": "搜索课程，大学（例如 '计算机科学'，'双威'）...",
+      "createNew": "创建新的",
+      "filterBtn": "筛选课程",
+      "sections": {
+        "recommended": "为您推荐",
+        "featured": "精选项目",
+        "popular": "学生中最受欢迎",
+        "others": "探索所有课程"
+      },
+      "empty": {
+        "title": "没找到课程",
+        "desc": "尝试调整您的搜索或筛选条件以找到您需要的内容。",
+        "clearFilters": "清除所有筛选"
+      },
+      "durationYears": "{{count}} 年",
+      "viewDetails": "查看详情"
+    },
+    "careers": {
+      "title": "探索职业",
+      "subtitle": "发现潜在的职业道路，看看什么最适合您。",
+      "searchPlaceholder": "搜索职业...",
+      "createNew": "创建新的",
+      "filterBtn": "筛选职业",
+      "sections": {
+        "recommendedAdmin": "推荐职业",
+        "recommendedUser": "为您推荐",
+        "popular": "热门职业",
+        "others": "探索所有职业"
+      },
+      "empty": {
+        "title": "没找到职业",
+        "desc": "尝试调整您的搜索或筛选条件以找到您需要的内容。",
+        "clearFilters": "清除所有筛选"
+      },
+      "filter": {
+        "title": "筛选",
+        "domain": "兴趣领域",
+        "outlook": "市场前景",
+        "reset": "重置所有筛选"
+      }
+    }
+  },
+  "rooms": {
+    "listing": {
+      "title": "虚拟自习室",
+      "subtitle": "加入实时自习室，与同伴一起专注，共同实现目标。",
+      "searchPlaceholder": "寻找主题（例如：Python、微积分）...",
+      "createBtn": "创建房间",
+      "lockedTitle": "已锁定：需要经验值",
+      "lockedReason": "参与 {{threshold}} 次学习以解锁。<br />您已完成：<span className=\"text-amber-400 font-bold\">{{count}}/{{threshold}}</span> 次。",
+      "filterBtn": "筛选房间",
+      "filter": {
+        "title": "筛选",
+        "domain": "兴趣领域",
+        "level": "教育程度",
+        "type": "访问类型",
+        "reset": "重置所有筛选",
+        "levels": {
+          "Foundation": "预科 (Foundation)",
+          "Diploma": "文凭 (Diploma)",
+          "General Pre-U": "国际大学先修课程 (General Pre-U)",
+          "All Levels": "所有级别 (All Levels)"
+        },
+        "types": {
+          "public": "公开",
+          "private": "私人"
+        }
+      },
+      "sections": {
+        "recommended": "为您推荐",
+        "popular": "热门房间",
+        "others": "所有进行中的房间"
+      },
+      "empty": {
+        "title": "未找到匹配的房间",
+        "titleEmpty": "暂无活跃房间",
+        "desc": "尝试调整您的筛选条件或搜索词以找到您寻找的内容。",
+        "descEmpty": "成为第一个开启学习区并邀请他人加入的人！",
+        "clearBtn": "清除所有筛选条件",
+        "refreshBtn": "刷新列表"
+      }
+    },
+    "create": {
+      "title": "主持虚拟房间",
+      "subtitle": "创建一个空间供他人加入并共同专注于学业。",
+      "backBtn": "返回虚拟自习室",
+      "fields": {
+        "coverPhoto": "封面照片（可选）",
+        "name": "房间名称",
+        "namePlaceholder": "例如：深夜Python",
+        "desc": "描述",
+        "descPlaceholder": "我们在学习什么？",
+        "maxParticipants": "最多参与人数",
+        "privacy": "隐私设置",
+        "privacyPublic": "公开",
+        "privacyPrivate": "私密",
+        "roomCode": "房间号（自动生成）",
+        "roomCodePlaceholder": "ABC123",
+        "roomCodeHint": "分享此加入码给您想邀请的人",
+        "level": "教育水平",
+        "domain": "兴趣领域",
+        "courseId": "课程ID（可选）",
+        "courseIdPlaceholder": "例如：apu-cs-foundation",
+        "duration": "会议时长",
+        "durationHint": "计时器将在创建房间时自动启动。"
+      },
+      "submitBtn": "创建房间",
+      "submittingBtn": "正在创建...",
+      "toast": {
+        "noCode": "私人房间需要验证码",
+        "success": "房间创建成功！",
+        "missingId": "已创建房间，但缺少ID",
+        "fail": "创建房间失败",
+        "networkError": "网络错误"
+      }
+    },
+    "detail": {
+      "backBtn": "返回虚拟自习室",
+      "enrolled": "已加入 {{enrolled}} / 容量 {{max}}",
+      "activeSession": "当前有活动会话",
+      "hostedBy": "主持人：{{host}}",
+      "entryCode": "房间验证码",
+      "askCode": "向主持人索要验证码",
+      "askSending": "发送中...",
+      "enterCodePlaceholder": "输入6位验证码",
+      "waitingApproval": "等待主持人批准...",
+      "joinBtn": "进入虚拟房间",
+      "joiningBtn": "正在验证...",
+      "terms": "加入即表示您同意我们的社区准则。",
+      "toast": {
+        "notFound": "未找到房间",
+        "joining": "正在加入房间...",
+        "invalidCode": "无效的邀请码",
+        "networkError": "网络错误，无法加入房间",
+        "failJoin": "加入失败",
+        "reqSent": "请求已发送给房主...",
+        "approved": "房主已批准您的请求！",
+        "denied": "房主拒绝了您的请求。"
+      },
+      "readyTitle": "准备好加入了吗？"
+    }
+  },
+  "admin": {
+    "archived": {
+      "time": {
+        "justNow": "刚刚",
+        "mAgo": "{{count}}分钟前",
+        "hAgo": "{{count}}小时前",
+        "yesterday": "昨天",
+        "dAgo": "{{count}}天前"
+      },
+      "toast": {
+        "fetchError": "加载已归档内容失败"
+      },
+      "auth": {
+        "adminArchive": "管理员归档",
+        "signInReq": "需要登录",
+        "signInDesc": "请登录以访问归档内容。",
+        "signIn": "登录",
+        "adminReq": "需要管理员权限",
+        "adminDesc": "此页面仅对管理员开放。",
+        "backDashboard": "返回仪表板"
+      },
+      "header": {
+        "back": "返回",
+        "title": "归档库",
+        "lastUpdated": "最后更新",
+        "loading": "加载中...",
+        "coursesCount": "课程",
+        "careersCount": "职业"
+      },
+      "tabs": {
+        "courses": "已归档课程",
+        "careers": "已归档职业",
+        "search": "搜索已归档{{type}}...",
+        "showing": "显示",
+        "ofCourses": "{{count}} / {{total}} 已归档课程",
+        "ofCareers": "{{count}} / {{total}} 已归档职业",
+        "filteredBy": "过滤条件：",
+        "archivedBadge": "已归档"
+      },
+      "empty": {
+        "noMatchCourses": "未找到匹配的课程",
+        "noMatchCoursesDesc": "没有匹配“{{query}}”的已归档课程。",
+        "clearSearch": "清除搜索",
+        "noCourses": "没有已归档课程",
+        "noCoursesDesc": "尚未归档任何课程。已归档的课程将显示在此处。",
+        "noMatchCareers": "未找到匹配的职业",
+        "noMatchCareersDesc": "没有匹配“{{query}}”的已归档职业。",
+        "noCareers": "没有已归档职业",
+        "noCareersDesc": "尚未归档任何职业。已归档的职业将显示在此处。"
+      }
+    },
+    "report": {
+      "time": {
+        "justNow": "刚刚",
+        "mAgo": "{{count}}分钟前",
+        "hAgo": "{{count}}小时前",
+        "yesterday": "昨天",
+        "dAgo": "{{count}}天前"
+      },
+      "toast": {
+        "fetchFail": "加载反馈失败",
+        "resolveSuccess": "反馈已解决！",
+        "resolveFail": "解决反馈失败",
+        "deleteConfirm": "确定要删除此反馈吗？此操作无法撤销。",
+        "deleteSuccess": "反馈已删除！",
+        "deleteFail": "删除反馈失败"
+      },
+      "header": {
+        "back": "返回",
+        "badge": "反馈管理",
+        "title": "举报中心",
+        "subtitle": "用户反馈和问题跟踪",
+        "refresh": "刷新"
+      },
+      "stats": {
+        "total": "总反馈",
+        "pending": "待处理",
+        "resolved": "已解决"
+      },
+      "actions": {
+        "resolve": "解决"
+      },
+      "filters": {
+        "search": "搜索反馈...",
+        "statusAll": "所有状态",
+        "statusPending": "待处理",
+        "statusResolved": "已解决",
+        "typeAll": "所有类型",
+        "typeBug": "🐛 错误报告",
+        "typeContent": "📝 内容问题",
+        "typeFeature": " 功能建议",
+        "typeGeneral": "💬 一般反馈"
+      },
+      "list": {
+        "recent": "近期反馈 ({{count}})",
+        "loading": "正在加载反馈...",
+        "empty": "未找到反馈",
+        "emptyDesc": "请尝试调整您的筛选条件",
+        "more": "+{{count}}",
+        "moreLabel": "更多"
+      },
+      "modal": {
+        "title": "所有附件",
+        "image": "图片",
+        "video": "视频"
+      }
+    },
+    "monitor": {
+      "time": {
+        "justNow": "刚刚",
+        "mAgo": "{{count}}分钟前",
+        "hAgo": "{{count}}小时前",
+        "yesterday": "昨天",
+        "dAgo": "{{count}}天前"
+      },
+      "status": {
+        "live": "实时监控",
+        "reconnecting": "重新连接中...",
+        "active": "活跃",
+        "suspended": "已暂停"
+      },
+      "header": {
+        "back": "返回",
+        "title": "用户监控",
+        "subtitle": "实时用户活动与管理",
+        "feedTitle": "实时活动动态",
+        "feedSubtitle": "全平台更新",
+        "hide": "隐藏",
+        "show": "显示",
+        "activities": "{{count}} 项活动"
+      },
+      "stats": {
+        "active": "活跃",
+        "suspended": "已暂停",
+        "newToday": "今日新增",
+        "total": "总计"
+      },
+      "filters": {
+        "search": "按姓名或电子邮件搜索用户...",
+        "statusAll": "所有状态",
+        "statusActive": "活跃",
+        "statusSuspended": "已暂停",
+        "refresh": "刷新",
+        "showing": "显示",
+        "ofUsers": "{{filtered}} / {{total}} 用户",
+        "filteredBy": "筛选依据:"
+      },
+      "table": {
+        "user": "用户",
+        "email": "电子邮件",
+        "role": "角色",
+        "status": "状态",
+        "lastActive": "最后活跃",
+        "actions": "操作",
+        "viewActivity": "查看活动",
+        "suspendUser": "暂停用户",
+        "unsuspendUser": "取消暂停用户",
+        "noUsers": "未找到用户",
+        "noUsersDesc": "尝试调整您的搜索或筛选条件"
+      },
+      "feed": {
+        "noActivity": "近期没有活动",
+        "unknownUser": "未知用户"
+      },
+      "modal": {
+        "title": "活动日志",
+        "loading": "加载中...",
+        "noActivity": "未找到活动",
+        "activities": "{{count}} 项活动",
+        "close": "关闭",
+        "catAll": "全部",
+        "catAuth": "认证",
+        "catCourse": "课程",
+        "catCareer": "职业",
+        "catRoom": "房间",
+        "catUser": "用户",
+        "catAdmin": "管理员操作"
+      }
+    },
+    "createCourse": {
+      "title": "创建新课程",
+      "subtitle": "向平台添加新的教育项目",
+      "backBtn": "返回课程",
+      "basicInfo": "基本信息",
+      "descSection": "描述",
+      "academicDetails": "学术详情",
+      "financialDetails": "财务详情",
+      "accreditation": "认证",
+      "campuses": "可用校区",
+      "domains": "兴趣领域",
+      "relatedCareers": "相关职业",
+      "relatedCareersDesc": "添加此课程可导向的职业道路。",
+      "cancelBtn": "取消",
+      "submitBtn": "创建课程",
+      "submittingBtn": "创建中...",
+      "fields": {
+        "title": "课程名称",
+        "titlePlaceholder": "例如，计算机科学荣誉学士",
+        "institution": "院校",
+        "institutionPlaceholder": "选择院校",
+        "applyUrl": "申请链接",
+        "applyUrlPlaceholder": "https://example.com/apply",
+        "level": "学习水平",
+        "type": "院校类型",
+        "descPlaceholder": "提供课程的全面描述...",
+        "mqa": "MQA 代码",
+        "mqaPlaceholder": "例如，MQA/PA12345",
+        "duration": "学制 (年)",
+        "difficulty": "难度",
+        "cost": "费用水平",
+        "accFrom": "认证开始",
+        "accTo": "认证结束",
+        "addDomain": "添加领域",
+        "careerPlaceholder": "选择职业",
+        "addCareer": "添加职业",
+        "tags": "亮点与标签",
+        "tagsDesc": "添加相关标签以帮助用户发现此课程（例如，STEM、创意、商业等）",
+        "tagsPlaceholder": "例如，STEM、创意艺术",
+        "addTag": "添加标签"
+      },
+      "toast": {
+        "fetchError": "获取所需数据失败",
+        "formError": "请检查表单内的错误",
+        "success": "课程创建成功！",
+        "fail": "创建课程失败"
+      }
+    },
+    "createCareer": {
+      "title": "创建新职业",
+      "subtitle": "填写以下详情以创建新的职业道路",
+      "backBtn": "返回职业",
+      "basicInfo": "基本信息",
+      "riasec": "RIASEC 档案：",
+      "mascoDesc": "国际标准职业分类代码",
+      "salaryEst": "预计月薪：",
+      "educationPathway": "教育路径",
+      "educationPathwayDesc": "添加可导向此职业的教育项目或课程。",
+      "cancelBtn": "取消",
+      "submitBtn": "创建职业",
+      "submittingBtn": "创建中...",
+      "fields": {
+        "name": "职业名称",
+        "namePlaceholder": "例如，软件工程师、数据科学家",
+        "desc": "描述",
+        "descPlaceholder": "描述该职业、主要职责和职业前景...",
+        "domain": "兴趣领域",
+        "domainPlaceholder": "选择兴趣领域",
+        "masco": "MASCO 代码",
+        "mascoPlaceholder": "例如，2512",
+        "education": "最低学历",
+        "salary": "月薪范围 (RM)",
+        "salaryMin": "最低",
+        "salaryMax": "最高",
+        "demand": "市场需求",
+        "industry": "主要行业",
+        "industryPlaceholder": "例如，科技、医疗保健",
+        "environment": "工作环境",
+        "skills": "关键技能",
+        "skillsPlaceholder": "例如，沟通、解决问题、团队协作",
+        "addSkill": "添加技能",
+        "coursePlaceholder": "选择课程",
+        "addCourse": "添加课程"
+      },
+      "toast": {
+        "fetchError": "获取课程失败",
+        "formError": "请修复表单中的错误",
+        "riasecError": "无法生成 RIASEC 代码",
+        "success": "职业创建成功！",
+        "fail": "创建职业失败"
+      }
+    },
+    "alerts": {
+      "deleteConfirm": "您确定要删除此反馈吗？此操作无法撤销。"
+    }
+  },
+  "visuals": {
+    "results": "结果",
+    "avgSalary": "平均薪资",
+    "overallDemand": "整体需求分布",
+    "overallCost": "整体成本分析",
+    "careers": "职业",
+    "courses": "课程",
+    "demand": {
+      "High": "高",
+      "Medium": "中",
+      "Low": "低"
+    },
+    "topFieldRep": "热门领域分布",
+    "riasec": {
+      "types": {
+        "R": "现实型",
+        "I": "研究型",
+        "A": "艺术型",
+        "S": "社会型",
+        "E": "企业型",
+        "C": "常规型"
+      },
+      "desc": {
+        "R": "注重实践和动手能力。喜欢使用工具、机器，或者与植物、动物打交道。",
+        "I": "善于分析和充满好奇。喜欢学习，解决数学或科学问题。",
+        "A": "富有表现力和创造力。喜欢艺术、戏剧、音乐或写作。",
+        "S": "乐于助人且友善。喜欢教学、护理或提供急救。",
+        "E": "雄心勃勃且有说服力。喜欢领导他人和推销想法。",
+        "C": "有条理且注重细节。喜欢处理数字或记录。"
+      },
+      "personalityProfile": "性格特征"
+    },
+    "careerMap": {
+      "interest": "兴趣",
+      "course": "课程",
+      "career": "职业",
+      "matchFound": "发现匹配"
+    }
+  },
+  "domainsShort": {
+    "computing": "计算机",
+    "engineering": "工程",
+    "health": "健康",
+    "environment": "环境",
+    "business": "商业",
+    "marketing": "营销",
+    "arts": "艺术",
+    "media": "媒体",
+    "social_sciences": "社会科学",
+    "law": "法律",
+    "hospitality": "酒店",
+    "sports": "体育运动",
+    "trades": "技术行业",
+    "admin": "行政"
+  },
+  "domains": {
+    "computing": "计算机与数据",
+    "engineering": "工程与建筑环境",
+    "health": "健康与生命科学",
+    "environment": "环境与可持续发展",
+    "business": "商业、金融与经济",
+    "marketing": "市场营销、销售与创业",
+    "arts": "创意艺术与设计",
+    "media": "媒体、传播与表演艺术",
+    "social_sciences": "教育、心理学与社会科学",
+    "law": "法律、公共政策与治理",
+    "hospitality": "酒店、旅游与会展",
+    "sports": "体育、健身与人类表现",
+    "trades": "技术行业与应用技术",
+    "admin": "行政、运营与数据支持",
+    "tags": {
+      "technology": "科技",
+      "science": "科学",
+      "art": "艺术",
+      "computing": "计算与数据",
+      "engineering": "工程与建筑环境",
+      "health": "健康与生命科学",
+      "environment": "环境与可持续发展",
+      "business": "商业、金融与经济",
+      "marketing": "市场营销、销售与创业",
+      "arts": "创意艺术与设计",
+      "media": "媒体、传播与表演艺术",
+      "social_sciences": "教育、心理学与社会科学",
+      "law": "法律、公共政策与治理",
+      "hospitality": "酒店、旅游与会展",
+      "sports": "体育、健身与人类表现",
+      "trades": "技术行业与应用技术",
+      "admin": "行政、运营与数据支持",
+      "education": "教育",
+      "psychology": "心理学",
+      "psychology and social sciences": "心理学与社会科学"
+    }
+  },
+  "filters": {
+    "title": "筛选",
+    "fieldOfStudy": "学习领域",
+    "level": "级别",
+    "cost": "总费用",
+    "type": "类型",
+    "resetAll": "重置所有筛选",
+    "levels": {
+      "Foundation": "预科 (Foundation)",
+      "Diploma": "文凭 (Diploma)",
+      "General Pre-U": "国际大学先修课程 (General Pre-U)"
+    },
+    "costs": {
+      "< RM 20k": "< 2万马币",
+      "RM 20k - 50k": "2万 - 5万马币",
+      "> RM 50k": "> 5万马币"
+    },
+    "items": {
+      "apu-cs-foundation": "计算与技术基础课程"
+    },
+    "descriptions": {
+      "apu-cs-foundation": "为旨在攻读计算机科学、IT 或软件工程学位的学生打下坚实基础。重点关注编程基础和数学。"
+    },
+    "types": {
+      "Public": "公立",
+      "Private": "私立"
+    }
+  },
+  "careers": {
+    "items": {
+      "Software Engineer": "软件工程师",
+      "Early Childhood Educator": "幼儿教育工作者",
+      "Psychologist": "心理学家",
+      "system-analyst": "系统分析师",
+      "vr-ar-developer": "VR/AR 开发工程师",
+      "digital-business-analyst": "数字业务分析师",
+      "business-administrator": "工商管理人员",
+      "marketing-executive": "市场营销主管",
+      "entrepreneur": "创业者",
+      "logistics-coordinator": "物流协调员",
+      "retail-manager": "零售经理",
+      "management-trainee": "管理培训生",
+      "business-systems-analyst": "业务系统分析师",
+      "mechanical-engineer": "机械工程师",
+      "construction-estimator": "建筑造价估算师",
+      "quality-control-technician": "质量控制技术员",
+      "mechatronics-technician": "机电一体化技术员",
+      "electrical-technician": "电气技术员",
+      "sports-coach": "体育教练",
+      "healthcare-administrator": "医疗行政管理人员",
+      "pharmaceutical-sales-representative": "医药销售代表",
+      "dietitian-nutrition-assistant": "营养师／营养助理",
+      "vr-developer": "VR 开发工程师",
+      "video-editor": "视频剪辑师",
+      "multimedia-designer": "多媒体设计师",
+      "animator": "动画师",
+      "digital-illustrator": "数字插画师",
+      "photographer": "摄影师",
+      "creative-director": "创意总监",
+      "pastry-chef": "西点师",
+      "psychologist": "心理学家",
+      "legal-secretary": "法律秘书",
+      "data-scientist": "数据科学家",
+      "3d-animator": "3D 动画师",
+      "business-technology-consultant": "商业技术顾问",
+      "human-resource-officer": "人力资源专员",
+      "banking-executive": "银行业务主管",
+      "investment-analyst": "投资分析师",
+      "cad-drafter": "CAD 制图员",
+      "maintenance-engineer": "维护工程师",
+      "civil-engineering-technician": "土木工程技术员",
+      "registered-nurse": "注册护士",
+      "clinical-research-assistant": "临床研究助理",
+      "medical-laboratory-technician": "医学化验技术员",
+      "digital-marketer": "数字营销专员",
+      "ar-designer": "AR 设计师",
+      "fashion-designer": "时装设计师",
+      "interior-designer": "室内设计师",
+      "sound-designer": "音效设计师／音频工程师",
+      "restaurant-manager": "餐厅经理",
+      "food-and-beverage-manager": "餐饮部经理",
+      "front-office-manager": "前台部经理",
+      "culinary-instructor": "烹饪讲师",
+      "fisheries-officer": "渔业官员",
+      "aquaculture-entrepreneur": "水产养殖创业者",
+      "early-childhood-educator": "幼儿教育工作者",
+      "policy-analyst": "政策分析师",
+      "flexible-pathway": "灵活升学路径毕业生",
+      "software-engineer": "软件工程师",
+      "web-developer": "网页开发工程师",
+      "mobile-app-developer": "移动应用开发工程师",
+      "database-administrator": "数据库管理员",
+      "network-administrator": "网络管理员",
+      "cloud-engineer": "云计算工程师",
+      "financial-analyst": "金融分析师",
+      "real-estate-agent": "房地产经纪人",
+      "exercise-physiologist": "运动生理学家",
+      "community-health-worker": "社区卫生工作者",
+      "graphic-designer": "平面设计师",
+      "3d-environment-artist": "3D 环境美术师",
+      "immersive-experience-designer": "沉浸式体验设计师",
+      "ui-ux-designer": "UI/UX 设计师",
+      "cinematographer": "摄影指导／电影摄影师",
+      "content-creator": "内容创作者",
+      "performing-artist": "表演艺术家",
+      "cake-designer": "蛋糕设计师／装饰师",
+      "chef": "厨师",
+      "aquatic-health-specialist": "水生动物健康专家",
+      "aquaculture-technician": "水产养殖技术员",
+      "environmental-technician": "环境技术员",
+      "teacher": "教师",
+      "curriculum-developer": "课程开发专员",
+      "educational-technologist": "教育技术专家",
+      "counselor": "辅导员",
+      "social-worker": "社会工作者",
+      "hr-specialist": "人力资源专员",
+      "lawyer": "律师",
+      "paralegal": "律师助理",
+      "diplomatic-officer": "外交官",
+      "compliance-officer": "合规专员",
+      "international-trade-specialist": "国际贸易专员",
+      "data-analyst": "数据分析师",
+      "cybersecurity-analyst": "网络安全分析师",
+      "it-support-specialist": "IT 支持专员",
+      "game-developer": "游戏开发工程师",
+      "e-commerce-manager": "电子商务经理",
+      "fintech-specialist": "金融科技专员",
+      "it-project-coordinator": "IT 项目协调员",
+      "accountant": "会计师",
+      "digital-marketing-specialist": "数字营销专员",
+      "electronic-engineer": "电子工程师",
+      "quantity-surveyor": "工料测量师",
+      "project-coordinator-construction": "建筑项目协调员",
+      "pharmacy-technician": "药剂技术员",
+      "fitness-trainer": "健身教练",
+      "journalist": "记者",
+      "social-media-manager": "社交媒体经理",
+      "hotel-manager": "酒店经理",
+      "event-coordinator": "活动协调员",
+      "tour-manager": "旅游领队",
+      "aquaculture-farm-manager": "水产养殖场经理",
+      "public-relations-officer": "公共关系专员",
+      "international-relations-specialist": "国际关系专员"
+    },
+    "descriptions": {
+      "software-engineer": "设计、开发和维护软件系统和应用程序。解决复杂问题并创造创新的技术解决方案。",
+      "Early Childhood Educator": "通过游戏、艺术和结构化学习活动，支持幼儿（通常为 0-8 岁）的身体、社交、情感和智力发展。",
+      "Psychologist": "研究人类的思想和行为，帮助人们应对心理健康挑战和生活转变。",
+      "system-analyst": "分析业务需求并设计 IT 解决方案，以提高效率和生产力。充当业务需求与技术之间的桥梁。",
+      "vr-ar-developer": "使用 Unity 和 Unreal 等引擎，为游戏、教育、培训和娱乐开发虚拟现实和增强现实应用程序。",
+      "digital-business-analyst": "分析业务流程，提出数字化解决方案，以提升效率、改善客户体验并增加收益。",
+      "business-administrator": "监督日常业务运营，管理资源，协调团队，制定和实施政策，确保组织高效运作。",
+      "marketing-executive": "制定并执行营销策略以推广产品或服务，开展市场调研，并分析活动绩效。",
+      "entrepreneur": "创办并管理自己的企业，发掘市场机遇，制定商业计划，带领团队取得成功。",
+      "logistics-coordinator": "协调货物的仓储与运输，管理库存，优化供应链，确保准时交付。",
+      "retail-manager": "监督门店运营，管理员工，控制库存，制定销售策略，确保客户满意度。",
+      "management-trainee": "参与各业务部门的轮岗培训计划，培养领导力和商业洞察力。",
+      "business-systems-analyst": "分析业务流程，设计信息系统解决方案，以提高组织效率和效益。",
+      "mechanical-engineer": "设计、开发和测试机械系统与设备，涉及机械、暖通空调系统、制造设备及机械部件。",
+      "construction-estimator": "核算建筑项目的材料、人工和设备成本，编制详细的费用估算和投标方案。",
+      "quality-control-technician": "检查材料、产品和流程，确保其符合质量标准和规格要求。",
+      "mechatronics-technician": "负责集成机械、电子和计算机系统的工作，维护和排查自动化设备及机器人故障。",
+      "electrical-technician": "在住宅、商业和工业环境中安装、维护和修理电气系统及设备。",
+      "sports-coach": "训练运动员和团队，制定训练计划，分析竞技表现，为体育赛事做好备战准备。",
+      "healthcare-administrator": "管理医疗机构，协调医疗服务，监督预算，确保医疗服务的高效提供。",
+      "pharmaceutical-sales-representative": "向医疗专业人员推广和销售药品，提供产品资讯，并与医疗机构建立合作关系。",
+      "dietitian-nutrition-assistant": "在督导下协助提供营养建议，制定膳食计划，并向客户传授健康饮食知识。",
+      "vr-developer": "为游戏、培训、教育或娱乐领域开发虚拟现实体验和应用程序。",
+      "video-editor": "将原始素材剪辑成精良的视频作品，用于电视、电影、网络平台和企业宣传。",
+      "multimedia-designer": "融合文字、图形、音频、视频和动画，创作互动多媒体内容。",
+      "animator": "使用传统或数字技术，为电影、电视、游戏和网络媒体创作动态图像。",
+      "digital-illustrator": "使用数字工具为书籍、游戏、广告和编辑内容创作原创艺术作品。",
+      "photographer": "为商业、艺术、编辑或个人用途拍摄专业影像。",
+      "creative-director": "领导创意团队，开发创意概念，并统筹项目的视觉与艺术方向。",
+      "pastry-chef": "专注于为酒店、餐厅、烘焙坊或餐饮公司制作甜点、糕点、面包及其他烘焙食品。",
+      "psychologist": "研究认知、情感和社会过程，帮助个人改善心理健康与身心福祉。",
+      "legal-secretary": "在律师事务所提供行政支持，负责文件管理、日程安排和客户沟通。",
+      "data-scientist": "运用统计分析、机器学习和预测建模，从复杂数据集中提取洞见，解决业务问题。",
+      "3d-animator": "使用 Maya、Blender 或 3ds Max 等软件，为电影、游戏、广告和建筑可视化创作 3D 动画。",
+      "business-technology-consultant": "为企业提供如何利用技术实现目标、优化流程和获取竞争优势的专业建议。",
+      "human-resource-officer": "负责招聘、员工关系、培训与发展、薪酬管理，并确保遵守劳动法规。",
+      "banking-executive": "为客户提供银行服务，处理交易，推广银行产品，并协助办理金融业务。",
+      "investment-analyst": "研究和分析投资机会，评估金融市场，并为投资组合管理提供建议。",
+      "cad-drafter": "使用计算机辅助设计软件，为建筑、制造或工程项目绘制技术图纸和方案。",
+      "maintenance-engineer": "规划和监督工业设备及机械的维护工作，确保最佳运行状态并减少停机时间。",
+      "civil-engineering-technician": "协助土木工程师规划、设计和监督道路、桥梁及建筑等建设项目。",
+      "registered-nurse": "在医院和诊所为患者提供直接护理、给药、监测病情，并与医疗团队协作。",
+      "clinical-research-assistant": "协助开展临床试验和医学研究，收集数据，协调参与者事宜，并确保遵守研究方案。",
+      "medical-laboratory-technician": "对患者样本进行实验室检测，分析结果，维护实验室设备，协助疾病诊断。",
+      "digital-marketer": "通过社交媒体、搜索引擎优化、电子邮件和内容营销等数字渠道推广产品和服务。",
+      "ar-designer": "设计将数字信息叠加于现实世界的增强现实体验。",
+      "fashion-designer": "创作原创服装、配饰和鞋履，包括设计草图、选择面料和监督生产流程。",
+      "interior-designer": "规划和设计住宅、办公室、酒店及其他建筑的室内空间。",
+      "sound-designer": "为电影、游戏、戏剧或多媒体项目创作和处理音频元素。",
+      "restaurant-manager": "监督餐厅运营，管理员工，控制成本，确保客户满意度。",
+      "food-and-beverage-manager": "管理酒店、度假村或大型场所的餐饮服务。",
+      "front-office-manager": "管理酒店前台运营，包括预订、入住手续和宾客服务。",
+      "culinary-instructor": "在教育机构或私立烹饪学校教授烹饪技术和烹饪艺术。",
+      "fisheries-officer": "监督渔业活动，执行法规，并推广可持续渔业管理实践。",
+      "aquaculture-entrepreneur": "创办并管理水产养殖企业，将专业技术知识与商业技能相结合。",
+      "early-childhood-educator": "在幼儿园、托儿所或儿童照护中心从事幼儿（0-8 岁）教育工作。",
+      "policy-analyst": "研究和分析公共政策，评估其有效性，并提出改进建议。",
+      "flexible-pathway": "完成预科课程的学生的通用升学路径，可衔接多种学位课程。",
+      "web-developer": "使用 HTML、CSS、JavaScript 及 React、Node.js 等现代框架，设计和构建响应式网站及网络应用程序。",
+      "mobile-app-developer": "使用 Swift、Kotlin 等语言或 React Native、Flutter 等跨平台框架，开发 iOS 和 Android 应用程序。",
+      "database-administrator": "安装、配置和维护数据库系统，确保数据安全、完整性和数据库的最佳性能。",
+      "network-administrator": "设计、实施和维护计算机网络，确保网络安全、稳定性和最佳性能。",
+      "cloud-engineer": "使用 AWS、Azure 或 Google Cloud 等平台，设计、实施和管理云计算系统。",
+      "financial-analyst": "分析财务数据，编制报告，并为投资决策、预算编制和财务规划提供建议。",
+      "real-estate-agent": "协助客户购买、出售和租赁房产，安排房产参观，谈判交易，并管理房产信息。",
+      "exercise-physiologist": "评估体能状况，为康复患者设计运动方案，并为慢性病或残障人士提供专业支持。",
+      "community-health-worker": "在社区环境中提供基础健康教育、筛查和支持服务，促进公共健康与福祉。",
+      "graphic-designer": "创作视觉概念，以启发、告知和吸引受众，传达创意理念。",
+      "3d-environment-artist": "为虚拟世界、游戏、模拟程序和建筑可视化创作写实或风格化的 3D 环境。",
+      "immersive-experience-designer": "融合 VR、AR 和互动元素，设计完整的沉浸式体验。",
+      "ui-ux-designer": "为网站和应用程序设计直观且美观的界面。",
+      "cinematographer": "监督摄像和灯光团队，实现电影、电视节目或广告的视觉效果。",
+      "content-creator": "为数字平台制作引人入胜的内容，包括视频、博客、社交媒体和播客。",
+      "performing-artist": "参与戏剧、舞蹈、音乐或其他现场演艺演出。",
+      "cake-designer": "为婚礼、生日和企业活动等特殊场合制作定制蛋糕。",
+      "chef": "在餐厅、酒店或其他餐饮场所烹制菜肴，专注于特定菜系。",
+      "aquatic-health-specialist": "诊断和治疗养殖鱼类及贝类疾病，为水产养殖运营制定健康管理方案。",
+      "aquaculture-technician": "为水产养殖运营提供技术支持，包括水质监测和设备维护。",
+      "environmental-technician": "开展测试和实地调查，监测环境状况和污染水平。",
+      "teacher": "教授学生各学科知识，制定教学计划并评估学生学习进展。",
+      "curriculum-developer": "依据课程标准，设计、开发和评估教育计划及教材。",
+      "educational-technologist": "将技术融入教学过程，开发电子学习材料和数字工具。",
+      "counselor": "为面临个人、社会或心理挑战的人士提供指导和支持。",
+      "social-worker": "帮助个人、家庭和社区克服困难，改善生活质量。",
+      "hr-specialist": "负责招聘、员工关系、培训及组织发展管理。",
+      "lawyer": "就法律事务（包括诉讼、合同和法律纠纷）为客户提供咨询和代理服务。",
+      "paralegal": "协助律师进行法律研究、文件准备和案件管理。",
+      "diplomatic-officer": "代表本国开展对外交往，促进国际关系，并就国家间协议进行谈判。",
+      "compliance-officer": "确保组织遵守相关法律法规和内部政策。",
+      "international-trade-specialist": "促进国际商业交易，处理贸易法规事务，并制定进出口策略。",
+      "data-analyst": "收集、处理和分析数据，协助组织做出明智的商业决策，并创建报告、仪表板和数据可视化。",
+      "cybersecurity-analyst": "保护计算机系统和网络免受网络威胁，监控安全漏洞，并实施安全措施。",
+      "it-support-specialist": "为计算机用户提供技术支持，解决硬件和软件问题，并维护 IT 系统。",
+      "game-developer": "使用游戏引擎，为电脑、游戏主机和移动设备等各类平台设计和开发电子游戏。",
+      "e-commerce-manager": "管理网络销售平台，优化产品列表，分析销售数据，并为网店制定数字营销策略。",
+      "fintech-specialist": "将技术应用于金融服务的改善与创新，涵盖数字支付、区块链、智能投顾和金融数据分析。",
+      "it-project-coordinator": "协调 IT 项目，管理时间线和资源，与利益相关方沟通，确保项目顺利交付。",
+      "accountant": "编制和审查财务记录，确保准确性和合规性，并为企业及个人提供财务建议。",
+      "digital-marketing-specialist": "跨社交媒体、搜索引擎优化、电子邮件和内容营销等多渠道规划和执行数字营销活动。",
+      "electronic-engineer": "设计和开发电子电路、系统及设备，包括通信系统、嵌入式系统和消费电子产品。",
+      "quantity-surveyor": "从项目启动到竣工全程管理建筑成本，为建设项目编制估算、招标文件和竣工结算。",
+      "project-coordinator-construction": "协调建设项目，管理进度计划，跟踪项目进展，确保项目按时完成并控制在预算范围内。",
+      "pharmacy-technician": "协助药剂师配制和分发药品，管理药品库存，并在药房为客户提供服务。",
+      "fitness-trainer": "设计和实施运动方案，进行体能评估，并激励客户实现健康与健身目标。",
+      "journalist": "为报纸、杂志、电视或网络媒体采访、撰写和报道新闻故事。",
+      "social-media-manager": "管理社交媒体账号，创作内容，与受众互动，并分析绩效数据。",
+      "hotel-manager": "监督酒店、度假村或住宿设施的日常运营，管理员工并确保宾客满意度。",
+      "event-coordinator": "策划和执行会议、婚礼、展览及企业活动等各类活动。",
+      "tour-manager": "为旅游者组织和带领导览活动，确保行程顺畅并提供愉快体验。",
+      "aquaculture-farm-manager": "监督鱼类或虾类养殖场的日常运营，管理育种计划，确保最佳养殖条件。",
+      "public-relations-officer": "管理组织与公众之间的沟通，建立并维护良好的公众形象。",
+      "international-relations-specialist": "分析全球政治动态，提供外交政策建议，并制定国际合作策略。"
+    },
+    "filter": {
+      "title": "筛选",
+      "domain": "兴趣领域",
+      "outlook": "市场前景",
+      "reset": "重置所有筛选"
+    },
+    "skills": {
+      "Java": "爪哇",
+      "Python": "Python",
+      "JavaScript": "JavaScript",
+      "System Design": "系统设计",
+      "Problem Solving": "解决问题",
+      "Algorithms": "算法",
+      "HTML/CSS": "HTML/CSS",
+      "React": "反应",
+      "Node.js": "Node.js",
+      "Responsive Design": "响应式设计",
+      "Web Performance": "网络性能",
+      "Swift": "迅速",
+      "Kotlin": "科特林",
+      "React Native": "反应本机",
+      "Flutter": "扑",
+      "Mobile UI/UX": "移动用户界面/用户体验",
+      "API Integration": "API集成",
+      "SQL": "SQL",
+      "Excel": "Excel",
+      "Data Visualization": "数据可视化",
+      "Statistics": "统计数据",
+      "Business Intelligence": "商业智能",
+      "Machine Learning": "机器学习",
+      "Data Mining": "数据挖掘",
+      "Predictive Modeling": "预测建模",
+      "Big Data": "大数据",
+      "Database Design": "数据库设计",
+      "Performance Tuning": "性能调优",
+      "Backup/Recovery": "备份/恢复",
+      "Security": "安全",
+      "Cloud Databases": "云数据库",
+      "Network Configuration": "网络配置",
+      "Security Protocols": "安全协议",
+      "Troubleshooting": "故障排除",
+      "Cisco/Juniper": "思科/瞻博网络",
+      "Firewalls": "防火墙",
+      "VPN": "VPN",
+      "Network Security": "网络安全",
+      "Ethical Hacking": "道德黑客",
+      "Risk Assessment": "风险评估",
+      "Security Tools": "安全工具",
+      "Incident Response": "事件响应",
+      "Compliance": "遵守",
+      "Customer Service": "客户服务",
+      "Hardware Repair": "硬件维修",
+      "Software Installation": "软件安装",
+      "Network Basics": "网络基础知识",
+      "Windows/Mac OS": "Windows/Mac操作系统",
+      "Requirements Analysis": "需求分析",
+      "Process Mapping": "流程图",
+      "Communication": "沟通",
+      "Project Management": "项目管理",
+      "AWS/Azure/GCP": "AWS/Azure/GCP",
+      "Cloud Architecture": "云架构",
+      "Containerization": "集装箱化",
+      "DevOps": "开发运营",
+      "Infrastructure as Code": "基础设施即代码",
+      "Unity/Unreal Engine": "统一/虚幻引擎",
+      "C#/C++": "C#/C++",
+      "3D Mathematics": "3D数学",
+      "VR/AR SDKs": "VR/AR SDK",
+      "3D Modeling": "3D建模",
+      "3D Animation": "3D动画",
+      "Character Rigging": "角色绑定",
+      "Motion Capture": "动作捕捉",
+      "3D Software": "3D软件",
+      "Storyboarding": "故事板",
+      "Game Physics": "游戏物理",
+      "AI Programming": "人工智能编程",
+      "Multiplayer Networking": "多人网络",
+      "Business Process Analysis": "业务流程分析",
+      "Digital Transformation": "数字化转型",
+      "Data Analytics": "数据分析",
+      "Stakeholder Management": "利益相关者管理",
+      "E-commerce Platforms": "电商平台",
+      "Digital Marketing": "数字营销",
+      "Inventory Management": "库存管理",
+      "Data Analysis": "数据分析",
+      "Financial Technology": "金融科技",
+      "Blockchain": "区块链",
+      "Digital Payments": "数字支付",
+      "Regulatory Compliance": "监管合规性",
+      "Project Coordination": "项目协调",
+      "Agile/Scrum": "敏捷/Scrum",
+      "Resource Management": "资源管理",
+      "Documentation": "文档",
+      "Business Strategy": "经营策略",
+      "Technology Solutions": "技术解决方案",
+      "Client Relationship": "客户关系",
+      "Presentation": "推介会",
+      "Financial Accounting": "财务会计",
+      "Taxation": "税收",
+      "Auditing": "审计",
+      "Financial Reporting": "财务报告",
+      "Financial Modeling": "财务建模",
+      "Investment Analysis": "投资分析",
+      "Forecasting": "预测",
+      "Valuation": "估值",
+      "Operations Management": "运营管理",
+      "Leadership": "领导",
+      "Strategic Planning": "战略规划",
+      "Resource Allocation": "资源分配",
+      "Market Research": "市场研究",
+      "Content Creation": "内容创作",
+      "Social Media": "社交媒体",
+      "Campaign Management": "活动管理",
+      "Recruitment": "招聘",
+      "Employee Relations": "员工关系",
+      "Training & Development": "培训与发展",
+      "Labor Law": "劳动法",
+      "HR Analytics": "人力资源分析",
+      "Business Planning": "商业策划",
+      "Risk Management": "风险管理",
+      "Innovation": "创新",
+      "Networking": "联网",
+      "Financial Management": "财务管理",
+      "Supply Chain Management": "供应链管理",
+      "Inventory Control": "库存控制",
+      "Transportation Planning": "交通规划",
+      "Warehouse Operations": "仓库运营",
+      "Logistics Software": "物流软件",
+      "Store Operations": "店铺运营",
+      "Sales Management": "销售管理",
+      "Team Leadership": "团队领导力",
+      "Banking Operations": "银行业务",
+      "Financial Products": "金融产品",
+      "Sales": "销售量",
+      "Property Valuation": "物业估价",
+      "Sales Negotiation": "销售洽谈",
+      "Market Analysis": "市场分析",
+      "Legal Documentation": "法律文件",
+      "Business Fundamentals": "业务基础知识",
+      "Adaptability": "适应性",
+      "Investment Research": "投资研究",
+      "Financial Analysis": "财务分析",
+      "Portfolio Management": "投资组合管理",
+      "SEO/SEM": "搜索引擎优化/搜索引擎营销",
+      "Social Media Marketing": "社交媒体营销",
+      "Content Marketing": "内容营销",
+      "Email Marketing": "电子邮件营销",
+      "Analytics": "分析",
+      "Systems Analysis": "系统分析",
+      "Business Process Modeling": "业务流程建模",
+      "Requirements Gathering": "需求收集",
+      "ERP Systems": "企业资源计划系统",
+      "CAD/CAM": "计算机辅助设计/计算机辅助制造",
+      "Thermodynamics": "热力学",
+      "Machine Design": "机械设计",
+      "Manufacturing Processes": "制造流程",
+      "SolidWorks/AutoCAD": "SolidWorks/AutoCAD",
+      "Circuit Design": "电路设计",
+      "Embedded Systems": "嵌入式系统",
+      "Digital Electronics": "数字电子产品",
+      "Microcontrollers": "微控制器",
+      "PCB Design": "印刷电路板设计",
+      "Cost Estimation": "成本估算",
+      "Construction Measurement": "施工测量",
+      "Contract Administration": "合同管理",
+      "Tender Preparation": "投标准备",
+      "Construction Technology": "施工技术",
+      "AutoCAD": "计算机辅助设计",
+      "SolidWorks": "实体工程",
+      "Technical Drawing": "技术图纸",
+      "Blueprint Reading": "蓝图阅读",
+      "Material Take-off": "物料起飞",
+      "Bid Preparation": "投标准备",
+      "Construction Methods": "施工方法",
+      "Market Pricing": "市场定价",
+      "Schedule Management": "日程管理",
+      "Document Control": "文件控制",
+      "Preventive Maintenance": "预防性维护",
+      "Equipment Troubleshooting": "设备故障排除",
+      "Safety Standards": "安全标准",
+      "Technical Documentation": "技术文档",
+      "Team Supervision": "团队督导",
+      "Quality Inspection": "质量检验",
+      "Testing Methods": "测试方法",
+      "Statistical Process Control": "统计过程控制",
+      "Robotics": "机器人技术",
+      "PLC Programming": "PLC编程",
+      "Automation Systems": "自动化系统",
+      "Hydraulics/Pneumatics": "液压/气动",
+      "Surveying": "测量",
+      "CAD Drafting": "CAD制图",
+      "Construction Supervision": "施工监理",
+      "Material Testing": "材料测试",
+      "Site Inspection": "现场检查",
+      "Electrical Installation": "电气安装",
+      "Wiring Diagrams": "接线图",
+      "Safety Procedures": "安全程序",
+      "Electrical Codes": "电气规范",
+      "Patient Assessment": "患者评估",
+      "Medication Administration": "药物管理",
+      "Wound Care": "伤口护理",
+      "Emergency Response": "应急响应",
+      "Patient Education": "患者教育",
+      "Medication Dispensing": "配药",
+      "Pharmacy Software": "药房软件",
+      "Drug Knowledge": "药品知识",
+      "Exercise Instruction": "运动指导",
+      "Program Design": "方案设计",
+      "Client Motivation": "客户动机",
+      "Nutrition Basics": "营养基础知识",
+      "First Aid": "急救",
+      "Sports Training": "运动训练",
+      "Technique Analysis": "技术分析",
+      "Team Management": "团队管理",
+      "Strategy Development": "策略发展",
+      "Motivation": "动机",
+      "Exercise Testing": "运动测试",
+      "Rehabilitation Programming": "康复规划",
+      "Chronic Disease Management": "慢性病管理",
+      "Physiology Knowledge": "生理学知识",
+      "Research Methodology": "研究方法",
+      "Data Collection": "数据收集",
+      "Ethical Compliance": "道德合规",
+      "Patient Interaction": "患者互动",
+      "Laboratory Techniques": "实验室技术",
+      "Sample Analysis": "样品分析",
+      "Equipment Operation": "设备操作",
+      "Quality Control": "质量控制",
+      "Data Recording": "数据记录",
+      "Healthcare Management": "医疗保健管理",
+      "Budgeting": "预算编制",
+      "Staff Supervision": "员工监督",
+      "Patient Services": "病人服务",
+      "Health Education": "健康教育",
+      "Community Outreach": "社区外展",
+      "Basic Screening": "基本筛查",
+      "Cultural Sensitivity": "文化敏感性",
+      "Sales Techniques": "销售技巧",
+      "Product Knowledge": "产品知识",
+      "Medical Terminology": "医学术语",
+      "Relationship Building": "建立关系",
+      "Nutrition Knowledge": "营养知识",
+      "Meal Planning": "膳食计划",
+      "Dietary Assessment": "饮食评估",
+      "Photoshop": "Photoshop",
+      "Illustrator": "插画师",
+      "Typography": "版式",
+      "Creativity": "创造力",
+      "Layout Design": "布局设计",
+      "Writing": "写作",
+      "Research": "研究",
+      "Interviewing": "面试",
+      "Storytelling": "评书",
+      "Ethical Reporting": "道德报告",
+      "SEO": "搜索引擎优化",
+      "Google Analytics": "谷歌分析",
+      "VR SDKs": "虚拟现实 SDK",
+      "Performance Optimization": "性能优化",
+      "ARKit/ARCore": "ARKit/ARCore",
+      "UI/UX for AR": "AR 的 UI/UX",
+      "Mobile Development": "移动开发",
+      "Spatial Design": "空间设计",
+      "Texturing": "纹理化",
+      "Lighting": "灯光",
+      "World Building": "世界大厦",
+      "Optimization": "优化",
+      "Experience Design": "体验设计",
+      "Interactive Storytelling": "互动讲故事",
+      "User Research": "用户研究",
+      "Prototyping": "原型制作",
+      "Narrative Design": "叙事设计",
+      "Figma": "菲格玛",
+      "Adobe XD": "Adobe XD",
+      "Premiere Pro": "首映专业版",
+      "Final Cut Pro": "最终剪辑专业版",
+      "After Effects": "后期效果",
+      "Color Grading": "颜色分级",
+      "Sound Design": "声音设计",
+      "Adobe Creative Suite": "Adobe 创意套件",
+      "Animation": "动画片",
+      "Interactive Design": "交互设计",
+      "Digital Illustration": "数码插图",
+      "Content Strategy": "内容策略",
+      "Community Management": "社区管理",
+      "Copywriting": "文案写作",
+      "Campaign Planning": "活动策划",
+      "Fashion Illustration": "时尚插画",
+      "Pattern Making": "打版",
+      "Textile Knowledge": "纺织知识",
+      "Sewing": "缝纫",
+      "Trend Analysis": "趋势分析",
+      "Space Planning": "空间规划",
+      "3D Visualization": "3D可视化",
+      "Material Selection": "材质选择",
+      "Camera Operation": "相机操作",
+      "Lighting Design": "灯光设计",
+      "Composition": "作品",
+      "Color Theory": "色彩理论",
+      "Technical Knowledge": "技术知识",
+      "Audio Editing": "音频编辑",
+      "Sound Mixing": "混音",
+      "Foley Art": "拟音艺术",
+      "Music Production": "音乐制作",
+      "Audio Software": "音频软件",
+      "Content Planning": "内容策划",
+      "Video Production": "视频制作",
+      "Audience Engagement": "观众参与度",
+      "2D/3D Animation": "2D/3D 动画",
+      "Character Design": "角色设计",
+      "Motion Graphics": "动态图形",
+      "Software Proficiency": "软件熟练程度",
+      "Digital Drawing": "数字绘图",
+      "Concept Art": "概念艺术",
+      "Tablet Skills": "平板电脑技能",
+      "Camera Techniques": "相机技巧",
+      "Photo Editing": "照片编辑",
+      "Client Management": "客户管理",
+      "Performance Techniques": "表演技巧",
+      "Rehearsal Discipline": "排练纪律",
+      "Stage Presence": "舞台表现力",
+      "Collaboration": "合作",
+      "Artistic Expression": "艺术表现",
+      "Creative Leadership": "创意领导力",
+      "Concept Development": "概念开发",
+      "Brand Strategy": "品牌战略",
+      "Client Relations": "客户关系",
+      "Baking Techniques": "烘焙技巧",
+      "Cake Decorating": "蛋糕装饰",
+      "Chocolate Work": "巧克力工作",
+      "Recipe Development": "配方开发",
+      "Pastry Design": "糕点设计",
+      "Fondant Work": "软糖作品",
+      "Buttercream Techniques": "奶油技术",
+      "Sculpting Cakes": "雕刻蛋糕",
+      "Design Sketching": "设计草图",
+      "Cooking Techniques": "烹饪技巧",
+      "Menu Planning": "菜单规划",
+      "Food Safety": "食品安全",
+      "Kitchen Management": "厨房管理",
+      "Hospitality Management": "酒店管理",
+      "Revenue Management": "收益管理",
+      "Operations": "运营",
+      "Event Planning": "活动策划",
+      "Vendor Management": "供应商管理",
+      "Logistics": "后勤",
+      "Client Coordination": "客户协调",
+      "Tour Planning": "旅游策划",
+      "Multilingual Skills": "多语言技能",
+      "Cultural Knowledge": "文化知识",
+      "Restaurant Operations": "餐厅营运",
+      "Staff Management": "员工管理",
+      "Cost Control": "成本控制",
+      "Beverage Management": "饮料管理",
+      "Service Standards": "服务标准",
+      "Supplier Relations": "供应商关系",
+      "Front Desk Operations": "前台操作",
+      "Reservation Systems": "预订系统",
+      "Guest Relations": "宾客关系",
+      "Teaching Skills": "教学技巧",
+      "Culinary Expertise": "烹饪专业知识",
+      "Curriculum Development": "课程开发",
+      "Demonstration Skills": "示范技巧",
+      "Student Assessment": "学生评估",
+      "Hatchery Management": "孵化场管理",
+      "Water Quality Testing": "水质检测",
+      "Feed Formulation": "饲料配方",
+      "Disease Diagnosis": "疾病诊断",
+      "Farm Operations": "农场运营",
+      "Fisheries Regulations": "渔业法规",
+      "Community Engagement": "社区参与",
+      "Environmental Assessment": "环境评估",
+      "Microbiology": "微生物学",
+      "Water Chemistry": "水化学",
+      "Veterinary Practices": "兽医实践",
+      "Aquaculture Technology": "水产养殖技术",
+      "Marketing": "营销",
+      "Supply Chain": "供应链",
+      "Technical Operations": "技术操作",
+      "Equipment Maintenance": "设备维护",
+      "Water Testing": "水质测试",
+      "Farm Assistance": "农场援助",
+      "Environmental Testing": "环境测试",
+      "Sample Collection": "样品采集",
+      "Report Writing": "报告撰写",
+      "Counseling": "辅导",
+      "Empathy": "共情",
+      "Analysis": "分析",
+      "Psychological Assessment": "心理评估",
+      "Instruction": "操作说明",
+      "Patience": "耐心",
+      "Curriculum Design": "课程设计",
+      "Classroom Management": "课堂管理",
+      "Educational Research": "教育研究",
+      "Content Development": "内容开发",
+      "Assessment Design": "评估设计",
+      "Standards Alignment": "标准一致",
+      "EdTech Tools": "教育科技工具",
+      "E-learning Platforms": "电子学习平台",
+      "Digital Content Creation": "数字内容创作",
+      "Teacher Training": "教师培训",
+      "Technical Support": "技术支援",
+      "Child Development": "儿童发展",
+      "Creative Activities": "创意活动",
+      "Parent Communication": "家长沟通",
+      "Play-Based Learning": "寓教于乐",
+      "Active Listening": "积极倾听",
+      "Confidentiality": "保密性",
+      "Crisis Intervention": "危机干预",
+      "Case Management": "案例管理",
+      "Advocacy": "宣传",
+      "Crisis Support": "危机支持",
+      "Resource Coordination": "资源协调",
+      "HR Policies": "人力资源政策",
+      "Conflict Resolution": "冲突解决",
+      "Media Relations": "媒体关系",
+      "Crisis Communication": "危机沟通",
+      "Press Release Writing": "新闻稿写作",
+      "Brand Management": "品牌管理",
+      "Legal Research": "法律研究",
+      "Argumentation": "论证",
+      "Negotiation": "谈判",
+      "Public Speaking": "公开演讲",
+      "Case Analysis": "案例分析",
+      "Document Drafting": "文件起草",
+      "Administrative Support": "行政支持",
+      "Client Communication": "客户沟通",
+      "Cross-cultural Communication": "跨文化交流",
+      "Political Analysis": "政治分析",
+      "Foreign Languages": "外语",
+      "Protocol Knowledge": "协议知识",
+      "Research Analysis": "研究分析",
+      "Policy Development": "政策制定",
+      "Political Risk Assessment": "政治风险评估",
+      "Regulatory Knowledge": "监管知识",
+      "Audit Procedures": "审核程序",
+      "Ethical Standards": "道德标准",
+      "Legal Terminology": "法律术语",
+      "Document Management": "文件管理",
+      "Scheduling": "调度",
+      "Communication Skills": "沟通技巧",
+      "Trade Regulations": "贸易法规",
+      "Export-Import Procedures": "进出口程序",
+      "Policy Research": "政策研究",
+      "Stakeholder Engagement": "利益相关者参与",
+      "Legislative Analysis": "立法分析",
+      "Academic Foundation": "学术基础",
+      "Critical Thinking": "批判性思维",
+      "Research Skills": "研究技能",
+      "Time Management": "时间管理"
+    }
+  },
+  "results": {
+    "hideAnalysis": "收起分析",
+    "whyThisFits": "为什么这适合你",
+    "retakeModalTitle": "重新测试？",
+    "retakeModalDesc": "这将开始一次全新的性格测试。如果您保存新结果，当前结果将被替换。",
+    "retakeConfirm": "是的，重新开始",
+    "cancel": "取消",
+    "title": "个性化职业路线图",
+    "subtitle": "根据您的性格特征，这些是您将自然成长的领域和课程。",
+    "personalityProfile": "您的性格特征",
+    "topDomains": "您的首选兴趣领域",
+    "match": "匹配 #{{num}}",
+    "recommendedCourses": "推荐课程",
+    "viewMoreCourses": "想查看更多课程？",
+    "noCoursesTitle": "暂未找到具体课程。",
+    "noCoursesDesc": "尝试调整您的资料或浏览我们的完整目录。",
+    "topCareers": "最适合您的职业",
+    "viewMoreCareers": "想查看更多职业？",
+    "noCareersTitle": "暂无匹配的职业。",
+    "noCareersDesc": "完成性格测试以查看职业推荐。",
+    "retakeTest": "重新测试"
+  },
+  "recommendations": {
+    "matchPercent": "{{percent}}% 匹配",
+    "demandLevel": "{{level}} 需求"
+  },
+  "courseDetail": {
+    "notFound": {
+      "title": "没找到课程",
+      "backBtn": "返回课程"
+    },
+    "archivedBanner": "该课程已归档，对学生隐藏。",
+    "backLabels": {
+      "archived": "返回归档",
+      "saved": "返回收藏",
+      "courses": "返回课程"
+    },
+    "actions": {
+      "quickEdit": "快速编辑",
+      "delete": "删除",
+      "deleting": "删除中..."
+    },
+    "confirmDelete": "您确定要删除“{{title}}”吗？ 此操作无法撤销。",
+    "toast": {
+      "deleteSuccess": "课程删除成功",
+      "deleteFail": "无法删除课程",
+      "loadFail": "无法加载课程数据",
+      "updateSuccess": "课程更新成功！"
+    },
+    "labels": {
+      "mqa": "MQA 代码: {{code}}",
+      "overview": "课程概览",
+      "learnAbout": "您将学到",
+      "careerOpps": "职业机会",
+      "programDetails": "项目详情",
+      "duration": "持续时间",
+      "cost": "预估费用",
+      "campuses": "校区",
+      "accreditation": "认证",
+      "applyNow": "立即申请",
+      "highlights": "亮点",
+      "year_one": "{{count}} 年",
+      "year_other": "{{count}} 年",
+      "na": "无",
+      "year": "{{count}} 年"
+    }
+  },
+  "careerDetail": {
+    "notFound": {
+      "title": "没找到职业",
+      "backBtn": "返回职业"
+    },
+    "archivedBanner": "该职业已归档，对学生隐藏。",
+    "backLabels": {
+      "archived": "返回归档",
+      "saved": "返回已收藏",
+      "careers": "返回职业"
+    },
+    "actions": {
+      "quickEdit": "快速编辑",
+      "delete": "删除",
+      "deleting": "删除中..."
+    },
+    "confirmDelete": "您确定要删除“{{name}}”吗？ 此操作无法撤销。",
+    "toast": {
+      "deleteSuccess": "职业删除成功",
+      "deleteFail": "无法删除职业",
+      "loadFail": "无法加载职业数据",
+      "updateSuccess": "职业更新成功！"
+    },
+    "labels": {
+      "demand": "{{level}} 需求",
+      "na": "无",
+      "about": "关于该角色",
+      "riasec": "RIASEC 性格匹配",
+      "whatIsThis": "这是什么？",
+      "keySkills": "所需关键技能",
+      "whyThis": "为什么选择这个职业？",
+      "whyDesc": "{{industry}} 行业的职业通常具有 {{demand}} 需求，并提供具有竞争力的薪水。与 <strong>{{riasec}}</strong> 型性格非常匹配。"
+    },
+    "relatedCourses": {
+      "desc": "为开启您的 {{name}} 之旅而推荐的项目。",
+      "title": "教育路径",
+      "viewMore": "浏览所有课程",
+      "empty": "尚未关联特定课程。"
+    }
+  },
+  "landing": {
+    "hero": {
+      "title": "重新定义",
+      "education": "教育",
+      "forFuture": "走向未来",
+      "subtitle": "通过我们的性格分析发现您的真正潜力，探索课程和职业路径，并在虚拟学习室中进行协作。",
+      "getStarted": "立即开始",
+      "learnMore": "了解更多",
+      "aspire": "志向星辰",
+      "cards": {
+        "personality": "性格测试",
+        "hub": "信息图表中心",
+        "liveAnalysis": "实时分析",
+        "rooms": "学习室",
+        "collaborate": "与同伴协作"
+      }
+    },
+    "personality": {
+      "title": "深度性格分析",
+      "description": "分析超越表面特质，我们的科学评估使用霍兰德职业代码 (RIASEC) 模型将您的兴趣与现实世界的职业路径联系起来，有助于发现您的真正潜力。"
+    },
+    "hub": {
+      "title": "交互式信息图表中心",
+      "description": "不仅是分析，更是导航。可视化技能、课程和职业之间的联系。追踪从您目前的学习到理想工作的路径。"
+    },
+    "partners": "合作伙伴",
+    "rooms": {
+      "title": "虚拟学习室",
+      "description": "沉浸在专注的数字环境中。加入带有 Lofi 节奏、番茄钟和积极向上的同伴的实时学习室。",
+      "live": "直播间"
+    },
+    "ai": {
+      "title": "量身定做的 AI 伙伴",
+      "description": "您的智能引导，而不仅仅是搜索引擎。基于经过验证的教育框架构建，以确保相关性并最大程度地减少幻觉。"
+    },
+    "security": {
+      "title": "企业级隐私保护",
+      "description": "我们采用端到端加密。您的心理档案仅属于您个人。",
+      "aes": "AES-256 加密",
+      "pdpa": "符合 PDPA 标准"
+    },
+    "testimonials": {
+      "title": "听听用户的声音",
+      "items": [
+        {
+          "quote": "性格测试真的帮我摆脱了困惑。我在为时已晚之前意识到法律并不适合我！",
+          "author": "Ahmad F.",
+          "role": "中五学生"
+        },
+        {
+          "quote": "在一个地方找到奖学金信息和大学课程对我规划 SPM 来说简直是救命稻草。",
+          "author": "Sarah T.",
+          "role": "SPM 考生"
+        },
+        {
+          "quote": "虚拟房间帮我在备考时保持专注。感觉就像在一个真正的图书馆里。",
+          "author": "Mei Ling",
+          "role": "中四学生"
+        }
+      ]
+    },
+    "common": {
+      "viewMore": "查看更多",
+      "unlockFeature": "解锁功能",
+      "confirmSignup": "加入 In-Aspired 以使用此功能！\n\n您现在要注册吗？",
+      "visualPlaceholder": "视觉占位符"
+    },
+    "intro": {
+      "redefining": "重新定义",
+      "education": "教育",
+      "skip": "跳过开场"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "赋能未来，",
+      "subtitle": "一次成就一名学生。",
+      "description": "In-Aspired 弥合了抱负与现实之间的差距。我们提供您在对未来做出明智决定时所需的工具、数据和社区。"
+    },
+    "letter": {
+      "title": "创始人致辞",
+      "subtitle": "关于我们为何开启这段旅程的个人札记",
+      "greeting": "你好，未来的探索者：",
+      "p1": "我们创立 In-Aspired 是因为我们感同身受。我们记得在选择未来时的那种由于担心选错而产生的瘫痪般的焦虑。",
+      "p2": "在 18 岁时就被要求“想清楚一切”不仅压力巨大，而且不切实际。我们看到了一代才华横溢的人迷失在并不适合他们基因的选择中。",
+      "origin": {
+        "text": "这就是我们将名字定为 In-Aspired 的原因。",
+        "inspire": {
+          "label": "赋予生命力",
+          "word": "Inspire"
+        },
+        "aspire": {
+          "label": "追求与实现",
+          "word": "Aspire"
+        }
+      },
+      "p3": "In-Aspired 不仅仅是一个技术平台。它是我们希望自己曾拥有过的指南。一种在迈出第一步之前看清“心理之镜”并明确道路的方式。",
+      "founders": "Hana 和 Jasmine",
+      "role": "In-Aspired 创始人",
+      "tapHint": "点击开启信件"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "description": "我们相信每个学生都值得拥有一条通往成功的清晰路径。通过将先进的性格分析与庞大的教育资源数据库相结合，我们帮助您发现的不仅仅是一份职业，更是一份天职。",
+      "values": {
+        "precision": {
+          "title": "精准",
+          "desc": "数据驱动的洞察"
+        },
+        "access": {
+          "title": "连接",
+          "desc": "全球机遇"
+        }
+      }
+    },
+    "chronicle": {
+      "title": "我们的历程",
+      "subtitle": "从共同的挫折到全球化的平台，这就是我们构建未来的过程。",
+      "milestones": [
+        {
+          "date": "2025年11月",
+          "title": "愿景诞生",
+          "desc": "发现“迷茫的一代”问题以及职业指导方面的空白。"
+        },
+        {
+          "date": "2025年12月",
+          "title": "奠定基础",
+          "desc": "构建核心 RIASEC 匹配引擎和 Python 微服务架构。"
+        },
+        {
+          "date": "2026年1月",
+          "title": "模式转变",
+          "desc": "推出虚拟学习室以促进协作探索。"
+        },
+        {
+          "date": "2026年2月",
+          "title": "技术突破",
+          "desc": "引入 AI 驱动的心理分析及 24/7 学生伙伴。"
+        }
+      ]
+    },
+    "offerings": {
+      "title": "我们的服务",
+      "items": {
+        "selfDiscovery": {
+          "title": "自我发现",
+          "desc": "从我们的免费 RIASEC 性格测试开始您的探索之旅。如需完整的深度分析，请解锁我们的详细高级报告。"
+        },
+        "knowledgeHub": {
+          "title": "知识中心",
+          "desc": "访问涵盖课程和职业的综合数据库。搜索、筛选并获取有关机构及其课程详情的深度洞察。"
+        },
+        "studyRooms": {
+          "title": "虚拟学习室",
+          "desc": "在个性化的学习室中与同伴协作。白板和番茄钟等独特的协作工具可帮助您保持专注和高效。"
+        },
+        "aiCompanion": {
+          "title": "AI 伙伴",
+          "desc": "获得 24/7 支持。我们的 AI 聊天机器人随时准备回答您关于课程、职业前景以及系统信息的问题。"
+        }
+      }
+    },
+    "team": {
+      "title": "团队介绍",
+      "role": "联合创始人",
+      "social": {
+        "email": "邮件",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "website": "个人网站"
+      },
+      "caption": "用技术和真心构建教育的未来。"
+    }
+  },
+  "privacy": {
+    "hero": {
+      "badge": "您的隐私至关重要",
+      "title": "隐私政策",
+      "description": "在 In-Aspired，我们致力于保护您的隐私并确保您个人信息的安全。本政策解释了我们如何收集、使用和保护您的数据。",
+      "lastUpdated": "最后更新日期：{{date}}"
+    },
+    "nav": {
+      "ariaLabel": "导航至 {{title}}"
+    },
+    "sections": {
+      "controller": {
+        "title": "我们是谁",
+        "navLabel": "关于我们",
+        "content": {
+          "sub1": "数据控制者",
+          "text1": "In-Aspired 是负责根据本隐私政策收集和处理您个人数据的数据控制者。我们在马来西亚运营，并根据 2010 年《个人数据保护法》(PDPA) 处理个人数据。",
+          "sub2": "联系信息",
+          "text2": "如果您对本政策或我们的数据实践有任何疑问，可以通过 privacy@in-aspired.com 与我们联系。"
+        }
+      },
+      "collection": {
+        "title": "我们收集的信息",
+        "navLabel": "数据收集",
+        "content": {
+          "sub1": "个人信息",
+          "text1": "当您创建账户时，我们会收集您的姓名、电子邮件地址和密码。如果您参加我们的性格评估，我们会存储您的回复和结果，以提供个性化的职业建议。",
+          "sub2": "使用数据",
+          "text2": "我们会自动收集有关您如何与我们的平台互动的信息，包括访问的页面、使用的功能、在网站上花费的时间以及您的设备信息（浏览器类型、操作系统、IP 地址）。",
+          "sub3": "Cookie 和追踪",
+          "text3": "我们使用 Cookie 和类似技术来记住您的偏好、维持您的会话并分析我们的服务如何被使用。您可以通过浏览器控制 Cookie 设置。",
+          "sub4": "敏感数据",
+          "text4": "我们不会有意收集敏感的个人数据，如政府颁发的身份证号码、财务信息或健康数据，除非有明确要求并征得您的同意。"
+        }
+      },
+      "usage": {
+        "title": "我们如何使用您的信息",
+        "navLabel": "数据使用",
+        "content": {
+          "sub1": "服务交付",
+          "text1": "我们使用您的信息来提供、维护和改进我们的服务，包括个性化的职业建议、学习室功能和 AI 驱动的辅助。",
+          "sub2": "沟通",
+          "text2": "我们可能会向您发送与服务相关的电子邮件、有关新功能的更新以及教育内容。您可以随时选择退出非必要的沟通。",
+          "sub3": "分析与改进",
+          "text3": "我们分析使用模式以了解用户如何与 In-Aspired 互动，帮助我们改进平台并开发新功能。"
+        }
+      },
+      "legal_basis": {
+        "title": "处理的法律依据",
+        "navLabel": "法律依据",
+        "content": {
+          "sub1": "同意",
+          "text1": "当您创建账户、使用我们的服务或同意接收我们的沟通时，我们会根据您的同意处理您的个人数据。",
+          "sub2": "合同必要性",
+          "text2": "某些数据处理对于履行我们的服务是必要的，包括提供个性化建议和维护您的账户。",
+          "sub3": "合法权益",
+          "text3": "为了我们的合法权益，如改进我们的平台、确保安全和防止滥用，我们可能会处理个人数据。"
+        }
+      },
+      "sharing": {
+        "title": "信息共享",
+        "navLabel": "共享",
+        "content": {
+          "sub1": "第三方服务",
+          "text1": "我们可能会与帮助我们运营平台（托管、分析、电子邮件服务）的受信任第三方服务共享数据。这些提供商受严格的机密协议约束。",
+          "sub2": "法律要求",
+          "text2": "如果法律、法院命令或政府要求，或者为了保护 In-Aspired 及其用户的权利、财产 or 安全，我们可能会披露您的信息。",
+          "sub3": "征得您的同意",
+          "text3": "只有在征得您的明确同意后，我们才会与其他方共享您的个人信息。",
+          "sub4": "国际数据传输",
+          "text4": "我们的一些服务提供商可能会在马来西亚境外处理数据。在进行国际个人数据传输时，我们会确保采取适当的保护措施，根据适用法律保护您的信息。"
+        }
+      },
+      "security": {
+        "title": "数据安全",
+        "navLabel": "安全",
+        "content": {
+          "sub1": "加密",
+          "text1": "您的设备与我们的服务器之间传输的所有数据都使用行业标准的 TLS/SSL 协议进行加密。我们使用行业标准的加密和安全措施来保护传输中和静态的个人数据。",
+          "sub2": "访问控制",
+          "text2": "我们实施严格的访问控制，以确保只有获得授权的人员才能访问用户数据。所有访问都会被记录和监控。",
+          "sub3": "定期审计",
+          "text3": "我们定期进行安全审计和漏洞评估，以识别并解决潜在的安全风险。"
+        }
+      },
+      "rights": {
+        "title": "您的权利",
+        "navLabel": "您的权利",
+        "content": {
+          "sub1": "访问权与可携带权",
+          "text1": "您有权访问您的个人数据，并要求以可移植格式提供副本。请联系我们以请求导出您的数据。",
+          "sub2": "更正与删除",
+          "text2": "您可以通过账户设置更新您的个人信息。您也可以要求删除您的账户及相关数据。",
+          "sub3": "选择退出",
+          "text3": "您可以通过隐私设置选择退出营销沟通、禁用 Cookie 并控制您的数据使用方式。"
+        }
+      },
+      "children": {
+        "title": "儿童隐私",
+        "navLabel": "儿童",
+        "content": {
+          "sub1": "年龄限制",
+          "text1": "我们的服务不面向 13 岁以下的儿童。我们不会有意收集儿童的个人数据。如果您认为有儿童向我们提供了个人数据，请与我们联系，以便我们采取适当行动。"
+        }
+      },
+      "retention": {
+        "title": "数据保留",
+        "navLabel": "保留",
+        "content": {
+          "sub1": "账户数据",
+          "text1": "只要您的账户处于活跃状态，我们就会保留您的账户信息。在删除账户后，您的个人数据将在 30 天内移除，除非法律要求保留。",
+          "sub2": "分析数据",
+          "text2": "出于研究和改进的目的，汇总的、匿名化的分析数据可能会无限期保留。"
+        }
+      },
+      "changes": {
+        "title": "本隐私政策的变更",
+        "navLabel": "更新",
+        "content": {
+          "sub1": "政策更新",
+          "text1": "我们可能会不时更新本隐私政策，以反映我们实践或法律要求的变化。当我们做出重大变更时，我们将通过平台或电子邮件通知用户。"
+        }
+      }
+    },
+    "contact": {
+      "title": "对您的隐私有疑问？",
+      "description": "如果您对本隐私政策或我们处理您数据的方式有任何疑问，请随时与我们联系。"
+    },
+    "pdpa": {
+      "title": "符合 PDPA 标准",
+      "description": "本隐私政策旨在符合马来西亚 2010 年《个人数据保护法》(PDPA)。我们致力于确保您的个人数据按照该法案概述的原则进行处理。"
+    }
+  },
+  "terms": {
+    "hero": {
+      "badge": "法律协议",
+      "title": "服务条款",
+      "description": "在使用 In-Aspired 之前，请仔细阅读这些条款。使用我们的服务即表示您同意受这些条款和条件的约束。",
+      "lastUpdated": "最后更新日期：{{date}}"
+    },
+    "nav": {
+      "ariaLabel": "导航至 {{title}}"
+    },
+    "sections": {
+      "acceptance": {
+        "title": "条约接受",
+        "navLabel": "接受",
+        "content": {
+          "text1": "通过访问或使用 In-Aspired 的服务，您同意受这些服务条款以及所有适用法律和法规的约束。如果您不同意这些条款中的任何一项，您将被禁止使用或访问本网站。",
+          "sub1": "数据处理",
+          "text2": "通过使用我们的服务，您也同意按照我们的隐私政策所述收集和处理您的数据。",
+          "sub2": "修改",
+          "text3": "我们保留随时更新这些条款的权利。任何重大变更都将通过电子邮件或我们平台上的通知进行沟通。在任何变更后继续使用服务即表示接受更新后的条款。"
+        }
+      },
+      "eligibility": {
+        "title": "适用资格",
+        "navLabel": "资格",
+        "content": {
+          "sub1": "年龄要求",
+          "text1": "您必须年满 13 岁才能使用 In-Aspired。如果您未满 18 岁，则必须获得父母或监护人的同意才能使用我们的服务。",
+          "sub2": "账户责任",
+          "text2": "您负责维护您的账户凭据的机密性，并对在您的账户下发生的所有活动负责。您同意在发现任何未经授权的使用时立即通知我们。"
+        }
+      },
+      "services": {
+        "title": "我们的服务",
+        "navLabel": "服务",
+        "content": {
+          "sub1": "性格评估",
+          "text1": "我们基于 RIASEC 的性格评估旨在提供教育建议。结果是基于科学模型的建议，不应被视为专业职业咨询。",
+          "sub2": "AI 助手",
+          "text2": "我们的 AI 功能根据可用数据提供信息和建议。虽然我们力求准确，但对于关键决策，应独立核实 AI 的回答。",
+          "sub3": "虚拟学习室",
+          "text3": "我们的虚拟学习室是协作空间。您同意以尊重的方式使用它们，不从事任何干扰或不当行为。"
+        }
+      },
+      "conduct": {
+        "title": "禁止行为",
+        "navLabel": "行为",
+        "content": {
+          "text1": "在使用 In-Aspired 时，您同意不：",
+          "list": [
+            "出于任何非法目的或违反任何法律使用服务",
+            "骚扰、虐待或伤害其他用户",
+            "分享不当、攻击性或有害的内容",
+            "尝试未经授权访问我们的系统",
+            "未经允许使用自动化系统或机器人",
+            "冒充他人或提供虚假信息",
+            "干扰或破坏服务",
+            "未经同意收集用户数据"
+          ]
+        }
+      },
+      "intellectual": {
+        "title": "知识产权",
+        "navLabel": "知识产权",
+        "content": {
+          "sub1": "我们的内容",
+          "text1": "In-Aspired 上的所有内容，包括文本、图形、徽标、图像和软件，均为 In-Aspired 或其许可方的财产，并受知识产权法保护。",
+          "sub2": "您的内容",
+          "text2": "您保留在我们的平台上创建的内容的所有权。通过发布内容，您授予我们非独占许可，以在我们的服务相关联的情况下使用、展示和分发该内容。",
+          "sub3": "反馈",
+          "text3": "您提供的任何反馈、建议或想法均可由我们使用，而我们没有义务对您进行补偿。"
+        }
+      },
+      "disclaimers": {
+        "title": "免责声明与限制",
+        "navLabel": "免责声明",
+        "content": {
+          "sub1": "无保证",
+          "text1": "我们的职业建议和教育内容仅供参考。我们不保证具体结果、就业或学业成功。",
+          "sub2": "服务可用性",
+          "text2": "我们力求保持高可用性，但不保证不间断的访问。我们可能随时修改、暂停或停止某些功能。",
+          "sub3": "用户责任",
+          "text3": "虽然我们力求提供准确的信息，但用户应负责核实基于我们平台提供的建议或内容所做的任何关键决策或行动。In-Aspired 对使用我们服务所做决策产生的任何后果不承担责任。",
+          "sub4": "责任限制",
+          "text4": "在法律允许的最大范围内，对于因您使用我们的服务而产生的任何间接、附带、特殊、后果性或惩罚性损害，In-Aspired 概不负责。"
+        }
+      },
+      "termination": {
+        "title": "终止",
+        "navLabel": "终止",
+        "content": {
+          "text1": "由于任何原因（包括违反这些条款），我们可能会立即终止或暂停您的账户，恕不另行通知。终止后，您使用服务的权利将立即停止。",
+          "text2": "您可以随时通过账户设置删除您的账户。某些信息可能会根据法律要求或出于合法业务目的而保留。"
+        }
+      }
+    },
+    "governing_law": {
+      "title": "准据法",
+      "description": "这些条款受马来西亚法律管辖并按其解释，不考虑其法律冲突规定。因这些条款产生的任何争议应在马来西亚吉隆坡的法院解决。"
+    },
+    "contact": {
+      "title": "对此条款有疑问？",
+      "description": "如果您对这些服务条款有任何疑问，请与我们联系。"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "联系我们",
+      "description1": "有问题、反馈或合作咨询？",
+      "description2": "我们很乐意听取您的意见。"
+    },
+    "info": {
+      "title": "联系信息",
+      "description": "填写表格，我们的团队将在 24 小时内回复您。",
+      "emailLabel": "电子邮件",
+      "socialsLabel": "社交媒体",
+      "locationLabel": "地点",
+      "locationValue": "马来西亚，吉隆坡"
+    },
+    "faq": {
+      "title": "寻找快速解答？",
+      "description": "查看我们的帮助中心，了解常见问题解答。",
+      "button": "访问帮助中心"
+    },
+    "bug": {
+      "title": "遇到技术问题？",
+      "description": "通过屏幕截图和视频报告错误。我们的团队将尽快调查并修复。",
+      "hint": "附加屏幕截图和视频，帮助我们了解问题",
+      "button": "报告错误或问题"
+    },
+    "form": {
+      "title": "给我们发送消息",
+      "description": "用于在注册前的常规咨询、合作或问题。",
+      "successTitle": "消息已发送！",
+      "successDescription": "感谢您与我们联系。我们将很快与您联系。",
+      "labelName": "全名",
+      "labelEmail": "电子邮件地址",
+      "labelTopic": "主题",
+      "labelMessage": "消息",
+      "phName": "张三",
+      "phEmail": "zhangsan@example.com",
+      "phMessage": "我们能为您提供什么帮助？",
+      "phTopic": "请选择一个选项",
+      "buttonSend": "发送消息",
+      "buttonSending": "发送中...",
+      "topics": {
+        "general": "常规咨询",
+        "support": "技术支持",
+        "partnership": "合作伙伴"
+      },
+      "errors": {
+        "rateLimit": "您的操作太频繁了。请稍后再试。",
+        "general": "出错了。",
+        "network": "发送消息失败。请检查您的网络连接。"
+      }
+    },
+    "alerts": {
+      "rateLimit": "请求过多。请稍后再试。",
+      "general": "发生了一些错误。请再试一次。",
+      "network": "网络错误。请检查您的连接。"
+    }
+  },
+  "help": {
+    "title": "常见问题",
+    "subtitle": "关于 In-Aspired 常见问题的快速解答。",
+    "searchPlaceholder": "搜索帮助中心...",
+    "noResults": "未找到匹配搜索的问题。",
+    "clearSearch": "清除搜索",
+    "stillHaveQuestions": "还有其他问题吗？",
+    "cantFindAnswer": "找不到您想要的答案？请与我们的友好团队联系。",
+    "getInTouch": "取得联系",
+    "categories": {
+      "gettingStarted": {
+        "title": "入门指南",
+        "faqs": [
+          {
+            "question": "如何创建账户？",
+            "answer": "点击右上角的“注册”按钮，输入您的电子邮件、姓名和密码，然后验证您的电子邮件地址。只需不到 2 分钟！"
+          },
+          {
+            "question": "In-Aspired 是免费使用的吗？",
+            "answer": "是的！所有核心功能，包括 RIASEC 性格测试、虚拟学习室和基础职业匹配，完全免费。对于想要深入了解的学生，我们提供“高级洞察报告”，这是一份个性化的职业路线图，只需 RM9.99。"
+          },
+          {
+            "question": "我需要提供哪些信息？",
+            "answer": "只需您的电子邮件、姓名和密码。我们可能会询问基础教育背景（如您目前的年级）以个性化推荐，但这是可选的。"
+          },
+          {
+            "question": "我可以在手机上使用 In-Aspired 吗？",
+            "answer": "当然可以！In-Aspired 采用完全响应式设计，针对移动设备进行了优化。您可以在手机或平板电脑上进行测试、浏览课程和加入学习会议。"
+          },
+          {
+            "question": "注册需要父母的许可吗？",
+            "answer": "如果您未满 18 岁，最好让您的父母知道您正在使用 In-Aspired。虽然我们不强制要求父母批准，但我们鼓励您与家人透明地沟通您的职业规划。"
+          },
+          {
+            "question": "我需要下载任何软件吗？",
+            "answer": "无需下载！In-Aspired 直接在您的网络浏览器（Chrome、Firefox、Safari 等）中运行。只需访问网站即可开始探索。"
+          },
+          {
+            "question": "如果忘记密码怎么办？",
+            "answer": "点击登录页面上的“忘记密码”。我们将向您的电子邮件发送重置链接。如果在几分钟内没有看到，请务必检查垃圾邮件文件夹。"
+          },
+          {
+            "question": "我可以与朋友分享账户吗？",
+            "answer": "我们建议每个人拥有自己的账户，以获得个性化的测试结果和推荐。共享账户可能会混淆您的性格概况和职业建议。"
+          }
+        ]
+      },
+      "riasec": {
+        "title": "性格测试 (RIASEC)",
+        "faqs": [
+          {
+            "question": "性格评估是如何运作的？",
+            "answer": "我们的评估基于霍兰德职业代码（RIASEC）模型，这是一个在全球范围内使用的科学验证框架。我们分析您的回答，将您的兴趣映射到六种性格类型：现实型、研究型、艺术型、社会型、企业型和常规型。"
+          },
+          {
+            "question": "性格测试需要多长时间？",
+            "answer": "测试通常需要 10 分钟完成。如果您需要休息，可以保存进度并在稍后继续。"
+          },
+          {
+            "question": "我可以重新进行性格测试吗？",
+            "answer": "是的，您可以随时重新测试！随着您的成长，您的兴趣可能会发生变化，因此请随时重新测试以查看您的概况如何变化。"
+          },
+          {
+            "question": "性格评估有多准确？",
+            "answer": "我们的测试基于成熟的心理学模型，根据用户反馈，准确率为 85%。请记住，这只是帮助您探索选择的指南，而不是最终答案！"
+          },
+          {
+            "question": "如果我不确定某些问题怎么办？",
+            "answer": "只需根据您的直觉回答！没有正确或错误答案。如果您真的无法决定，想想您自然喜欢什么，或者什么让您觉得压力较小。"
+          },
+          {
+            "question": "我的测试结果会分享给别人吗？",
+            "answer": "不，绝不会！您的测试结果是完全私密且加密的。未经您的明确许可，我们不会将其分享给学校、家长或任何其他人。"
+          },
+          {
+            "question": "RIASEC 到底是什么意思？",
+            "answer": "RIASEC 代表六种性格类型：现实型（动手）、研究型（思考）、艺术型（创意）、社会型（人际）、企业型（领导）和常规型（组织）。大多数人由 2-3 种类型组合而成！"
+          },
+          {
+            "question": "如果不喜欢我的结果怎么办？",
+            "answer": "您的结果是根据您的回答给出的建议，而不是终身定论！将它们作为探索的起点，您并没有被锁定在这些职业中。许多成功人士的工作都在他们的“类型”之外。"
+          },
+          {
+            "question": "如果我在多种类型中获得相同的分数怎么办？",
+            "answer": "这其实很常见！这意味着您拥有平衡的性格，在多个领域都有兴趣。我们将向您展示结合了这些兴趣的职业，为您提供更多探索选择。"
+          },
+          {
+            "question": "我可以跳过我不理解的问题吗？",
+            "answer": "为了获得最准确的结果，您应该尝试回答所有问题，但如果某个问题真的没意义，请选择最接近您偏好的选项。"
+          },
+          {
+            "question": "这和 BuzzFeed 的测试有什么不同？",
+            "answer": "好问题！我们的测试基于全球职业顾问使用的数十年心理学研究（霍兰德代码）。BuzzFeed 的测试很有趣，但在职业规划方面没有经过科学验证。"
+          },
+          {
+            "question": "这会准确告诉我要选哪门课程吗？",
+            "answer": "不完全是——它为您提供一系列适合您兴趣的职业和课程。将其视为引导您朝着正确方向前进的指南针，而不是具有特定路线的 GPS！"
+          }
+        ]
+      },
+      "courses": {
+        "title": "课程与职业",
+        "faqs": [
+          {
+            "question": "如何搜索课程？",
+            "answer": "在“课程”页面使用搜索栏！您可以按领域、教育程度（预科、文凭、通识预科）、学费和学院类型（公立/私立）进行筛选。尝试输入“工程”或“商业”等关键词开始搜索。"
+          },
+          {
+            "question": "我可以按预算/学费筛选课程吗？",
+            "answer": "是的！我们将课程分为不同的学费级别：低（< RM 20k）、中（RM 20k - 50k）和高（> RM 50k）。按您的预算筛选以找到负担得起的选择。"
+          },
+          {
+            "question": "文凭（Diploma）和学位（Degree）有什么区别？",
+            "answer": "文凭通常为 2-3 年，侧重于实践技能。学位（学士）为 3-4 年，包含更多理论和研究。文凭更快捷且便宜，而学位通常会带来薪水更高的工作。"
+          },
+          {
+            "question": "哪些课程不需要很强的科学/数学基础？",
+            "answer": "有很多选择！艺术、商业、媒体、社会科学、酒店管理和设计课程通常不侧重于科学/数学。使用筛选器找到符合您 SPM 科目的课程。"
+          },
+          {
+            "question": "涵盖哪些教育程度？",
+            "answer": "我们涵盖预科（Foundation）、文凭（Diploma）、预科课程（A-Levels、STPM、Matriculation、IB）。目前不支持学位课程。我们的目标是为您从 SPM 过度到大学提供支持。"
+          },
+          {
+            "question": "如何知道哪所大学声誉良好？",
+            "answer": "查看课程是否经过 MQA（马来西亚学术资格鉴定机构）认证——我们在课程详情中显示此项。此外，请查看我们的“受信任合作伙伴”列表，其中包括历史悠久的大学。"
+          },
+          {
+            "question": "每门课程的入学要求是什么？",
+            "answer": "点击任何课程以查看详细要求，如最低 SPM 等级、必修科目和面试流程。不同机构的要求有所不同。"
+          },
+          {
+            "question": "我可以收藏我感兴趣的课程吗？",
+            "answer": "是的！您现在可以将课程和职业收藏到您的仪表板。只需点击任何课程或职业卡片上的“收藏”或“爱心”图标即可将其保留供以后参考。"
+          },
+          {
+            "question": "你们显示职业薪水范围吗？",
+            "answer": "是的！大多数职业页面都包含根据马来西亚市场数据估算的薪酬范围（从低到高）。请记住，薪水会因经验、地点和公司规模而异。"
+          },
+          {
+            "question": "课程信息多久更新一次？",
+            "answer": "我们通过整合大学门户网站和官方来源的数据，每季度更新一次数据库。如果您发现信息陈旧，请联系我们！"
+          },
+          {
+            "question": "我可以比较不同大学的课程吗？",
+            "answer": "目前，您需要分别在不同选项卡中打开课程进行比较。我们正在开发并排比较功能！"
+          },
+          {
+            "question": "如果还不知道想学什么怎么办？",
+            "answer": "这完全正常！首先参加我们的性格测试以发现您的兴趣，然后浏览建议的课程。您也可以按“艺术”、“科学”或“商业”等大类进行探索。"
+          }
+        ]
+      },
+      "rooms": {
+        "title": "虚拟学习室",
+        "faqs": [
+          {
+            "question": "如何加入学习室？",
+            "answer": "从导航栏导航到“虚拟学习室”部分。浏览活跃的房间，点击一个您感兴趣的，然后点击“加入”。加入公共房间无需账户！"
+          },
+          {
+            "question": "学习室有守则吗？",
+            "answer": "是的！为了让大家保持专注：不得骚扰，不得发布垃圾信息。主持人可以控制摄像头、音频和白板权限。公共房间对所有人开放，私密房间需要加入代码。"
+          },
+          {
+            "question": "如果我害羞不想开摄像头怎么办？",
+            "answer": "不用担心！在所有房间中，摄像头都是可选的。许多学生更喜欢在关闭视频的情况下学习——请按照让您觉得舒适的方式操作。"
+          },
+          {
+            "question": "我可以在私密房间里独自学习吗？",
+            "answer": "可以！创建您自己的房间并将其设置为“私密”。您可以独自学习，或通过链接邀请特定的朋友。"
+          },
+          {
+            "question": "如果有人扰乱秩序怎么办？",
+            "answer": "房间主持人可以静音或移除扰乱秩序的成员。如果您遇到骚扰，请离开房间并通过“联系我们”页面举报。"
+          },
+          {
+            "question": "我可以邀请特定的朋友加入我的房间吗？",
+            "answer": "可以！当您创建一个房间时，您会得到一个可分享的链接。通过 WhatsApp、Telegram 或任何即时通讯应用发送给朋友。"
+          },
+          {
+            "question": "学习会议有时间限制吗？",
+            "answer": "没有！想学多久就学多久。只要有人在房间里，房间就会保持活跃。"
+          },
+          {
+            "question": "什么是番茄时钟？",
+            "answer": "这是一种学习技巧：工作 25 分钟，然后休息 5 分钟。4 个循环后，休息更长时间。我们的房间内置了计时器，帮助您保持专注！"
+          },
+          {
+            "question": "我可以使用白板吗？",
+            "answer": "可以！白板允许您绘图、书写和创建形状。主持人可以为参与者在只读模式和编辑模式之间切换。"
+          },
+          {
+            "question": "如果我的网络连接很慢怎么办？",
+            "answer": "关闭摄像头以节省带宽。学习室对聊天和计时器的数据消耗极小，因此较慢的连接应该也能正常工作。"
+          },
+          {
+            "question": "学习时可以听音乐吗？",
+            "answer": "可以！我们内置了个人音乐播放器，配有多个广播电台：Lofi Girl、Chillhop Raccoon 等。它具有自动播放功能，让学习更有氛围。"
+          },
+          {
+            "question": "别人会听到我的音乐吗？",
+            "answer": "不会，音乐播放器是完全个人的。只有您能听到，因此不会干扰学习室的其他成员。"
+          },
+          {
+            "question": "我说话时音乐会停止吗？",
+            "answer": "我们有一个智能的“麦克风避让”功能，当您的麦克风处于活跃状态时，它会自动将音乐音量降至 10%，以便您清晰地说话。"
+          },
+          {
+            "question": "我可以追踪我的学习任务吗？",
+            "answer": "当然可以！使用侧边栏中的个人待办事项列表来添加、勾选和删除任务。它还包含一个进度条，让您保持动力。"
+          },
+          {
+            "question": "我的待办事项列表会保存吗？",
+            "answer": "您的待办事项列表是基于会话的，并且是私密的（仅您可见）。为了保护您在共享设备上的隐私，它会在您关闭房间时重置。"
+          },
+          {
+            "question": "是否有针对特定科目的房间？",
+            "answer": "是的！许多学生创建针对特定科目的房间，如“附数学习小组”或“生物 SPM 备考”。浏览时请查看房间标题。"
+          }
+        ]
+      },
+      "chatbot": {
+        "title": "AI 聊天机器人",
+        "faqs": [
+          {
+            "question": "什么是 AI 聊天机器人？",
+            "answer": "我们的 AI 聊天机器人是您的 24/7 学习伙伴！它可以回答有关课程、职业、平台的问题，并帮助引导您的职业探索之旅。"
+          },
+          {
+            "question": "聊天机器人可以帮我做作业吗？",
+            "answer": "聊天机器人旨在提供职业和课程指导，而不是做作业。它可以建议学习资源或解释与职业道路相关的概念，但不会代做功课！"
+          },
+          {
+            "question": "AI 助手有多聪明？",
+            "answer": "由 Google Gemini AI 提供支持，它经过职业框架和我们的课程数据库培训。它非常擅长提供职业建议，但并不完美——请将其视为有用的向导，而不是人类顾问。"
+          },
+          {
+            "question": "如果我输入马来语，它能理解吗？",
+            "answer": "能！AI 可以理解并使用英语和马来语进行回复。只需输入您觉得舒适的语言即可。"
+          },
+          {
+            "question": "我可以问聊天机器人哪些问题？",
+            "answer": "询问职业道路、课程要求、大学信息、平台功能、性格测试结果、预估薪水等。试试：“哪些职业符合我的艺术兴趣？”"
+          },
+          {
+            "question": "聊天机器人是 24/7 在线的吗？",
+            "answer": "是的！与人类顾问不同，AI 永远在线。随时提问，即使是在 SPM 考试前的凌晨 3 点！"
+          },
+          {
+            "question": "聊天机器人会因为我问“愚蠢”的问题而评判我吗？",
+            "answer": "绝不会！没有愚蠢的问题。AI 被设定为支持和提供帮助，无论您问什么。不要害怕去探索！"
+          },
+          {
+            "question": "如果聊天机器人给了我错误信息怎么办？",
+            "answer": "虽然我们使用经过验证的数据对其进行训练，但 AI 偶尔也会犯错。对于重要信息（如入学要求），请始终在大学官方网站上核对或咨询顾问。"
+          },
+          {
+            "question": "我可以与聊天机器人保存对话记录吗？",
+            "answer": "目前，每个聊天会话都是独立的（访问之间不保存）。我们正在努力在未来的更新中添加对话历史记录！"
+          },
+          {
+            "question": "聊天机器人会记得我之前问过什么吗？",
+            "answer": "在同一个会话中（当页面打开时），是的！但如果您刷新或关闭页面，它会重新开始。您的隐私受到保护。"
+          },
+          {
+            "question": "我可以问关于职业担忧的敏感问题吗？",
+            "answer": "当然可以。您的聊天内容是私密的，不会被分享。请随意讨论职业恐惧、家庭压力或困惑——AI 在这里无偏见地支持您。"
+          }
+        ]
+      },
+      "privacy": {
+        "title": "账户、隐私与安全",
+        "faqs": [
+          {
+            "question": "如何更改密码？",
+            "answer": "前往 设置 > 安全 > 更改密码。您需要输入当前密码，然后设置一个新密码。请选择一个安全的密码！"
+          },
+          {
+            "question": "我的数据私密吗？",
+            "answer": "绝对私密。我们使用 AES-256 加密（与银行相同！）并符合 PDPA。未经您的明确同意，您的性格概况和数据绝不会与第三方分享。"
+          },
+          {
+            "question": "我可以注销账户吗？",
+            "answer": "可以。前往 设置 > 账户 > 注销账户。警告：这将永久删除您所有的测试结果和保存的数据。在确认之前，请确保您真的想这样做！"
+          },
+          {
+            "question": "你们收集哪些个人信息？",
+            "answer": "我们收集：电子邮件、姓名、密码（加密）和可选的教育详情。我们不询问身份证号码、电话号码或敏感个人数据。"
+          },
+          {
+            "question": "我可以使用昵称而不是真实姓名吗？",
+            "answer": "可以！您可以使用任何您觉得舒适的名字。许多学生为了隐私使用昵称。"
+          },
+          {
+            "question": "我的测试答案会被卖给公司吗？",
+            "answer": "绝不会。我们不会将您的数据出售、出租或分享给广告商或第三方。您的数据仅供您本人受益。"
+          },
+          {
+            "question": "符合 PDPA 是什么意思？",
+            "answer": "PDPA 是马来西亚的《个人数据保护法》。这意味着我们会依法保护您的数据，仅将其用于所述目的，并让您控制其使用方式。"
+          },
+          {
+            "question": "我可以将我的资料设为私密吗？",
+            "answer": "您的资料默认就是私密的。除非您选择分享（如转发结果截图），否则只有您能看到您的测试结果和账户信息。"
+          },
+          {
+            "question": "如果注销账户，我的数据会怎样？",
+            "answer": "您所有的个人数据将在 30 天内从我们的服务器上永久删除。我们仅保留极少数的匿名数据用于统计目的（无法识别到您）。"
+          },
+          {
+            "question": "大学能看到我的账户活动吗？",
+            "answer": "不能。除非您明确分享（如转发结果截图），否则大学无法访问您的 In-Aspired 账户或测试结果。"
+          },
+          {
+            "question": "家长能看到我的测试结果吗？",
+            "answer": "除非您分享，否则不能！您的账户是私密的。然而，我们鼓励您与家长开诚布公地讨论您的职业规划。"
+          }
+        ]
+      },
+      "technical": {
+        "title": "技术问题",
+        "faqs": [
+          {
+            "question": "网站加载缓慢。我该怎么办？",
+            "answer": "尝试刷新页面、清除浏览器缓存或检查您的网络连接。如果问题仍然存在，网站可能正处于高访问量时段——请几分钟后再试。"
+          },
+          {
+            "question": "我无法登录。是怎么回事？",
+            "answer": "仔细检查您的电子邮件和密码是否有误。确保大写锁定（Caps Lock）已关闭！如果忘记密码，请使用“忘记密码”进行重置。"
+          },
+          {
+            "question": "性格测试在中途卡住了。我的进度丢失了吗？",
+            "answer": "您的进度是自动保存的！刷新页面并重新登录。您应该能够从上次中断的地方继续。"
+          },
+          {
+            "question": "为什么我无法加入学习室？",
+            "answer": "请确保您已登录（某些房间需要账户）。检查您的浏览器权限——即使您不打算使用摄像头/麦克风，您也可能需要允许访问权限。"
+          },
+          {
+            "question": "聊天机器人没有反应。是宕机了吗？",
+            "answer": "AI 可能会暂时过载。请等待几秒钟再试。如果仍然无效，请检查网络连接或尝试刷新页面。"
+          },
+          {
+            "question": "支持哪些浏览器？",
+            "answer": "In-Aspired 在 Chrome、Firefox、Safari 和 Edge（最新版本）上运行最佳。旧版浏览器可能会出现兼容性问题。"
+          },
+          {
+            "question": "我可以离线使用 In-Aspired 吗？",
+            "answer": "不能，您需要网络连接才能使用 In-Aspired，因为它从我们的服务器获取实时数据。如果您打算离线，请提前下载学习计划或笔记。"
+          },
+          {
+            "question": "我收到了报错信息。我该联系谁？",
+            "answer": "前往“联系我们”页面并描述错误。如果可能，请附上截图！我们通常会在 24-48 小时内回复。"
+          },
+          {
+            "question": "手机上的页面布局似乎乱了。",
+            "answer": "尝试旋转手机或缩小页面。如果还是显示错误，请告知我们您的设备型号和浏览器，以便我们修复它！"
+          },
+          {
+            "question": "我需要安装任何软件吗？",
+            "answer": "不需要！In-Aspired 是一个在浏览器中运行的网络应用。不需要下载、安装，也不会占用您设备的存储空间。"
+          }
+        ]
+      },
+      "parents": {
+        "title": "致家长",
+        "faqs": [
+          {
+            "question": "这个平台对青少年安全吗？",
+            "answer": "是的。我们使用企业级加密，拥有严格的隐私政策（符合 PDPA），所有内容均为教育性内容。我们不允许不当内容或未经监督的互动。"
+          },
+          {
+            "question": "家长可以监控孩子的进度吗？",
+            "answer": "为了保护隐私，家长无法直接访问学生账户，但我们鼓励学生与家人分享他们的测试结果并讨论职业规划。"
+          },
+          {
+            "question": "学校可以为学生进行批量访问吗？",
+            "answer": "可以！通过“联系我们”页面与我们联系，讨论学校的合作伙伴关系。我们为教育机构提供特殊计划。"
+          },
+          {
+            "question": "这是为哪个年龄段设计的？",
+            "answer": "主要面向为 SPM 和大学申请做准备的中四至中六（16-18 岁）学生，但也适用于任何探索职业选择的人。"
+          },
+          {
+            "question": "是否有任何不当内容的过滤功能？",
+            "answer": "是的。我们对学习室中用户生成的内容进行审核，并设有举报系统。我们的 AI 经过编程，会拒绝不当请求。"
+          },
+          {
+            "question": "与学校顾问相比，这里的职业指导有多准确？",
+            "answer": "In-Aspired 是对专业顾问的补充，而不是替代。我们提供数据驱动的建议；顾问提供个性化、针对具体背景的建议。两者结合使用效果最佳！"
+          }
+        ]
+      }
+    }
+  },
+  "feedback": {
+    "header": {
+      "title": "报告问题",
+      "subtitle": "帮助我们修复漏洞并改进"
+    },
+    "type": {
+      "bug": {
+        "label": "漏洞报告",
+        "desc": "技术问题"
+      },
+      "content": {
+        "label": "内容问题",
+        "desc": "信息错误"
+      },
+      "feature": {
+        "label": "功能建议",
+        "desc": "改进建议"
+      },
+      "others": {
+        "label": "其他",
+        "desc": "其他反馈"
+      }
+    },
+    "form": {
+      "issueType": "问题类型",
+      "describe": "描述问题",
+      "placeholder": "发生了什么？请尽可能详细地说明...",
+      "minChars": "至少 10 个字符",
+      "screenshots": "截图 / 视频 (可选)"
+    },
+    "upload": {
+      "maxReached": "已达到最大文件数",
+      "clickToUpload": "点击上传文件",
+      "constraints": "仅限图像和视频 • 每个文件最大 10MB • 最多 5 个文件"
+    },
+    "btn": {
+      "cancel": "取消",
+      "submit": "提交报告",
+      "submitting": "提交中..."
+    },
+    "toast": {
+      "maxFiles": "最多允许 5 个文件",
+      "minChars": "请至少输入 10 个字符",
+      "success": "反馈已提交！谢谢！🎉",
+      "fail": "提交反馈失败"
+    }
+  },
+  "settings": {
+    "account": {
+      "title": "个人信息",
+      "subtitle": "管理您的个人详情",
+      "labels": {
+        "fullName": "全名",
+        "email": "电子邮件地址",
+        "phone": "电话号码",
+        "gender": "性别",
+        "dob": "出生日期"
+      },
+      "placeholders": {
+        "phone": "12 345 6789",
+        "gender": "选择性别"
+      },
+      "genders": {
+        "male": "男",
+        "female": "女",
+        "nonBinary": "非二元性别",
+        "preferNotToSay": "不愿透露"
+      },
+      "toasts": {
+        "photoUpdated": "照片已更新 (点击保存以应用)"
+      },
+      "deleteAccountAction": "删除账户"
+    },
+    "security": {
+      "title": "安全",
+      "subtitle": "保护您的帐户和隐私",
+      "changePassword": "更改密码",
+      "managedByGoogle": "由 Google 管理",
+      "googleDesc": "您使用 Google 登录。要更改密码，请访问您的 Google 帐户设置。",
+      "googleBtn": "Google 帐户安全",
+      "labels": {
+        "currentPassword": "当前密码",
+        "newPassword": "新密码",
+        "confirmPassword": "确认密码"
+      },
+      "phCurrent": "输入当前密码",
+      "disable2fa": {
+        "desc": "为了您的安全，请验证身份以关闭双重身分验证。"
+      },
+      "twoFactor": {
+        "title": "双重身份验证",
+        "subtitle": "增加额外的安全层"
+      },
+      "password": {
+        "match": "密码匹配",
+        "requirements": "保存要求：",
+        "currentVerified": "当前密码已验证",
+        "newValid": "新密码有效",
+        "clickEdit": "点击“编辑”更改密码",
+        "checking": "正在检查密码...",
+        "currentCorrect": "当前密码正确",
+        "currentIncorrect": "当前密码不正确",
+        "errorChecking": "检查密码时出错",
+        "unableVerify": "无法验证密码",
+        "networkError": "网络错误",
+        "verifyRequired": "请先验证您当前的密码",
+        "currentRequired": "当前密码为必填项"
+      },
+      "phNew": "创建新密码",
+      "phConfirm": "确认新密码",
+      "phLoginPass": "输入登录密码"
+    },
+    "btn": {
+      "edit": "编辑",
+      "save": "保存"
+    },
+    "notifications": {
+      "title": "通知",
+      "enableAll": "启用所有通知",
+      "email": "邮件通知",
+      "push": "推送通知",
+      "alerts": {
+        "notSupported": "设备不支持推送通知",
+        "blocked": "通知已被屏蔽。请在您的浏览器设置中启用。",
+        "enabled": "推送通知已启用",
+        "enableFailed": "启用推送通知失败",
+        "disabled": "推送通知已停用",
+        "disableFailed": "停用推送通知失败"
+      }
+    },
+    "preferences": {
+      "title": "偏好设置",
+      "subtitle": "自定义您的体验"
+    },
+    "appearance": {
+      "title": "外观",
+      "light": "浅色模式",
+      "dark": "深色模式",
+      "system": "系统模式"
+    },
+    "language": {
+      "title": "语言",
+      "subtitle": "选择您的首选语言",
+      "placeholder": "选择一种语言"
+    },
+    "privacy": {
+      "title": "数据与隐私",
+      "subtitle": "管理您的数据和帐户",
+      "cookies": {
+        "title": "Cookie 偏好设置",
+        "necessary": {
+          "title": "必要的 Cookie",
+          "desc": "核心功能所需"
+        },
+        "analytics": {
+          "title": "分析 Cookie",
+          "desc": "帮助我们改进服务"
+        },
+        "marketing": {
+          "title": "营销 Cookie",
+          "desc": "个性化广告和内容"
+        }
+      },
+      "delete": {
+        "title": "删除账户",
+        "desc": "永久删除您的账户及其所有内容。此操作无法撤销。",
+        "action": "删除账户",
+        "modal": {
+          "title": "删除账户？",
+          "desc": "此操作无法撤销。这将永久删除您的账户、保存的偏好设置和测验结果。",
+          "confirmLabel": "输入“删除”以确认",
+          "confirmWord": "删除",
+          "submitBtn": "删除账户"
+        },
+        "phDelete": "删除"
+      },
+      "phDelete": "删除"
+    },
+    "alerts": {
+      "themeFailed": "更新主题失败",
+      "langFailed": "更新语言失败",
+      "sessionExpired": "您的会话已过期。请重新登录。",
+      "2faGenFailed": "生成 2FA 失败",
+      "2faEnabled": "双重身份验证已启用！",
+      "2faInvalid": "代码无效。请再试一次。",
+      "verifyFailed": "验证失败。"
+    }
+  },
+  "premium": {
+    "analysis": {
+      "tag": "高级见解",
+      "title": "释放您的全部潜力",
+      "subtitle": "超越基础。获取有关您的职业 DNA、压力触发因素和自定义成长路线图的 20 页详细分析。",
+      "advanced": "高级分析",
+      "advancedDesc": "通过其他人支付咨询顾问 500 多美元才能发现的见解，改变您对自己的看法，并让您的职业生涯突飞猛进。",
+      "unlockBtn": "解锁完整报告 • RM9.99",
+      "loading": "加载中...",
+      "limitedTime": "限时 • 3折优惠 • 无风险保证",
+      "sections": {
+        "personality": {
+          "title": "您的性格概况",
+          "subtitle": "类型与阴暗面 💡",
+          "desc": "深入探讨您的优势以及它们在压力下如何转变。"
+        },
+        "career": {
+          "title": "职业兼容性矩阵",
+          "subtitle": "热门职业与完整职位列表 🚀",
+          "desc": "根据您的特定契合度评定的 50 多个角色的热力图。"
+        },
+        "course": {
+          "title": "课程推荐",
+          "subtitle": "量身定制的学习路径 📚",
+          "desc": "弥补您技能差距的具体课程。"
+        },
+        "skills": {
+          "title": "软技能与行动计划",
+          "subtitle": "日常习惯与快速获胜 ⚡",
+          "desc": "改善您“阴暗面”特质的实用练习。"
+        },
+        "workplace": {
+          "title": "职场环境契合度",
+          "subtitle": "团队氛围与文化 🏢🎨",
+          "desc": "您最适合与谁一起工作，以及应避开哪些文化。"
+        },
+        "growth": {
+          "title": "个人成长时间轴",
+          "subtitle": "6–12 个月的路线图 ⏳",
+          "desc": "职业加速的分步计划。"
+        },
+        "insights": {
+          "title": "趣味见解",
+          "subtitle": "关于您的趣事 😎",
+          "desc": "轻松的数据和名人匹配。"
+        }
+      }
+    },
+    "waitlist": {
+      "title": "加入候补名单",
+      "desc": "我们目前正在扩展我们的分析引擎。成为第一个知道完整报告何时可用的人（并获得 <strong>20% 的早鸟折扣</strong>）。",
+      "labelEmail": "电子邮件地址",
+      "phEmail": "you@example.com",
+      "btnNotify": "通知我",
+      "successTitle": "您已在名单上！",
+      "successDesc": "我们已为您保留名额。请留意您的收件箱——我们将很快发送您的折扣代码。",
+      "btnClose": "关闭"
+    },
+    "success": {
+      "title": "付款成功！ 🎉",
+      "subtitle": "感谢您解锁高级职业报告",
+      "nextTitle": "接下来会发生什么？",
+      "step1Title": "我们正在生成您的 PDF",
+      "step1Desc": "您的个性化职业报告正在根据您的 RIASEC 概况、顶级职业领域和课程推荐进行创建。",
+      "step2Title": "检查您的电子邮件",
+      "step2Desc": "您的报告将在未来几分钟内发送到您的注册电子邮箱。",
+      "step3Title": "探索您的职业道路",
+      "step3Desc": "利用报告中的见解对自己教育和职业做出知情的决定。",
+      "noEmailTitle": "没看到邮件？",
+      "noEmailDesc": "请检查您的垃圾邮件文件夹，或者如果您在 10 分钟内没有收到邮件，请联系我们。",
+      "redirecting": "将在 {{count}} 秒内重定向到首页...",
+      "btnHome": "返回首页",
+      "btnCourses": "探索课程",
+      "footerHelp": "需要帮助？联系我们："
+    }
+  },
+  "notifications": {
+    "titles": {
+      "Test Email Notification": "测试邮件通知",
+      "Join Request Approved!": "加入请求已批准！",
+      "Join Request Denied": "加入请求已被拒绝"
+    },
+    "dynamic": {
+      "testEmail": "这是一封测试电子邮件，用于验证您的通知设置。",
+      "approved": "{{actor}} 批准了你加入 \"{{room}}\" 的请求",
+      "denied": "{{actor}} 拒绝了你加入 \"{{room}}\" 的请求"
+    },
+    "ui": {
+      "title": "通知",
+      "markAllRead": "标记为已读",
+      "empty": "暂无通知",
+      "viewAll": "查看所有通知"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "confirm": "确认",
+    "cancel": "取消",
+    "ok": "确定",
+    "warning": "警告",
+    "typeToConfirm": "输入 \"{{keyword}}\" 确认",
+    "error": "错误",
+    "cookieConsent": {
+      "title": "我们重视您的隐私",
+      "description": "我们使用 Cookie 来增强您的浏览体验、提供个性化内容并分析我们的流量。您可以选择接受所有 Cookie、仅接受必要的 Cookie 或自定义您的偏好。",
+      "learnMore": "在我们的",
+      "privacyPolicy": "隐私政策",
+      "acceptAll": "全部接受",
+      "necessaryOnly": "仅必要",
+      "rejectAll": "全部拒绝",
+      "customize": "自定义",
+      "save": "保存偏好",
+      "necessary": {
+        "title": "必要 Cookie",
+        "desc": "核心功能所需"
+      },
+      "analytics": {
+        "title": "分析 Cookie",
+        "desc": "帮助我们改进服务"
+      },
+      "marketing": {
+        "title": "营销 Cookie",
+        "desc": "个性化广告和内容"
+      }
+    }
+  },
+  "quiz": {
+    "alerts": {
+      "error": "加载测验失败。请再试一次。"
+    }
+  },
+  "room": {
+    "alert": {
+      "leaveConfirm": "您确定要离开学习课程吗？"
+    }
+  },
+  "chatbot": {
+    "welcome": "你好! 👋 我在这里帮助您规划职业道路。您可以向我咨询任何有关课程、院校、职业或性格测试的问题！"
+  },
+  "courses": {
+    "items": {},
+    "descriptions": {
+      "sunway-cs-dip": "涵盖计算机核心概念、编程和数据库管理。旨在为学生就业或深造做好准备。",
+      "sunway-acc-fnd": "专为目标会计、金融或商科学位的学生量身定制。侧重数学与经济学。",
+      "sunway-finance-dip": "专注于金融市场、投资分析和公司金融。与行业联系紧密。",
+      "monash-business-dip": "蒙纳士大学商业与工商学士学位的直升路径。提供数学、市场营销和管理方面的基础商业知识。",
+      "apu-accounting-dip": "现代会计课程将传统会计原则与数字技术相结合。侧重于自动化会计系统、财务数据分析以及会计行业的新兴趋势。",
+      "help-accounting-dip": "专业会计课程，提供 ACCA 考试科目豁免。课程将会计专业技能与商业知识相结合，通过案例研究和行业实践，强调实际应用。",
+      "tarumt-e-marketing-dip": "专业的数字营销课程，侧重于在线营销策略、社交媒体管理、搜索引擎优化和电子商务营销。提供数字分析和活动管理的实践培训。",
+      "inti-ecommerce-dip": "专注于规划、开发和管理在线业务的专业课程。涵盖电子商务平台、数字支付系统、在线营销、电子商务物流以及在线交易的网络安全。",
+      "inti-financial-informatics-dip": "结合金融与信息技术的前沿课程。专注于数字金融时代的金融数据分析、银行系统、金融科技（FinTech）应用、算法交易和金融软件开发。",
+      "ucsi-real-estate-dip": "涵盖物业管理、房地产估价、投资分析和房地产开发的综合课程。侧重于住宅和商业房地产领域，包括法律层面、市场分析和可持续物业管理实践。",
+      "sunway-digital-entrepreneurship-dip": "为有志于成为数字企业家的学生设计的创新课程。专注于识别数字商业机会、开发最小可行产品（MVPs）、获取融资以及扩展数字企业。包括实践创业项目、导师指导以及进入双威（Sunway）创新生态系统的机会。",
+      "mmu-finance-dip": "涵盖金融市场、投资分析、企业金融和金融科技的综合金融课程。专注于财务决策的分析技能，并关注金融领域新兴的金融科技应用。",
+      "inti-quantity-surveying-dip": "培训学生掌握建筑成本管理、采购和合同管理的专业课程。",
+      "tarumt-engineering-fnd": "经济实惠的工程基础课程，提供数学、物理和工程原理的基础知识。旨在作为升读拉曼理工大学（TARUMT）工程文凭和学位课程的高性价比途径，强调实际应用和行业准备。",
+      "mmu-electronic-eng-dip": "涵盖模拟和数字电子、电路设计、嵌入式系统和通信工程的综合电子工程课程。专注于电子电路设计、微控制器编程和电子系统开发的实践技能。",
+      "ucsi-engineering-fnd": "以工程为重点的基础课程，强调数学、物理和工程原理。为学生升读包括机械、电气和土木工程学位在内的各种工程学科做好准备。",
+      "ucsi-sci-fnd": "强化的大学预科课程，为学生在思特雅大学（UCSI University）攻读医学、药剂学和科学学位做好准备。",
+      "inti-sci-fnd": "全面的科学基础课程，为学生攻读各种科学相关学位做好准备。提供通往生命科学、物理科学和应用科学的灵活路径，重点强调实验室技术和科学探究。",
+      "sunway-nursing-dip": "遵循国际标准的专业护理课程，提供全面的临床培训。特色包括先进的模拟实验室、广泛的医院实习，并为在马来西亚护理局注册做好准备。强调循证实践和整体患者护理。",
+      "limkokwing-art-fnd": "专为志向成为设计师的学生设计。侧重于绘画、色彩理论和设计基础。",
+      "tarumt-fashion-design-dip": "全面的服装设计课程，专注于服装结构、打版和时装插画的实际技能。强调传统技术与现代方法的结合。拥有强大的行业联系，提供实习和就业机会。",
+      "sunway-performing-arts-dip": "全面的表演艺术课程，涵盖戏剧、舞蹈和音乐。包括表演培训、舞台艺术、制作管理和艺术行政。学生可使用双威大学（Sunway University）的专业剧院设施。",
+      "mmu-creative-audio-dip": "专业音频课程，专注于创意声音设计、音频制作和音乐技术。涵盖录音技术、声音合成、电影/游戏的音频后期制作以及现场音效工程。利用多媒体大学（MMU）先进的音频工作室和数字音频工作站。",
+      "sunway-digital-creative-content-dip": "现代数字内容创作课程，专注于为各种数字平台制作引人入胜的内容。涵盖数字故事讲述、社交媒体内容策略、视频制作、平面设计和内容营销。强调为当今的数字环境创作具有病毒式传播潜力的内容。",
+      "ucsi-arts-design-fnd": "艺术与设计研究的创意基础课程，包括美术、平面设计和多媒体。侧重于创意表达、设计基础以及针对艺术和设计学科的作品集开发。",
+      "inti-hotel-mgt-dip": "全面的酒店管理课程，涵盖前台运营、客房部、餐饮管理和款待业营销。包括酒店运营的实践培训，并为担任款待业的督导职位做好准备。",
+      "sunway-hotel-mgt-dip": "优质酒店管理课程，拥有强大的行业联系，专注于豪华款待和度假村管理。该课程利用双威的综合度假村设施进行实操训练，并强调国际酒店业标准。",
+      "sunway-event-mgt-dip": "综合性活动管理课程，充分利用双威的综合娱乐和会议设施。课程涵盖企业活动、娱乐制作、场馆管理和大型活动执行，并可使用双威会议中心及各类娱乐场所。",
+      "taylors-event-mgt-dip": "遵循英国课程标准的国际活动管理课程，专注于 MICE（会议、奖励旅游、大型会议、展览）行业和全球活动实践。该课程强调战略性活动规划、国际标准以及全球活动行业的管理技能。",
+      "ucsi-aquaculture-entrepreneurship-dip": "将水产养殖科学与创业技能相结合的创新课程。专注于可持续鱼类养殖技术、孵化场运营以及水产养殖企业的业务发展。旨在培养学生创办和管理自己的水产养殖业务，或在不断成长的水产养殖行业中工作。",
+      "help-psych-fnd": "心理学学位的预科课程。介绍基础心理学概念和统计学。",
+      "help-edu-dip": "综合性教师培训课程，为学生从事教育职业做好准备。课程将理论知识与真实课堂环境中的实际教学经验相结合。",
+      "sunway-communication-dip": "综合传播课程，涵盖大众传播、公共关系、媒体研究和战略传播。为学生在媒体、企业传播、公共关系和跨平台内容创作等领域的职业生涯做好准备。",
+      "inti-law-dip": "针对律师事务所支持角色的职业培训。这**不是**成为律师的途径。",
+      "sunway-mufy": "直通莫纳什大学的衔接课程。通过课程作业和考试相结合的方式进行评估。",
+      "inti-immersive-design-dip": "专注于沉浸式技术（包括虚拟现实 VR、增强现实 AR 和混合现实 MR）的前沿课程。学生将学习沉浸式环境下的 3D 建模、交互式叙事、游戏引擎开发和用户体验设计。",
+      "sunway-it-dip": "侧重于 IT 的课程，涵盖网络管理、数据库系统、IT 支持和系统维护。拥有强大的行业联系，强调实践技能和认证准备。",
+      "tarumt-it-dip": "侧重于系统管理、IT 支持和技术管理的实践性 IT 课程。包括行业认证准备以及企业 IT 系统的实践经验。",
+      "ucsi-is-dip": "全面的信息系统课程，侧重于组织信息系统的设计、实施和管理。涵盖系统分析、数据库设计、网络基础设施和业务流程整合，旨在实现有效的信息管理。",
+      "mmu-computing-fnd": "专业的计算基础课程，旨在为学生在多媒体大学 (MMU) 攻读计算机科学、信息技术和多媒体学位做好准备。侧重于编程基础、计算机系统和计算数学基础。",
+      "taylors-it-dip": "遵循英国课程标准的全面 IT 课程，侧重于实践 IT 技能、系统管理和商业技术应用。将技术知识与商业理解相结合，为学生在各种组织环境中担任 IT 角色做好准备。",
+      "inti-bus-dip": "广泛的商业教育，涵盖管理、市场营销和金融基础。",
+      "ucsi-finance-dip": "现代金融课程，将传统的金融原理与新兴的金融科技 (FinTech) 应用相结合。涵盖财务规划、投资策略、风险管理以及技术对金融服务的影响。",
+      "ucsi-accounting-dip": "侧重于商业应用、企业财务报告和财务管理的实践会计课程。包括行业相关项目和专业职场准备。",
+      "help-bus-mgt-dip": "全面的工商管理课程，侧重于战略思维、创业精神和分析性决策。通过案例研究和行业项目，将理论概念与实际应用相结合。",
+      "mmu-bis-dip": "侧重于支持业务运营的信息系统分析、设计和实施的专业课程。涵盖系统开发生命周期、数据库管理、业务流程建模和企业资源规划 (ERP) 系统。",
+      "tarumt-banking-finance-dip": "专注于银行运营、金融服务和货币系统的专业课程。涵盖商业银行、零售银行、金融市场和监管框架。为学生在银行和金融服务行业担任初级职位做好准备。",
+      "tarumt-finance-investment-dip": "涵盖投资分析、投资组合管理和金融市场的综合金融课程。内容涉及证券分析、风险管理以及各种资产类别的投资策略。",
+      "tarumt-intl-business-dip": "专注于全球业务运营、国际贸易、跨文化管理和全球市场准入策略的课程。涵盖国际商业法、贸易法规和全球供应链。",
+      "inti-business-fnd": "综合商业预科课程，提供管理、经济、会计和市场营销方面的基础知识。旨在通过灵活的学科组合和行业见解，为学生攻读各种商业相关学位课程做好准备。",
+      "taylors-business-fnd": "严谨的商业预科课程，强调全球商业视角、分析性思维和领导技能。采用案例研究教学法并包含行业项目，以提供实际的商业见解，并为攻读国际商务学位做好准备。",
+      "mmu-mechanical-eng-dip": "现代机械工程课程，重点关注自动化、机电一体化和智能制造。将传统机械原理与数字技术、机器人技术和工业 4.0 概念相结合，以适应当代制造环境。",
+      "help-sci-fnd": "严谨的科学预科课程，强调分析性思维、研究方法和科学交流。专为追求基础科学、应用科学和健康科学学位且具有较强研究导向的学生而设计。",
+      "ucsi-pharmaceutical-fnd": "针对药物科学和药剂学学位的专业预科课程。强调化学、生物学和基础药物概念，为学生进入药剂学和药物科学专业做好准备。",
+      "tarumt-design-dip": "平面设计软件和视觉传达原则的实操培训。",
+      "inti-digital-media-dip": "专注于数字内容创作、社交媒体策略和多媒体制作的综合课程。学生将学习创作具有吸引力的数字内容、管理在线平台并制定数字营销活动。该课程将创意技能与技术知识相结合，以应对不断变化的数字景观。",
+      "inti-fashion-design-dip": "综合性服装设计课程，涵盖设计原理、服装结构、打版和纺织知识。学生通过实践项目建立作品集，学习时尚历史和趋势，并通过工作坊和行业参观获取行业见解。",
+      "ucsi-fashion-design-dip": "当代服装设计课程，强调创意、技术技能和行业准备。包括年度时装秀、行业合作和作品集开发。专注于可持续时尚和数字设计工具。",
+      "inti-graphic-design-dip": "综合性平面设计课程，专注于视觉传达、排版和品牌标识。学生在学习数字工具并为各种媒体平台创建专业作品集的同时，建立坚实的设计基础。",
+      "inti-mass-comm-dip": "综合性大众传播课程，涵盖新闻学、广播、公共关系和数字媒体。包括媒体制作、新闻写作和各平台传播策略的实践培训。",
+      "ucsi-mass-comm-dip": "当代大众传播课程，强调数字媒体转型和战略传播。将传统媒体原理与新媒体技术、数据分析和全球传播视角相结合。",
+      "mmu-cinematography-dip": "专业摄影课程，专注于摄像操作、灯光、构图和视觉叙事。涵盖电影和视频制作的摄影技术层面及创意视觉语言。",
+      "mmu-3d-animation-dip": "综合性3D课程，涵盖建模、贴图、骨骼绑定、动画和渲染。专注于使用行业标准软件和流程，为游戏、电影和数字媒体创建3D资产。",
+      "sunway-interior-design-dip": "综合性室内设计课程，专注于空间规划、材料选择、灯光设计和可持续实践。涵盖住宅、商业和酒店室内设计，重点强调3D可视化、技术绘图和客户演示技能。",
+      "tarumt-event-mgt-dip": "经济实惠的活动管理课程，专注于针对马来西亚市场的实用活动策划技能。涵盖各种活动类型的活动协调、预算编制、供应商管理和物流，包括企业、社交和社区活动。",
+      "ucsi-event-mgt-dip": "与酒店管理深度融合的综合性活动管理课程，涵盖企业活动、婚礼、社交职能和酒店相关活动。强调各种活动环境下的实际执行技能和行业相关培训。",
+      "inti-culinary-arts-dip": "综合烹饪艺术课程，涵盖专业厨房技巧、菜单规划和餐厅运营。结合了西方烹饪方法与亚洲菜肴特色，强调在商业厨房环境中的实际技能培养。",
+      "taylors-early-childhood-dip": "专业幼儿教育课程，专注于儿童发展、幼儿园课程设计及针对幼儿的教学方法。结合理论知识与幼儿教育环境中的实际教学经验。",
+      "taylors-cambridge-alevel": "遵循英国课程标准的国际认可剑桥 A-Level 课程。为全球各种大学升学路径提供灵活的科目组合。被誉为全球顶尖大学认可的预科资历“金标准”。",
+      "mmu-digital-business-dip": "这一前沿课程将传统商业知识与数字技术相结合。学生将学习电子商务策略、数字营销、商业数据分析以及如何管理数字化转型项目。",
+      "inti-cs-dip": "综合计算机科学课程，涵盖编程、算法、数据结构和软件工程原理。通过与行业相关的项目，重点培养解决问题的能力和软件开发生命周期知识。",
+      "ucsi-it-dip": "综合信息技术 (IT) 课程，专注于企业系统、云技术和 IT 安全。将行业标准实践与新兴技术相结合，并包含行业实习机会。",
+      "taylors-computing-fnd": "采用创意和创新方法的计算机预科课程，为学生攻读计算机科学、软件工程和数字创意技术学位做好准备。强调设计思维、问题解决能力和英国课程标准。",
+      "ucsi-applied-sci-fnd": "具有应用导向的科学预科课程，为学生攻读技术类科学学位做好准备。强调科学原理在工业和技术背景下的实际应用。",
+      "ucsi-it-fnd": "以信息技术为重点的预科课程，介绍计算机系统、编程概念和信息技术原理。为学生攻读 IT 和计算机学位课程做好准备，重点培养实际技能和对技术的理解。",
+      "tarumt-econ-dip": "专注于微观和宏观经济学原理，为学生继续攻读学位或从事分析性工作做好准备。",
+      "inti-accounting-dip": "综合性会计课程，涵盖财务会计、管理会计、税务和审计。为学生考取专业会计资格做好准备，并包括实用软件培训。",
+      "apu-ba-dip": "现代工商管理课程，将传统管理原则与数字业务战略相结合。重点关注创新、商业中的技术应用以及数字经济下的数据驱动决策。",
+      "sunway-ba-dip": "综合性工商管理课程，强调战略思维、领导技能和全球商业视角。包括案例研究、行业项目以及管理能力的培养。",
+      "ucsi-ba-dip": "实用性工商管理课程，涵盖核心管理职能、组织行为和业务运营。侧重于培养适用于各种商业环境的即效技能。",
+      "tarumt-logistics-dip": "实用性课程，涵盖物流运作、供应链协调、库存控制、运输管理和仓库运作。侧重于供应链网络的效率与优化。",
+      "tarumt-marketing-dip": "综合性市场营销课程，涵盖营销原则、消费者行为、品牌管理和营销传播。包括传统和数字营销方法。",
+      "tarumt-retail-dip": "专门化课程，侧重于零售运作、门店管理、视觉陈列和客户关系管理。涵盖实体和在线零售环境。",
+      "ucsi-business-computing-dip": "综合性课程，将商业知识与计算机技能相结合，以开发商业应用和IT解决方案。侧重于设计、开发和实施基于计算机的系统，以解决商业问题并提高组织效率。",
+      "tarumt-acc-fnd": "综合性会计基础课程，提供财务会计、管理会计和商业数学方面的核心知识。旨在作为通往会计学位和专业资格的经济实惠途径，强调实用会计技能和软件培训。",
+      "mmu-management-dip": "综合性管理课程，侧重于组织领导力、战略规划和业务运营。涵盖管理原则、人力资源管理、组织行为和业务战略制定，旨在培养有效的组织领导力。",
+      "mmu-ba-dip": "综合性工商管理课程，重点关注管理原则、商业运营和组织领导力。涵盖基本的商业职能，为学生在各种组织中担任主管和管理职位做好准备。",
+      "taylors-accounting-dip": "遵循英国会计标准和实践的专业会计课程。涵盖财务会计、管理会计、税务、审计和企业财务。为包括 ACCA 在内的专业会计资格提供坚实基础，并可能获得豁免。",
+      "taylors-business-dip": "遵循英国课程标准的综合性商业课程，涵盖管理、营销、金融和运营等核心商业职能。提供具有国际视野和实际应用的商业原则坚实基础。",
+      "ucsi-actuarial-fnd": "精算学研究的专业预科课程，专注于高等数学、统计学和金融数学。为学生攻读严谨的精算学学位和参加专业精算考试做好准备。",
+      "ucsi-accounting-finance-fnd": "专注于会计、金融和经济学的商业预科课程。为攻读商学和商业学位的学生提供坚实的数学基础和商业概念介绍。",
+      "mmu-engineering-fnd": "综合性工程预科课程，为学生在多媒体大学（MMU）攻读各种工程学位做好准备。重点关注坚实的数学基础、物理原理和工程概念介绍，强调电气、电子和机械工程方向。",
+      "inti-mechanical-eng-dip": "综合性机械工程课程，涵盖机械系统的设计、制造和维护。专注于计算机辅助设计、制造工艺、热力学和机械元件设计，并提供实际的车间训练。",
+      "tarumt-qs-dip": "价格实惠的工料测量课程，专注于马来西亚建筑行业实践。涵盖测量技术、成本估算、合同文件和建筑法律。通过行业实习和实际项目案例研究，强调实践技能。",
+      "ucsi-nursing-dip": "包含广泛临床实习的专业护理课程。毕业生有资格向马来西亚护理委员会注册。",
+      "taylors-pharmacy-fnd": "专为升读药剂学或生物医学学位的学生开设的专业预科课程。",
+      "tarumt-sports-science-dip": "该项目将科学知识与运动、锻炼及健身方面的实践技能相结合。学生将学习人体解剖学、运动生理学、运动心理学和训练方法。",
+      "ucsi-medical-sci-fnd": "针对医学及健康科学学位的强化预科项目。重点学习生物、化学、物理及入门医学概念，为学生进入竞争激烈的医学及健康科学专业做好准备。",
+      "mmu-multimedia-dip": "将艺术与技术相结合。涵盖动画、视频制作和交互媒体。",
+      "taylors-architecture-fnd": "针对建筑和室内设计学位的专业预科项目。强调设计思维和技术绘图。",
+      "ucsi-graphic-design-dip": "充满活力的平面设计项目，强调创意驱动和实际应用。将传统设计原则与数字媒体、广告概念和多媒体元素相结合。包含真实的行业项目。",
+      "sunway-fashion-tech-dip": "尖端时尚项目，将传统设计与技术相结合。重点学习数字打版、3D时尚设计软件、智能纺织品以及技术在服装生产中的整合。为学生应对时尚行业的未来做好准备。",
+      "sunway-graphic-multimedia-dip": "综合设计项目，将平面设计原则与多媒体制作技能相结合。涵盖视觉传达、数字设计、动画、视频制作以及针对各种媒体平台的品牌形象开发。",
+      "taylors-tourism-dip": "全面的旅游教育，涵盖旅游运营、目的地管理和款待服务。",
+      "sunway-culinary-arts-dip": "优质烹饪艺术项目，可使用双威度假村（Sunway Resort）的专业厨房设施。重点学习国际美食烹饪技术、高级餐饮呈现和烹饪创新，并通过双威综合款待环境获得丰富的行业接触。",
+      "ucsi-hospitality-tourism-fnd": "针对款待与旅游管理研究的专业预科项目。介绍酒店运营、旅游概念、客户服务原则和行业实践，为学生进入款待与旅游学位课程做好准备。",
+      "tarumt-aquaculture-dip": "实践性课程，培训学生掌握鱼类、虾类和贝类养殖的现代水产技术。涵盖孵化场运营、饲料配方、水质管理、疾病防控及可持续水产养殖实践。",
+      "help-child-edu-dip": "面向未来教育工作者的升学途径。涵盖学习理论与教育情境研究。",
+      "apu-psychology-dip": "综合心理学课程，将传统心理学理论与技术应用相融合。涵盖认知心理学、发展心理学、社会心理学和研究方法，重点关注数字情境中的心理学及人机交互。",
+      "mmu-applied-comm-dip": "实践性传播课程，专注于企业传播、公共关系和战略信息传递的应用技能。强调针对组织实际传播挑战的解决方案。",
+      "taylors-communication-dip": "综合传播课程，涵盖大众传播、媒体制作、公共关系和战略传播。依据国际标准，强调媒体制作、活动策划和传播策略制定的实践技能。",
+      "ucsi-social-sciences-fnd": "涵盖心理学、社会学、传播学和人文学科的社会科学与文理研究广泛基础课程。强调批判性思维、研究技能以及对人类社会的跨学科理解。",
+      "mmu-law-fnd": "为攻读法学学士学位做准备。介绍马来西亚法律体系与法律推理。",
+      "apu-international-studies-dip": "专业课程，专注于外交实践、国际法和全球冲突解决。",
+      "taylors-ausmat": "西澳大利亚教育证书（WACE）课程。50% 课程作业，50% 考试评估。",
+      "inti-alevel": "英特国际大学学院提供的传统 A-Level 课程。",
+      "apu-cs-foundation": "为有志攻读计算机科学、信息技术或软件工程学位的学生提供扎实的基础。专注于编程基础和数学。",
+      "mmu-it-dip": "综合性信息技术文凭课程，专注于 IT 基础设施、网络和基础软件开发。",
+      "tarumt-cs-dip": "结构化计算机科学课程，强调算法思维、软件开发方法和系统设计。将理论基础与实践编程实验及面向行业的作业相结合。",
+      "sunway-sci-tech-fnd": "综合性理工科基础课程，面向有意攻读工程、计算机科学、信息技术和应用科学学位的学生。将理论知识与实验室实践技能和技术应用相结合。",
+      "tarumt-computing-fnd": "经济实惠的计算基础课程，提供编程、计算机系统和计算数学方面的基础知识。注重实践技能，为学生攻读拉曼理工大学及其他院校的计算机相关文凭和学位做好准备。",
+      "inti-finance-dip": "综合金融课程，涵盖金融市场、投资分析、公司金融和银行运营。强调财务建模、风险评估和投资决策的实践技能。",
+      "sunway-accounting-dip": "认可度高的会计课程，与 ACCA 有紧密合作并拥有强大的行业伙伴关系。强调道德会计实践、公司治理以及通过实习促进职业发展。",
+      "apu-bit-dip": "衔接商业运营与信息技术的专业课程。专注于技术如何驱动业务创新、优化流程和创造竞争优势。涵盖业务系统分析、IT 项目管理和数字商业策略。",
+      "tarumt-hrm-dip": "综合性人力资源课程，涵盖招聘、培训、薪酬、劳动法和组织发展。专注于培养有效管理人才所需的实践人力资源技能。",
+      "mmu-accounting-dip": "专业会计课程，涵盖财务会计、管理会计、税务和审计。为学生在各类组织中担任会计职位做好准备，并为考取专业会计资格奠定基础。",
+      "taylors-eng-fnd": "直通工程学位的衔接课程。强调数学和物理基础。",
+      "tarumt-mech-dip": "专注于机械系统、制图和制造工艺。适合动手能力强的学习者。",
+      "taylors-qs-dip": "遵循英国标准和实践的专业工料测量课程。涵盖建筑成本管理、合同管理、采购策略和建筑经济学。为学生考取专业工料测量资格及拓展国际职业机会做好准备。",
+      "taylors-natural-built-env-fnd": "面向有志攻读建筑学、城市规划、景观建筑及环境设计学位学生的专业基础课程。专注于自然环境与人造建筑环境的关系，将设计原则与环境意识相融合。",
+      "ucsi-built-env-fnd": "涵盖建筑学、工料测量和建筑管理的建筑环境研究基础课程。专注于建筑环境学科的设计原则、技术制图和环境意识。",
+      "tarumt-sci-fnd": "经济实惠的理科基础课程，提供生物、化学、物理和数学方面的基础知识。强调实际应用，为学生攻读拉曼理工大学及其他院校的理工科学位做好准备。",
+      "inti-pharmacy-dip": "综合药学课程，涵盖药物科学、药理学、药学实践和患者护理。包括实验室实习、临床轮转，并为通过马来西亚药学委员会注册为药房助理做好准备。",
+      "taylors-comm-fnd": "通往大众传播、广告和广播学位的升学途径。包含工作室实践课程。",
+      "sunway-fashion-media-dip": "专业课程，专注于时尚传播、媒体与推广。涵盖时尚新闻、摄影、社交媒体内容创作、公共关系以及面向数字时代的时尚活动管理。",
+      "sunway-interactive-new-media-dip": "前沿课程，专注于互动数字体验、用户界面设计和新媒体技术。涵盖网页开发、互动装置、移动应用程序以及使用新兴技术打造沉浸式数字体验。",
+      "taylors-digital-design-dip": "现代数字设计课程，专注于数字产品的用户界面（UI）和用户体验（UX）设计。涵盖设计思维、原型制作、可用性测试，以及跨网页、移动端和交互媒体等多平台的数字体验创建。",
+      "taylors-interior-design-dip": "遵循英国课程标准的专业室内设计课程，专注于空间设计、材料应用、灯光设计和可持续室内实践。强调住宅和商业空间的创意问题解决、技术技能和专业表达。",
+      "ucsi-music-fnd": "面向有志攻读音乐学位学生的专业音乐基础课程。涵盖乐理、演奏技能、音乐技术和创意表达。入学须通过试奏或具备音乐背景。",
+      "ucsi-hospitality-dip": "为学生在酒店和度假村担任督导职位做好准备。涵盖前台和客房部运营。",
+      "taylors-culinary-dip": "综合烹饪培训课程，涵盖法式烹饪技法、食品安全和厨房管理。",
+      "ucsi-pastry-bakery-dip": "专业的西点与烘焙艺术综合培训课程。学生将掌握面包制作、蛋糕装饰、巧克力工艺和甜点制作的基础及高级技术。",
+      "taylors-hotel-mgt-dip": "遵循英国课程标准的国际酒店管理课程，专注于全球款待实践、卓越服务和酒店领导力。强调国际职业发展机会和全球酒店业所需的管理技能。",
+      "inti-tourism-mgt-dip": "综合旅游管理课程，涵盖旅行运营、目的地管理、旅游营销和可持续旅游实践。注重旅游企业实践技能，并结合马来西亚多元旅游资源及国际旅游趋势。",
+      "tarumt-culinary-arts-dip": "经济实惠的烹饪艺术课程，专注于实践厨房技能和马来西亚菜肴的应用。强调商业厨房运营、食品成本管理和本地烹饪传统的实操培训，适合注重性价比的烹饪学生。",
+      "ucsi-culinary-arts-dip": "综合烹饪艺术课程，将实践厨房技能与食品科学原理及厨房管理相结合。专注于国际烹饪标准、美食学概念和专业厨房运营，助力学生开拓多元烹饪职业道路。",
+      "ucsi-elt-dip": "专业英语教学课程，涵盖语言教学法、课堂管理、课程开发和语言评估。专注于面向学校、语言中心和企业培训等各类教育场景的实际教学技能。",
+      "tarumt-early-childhood-dip": "经济实惠的幼儿教育课程，专注于学前教学、儿童发展原则和早期学习方法。强调实际教学技能、幼儿课程开发，以及对马来西亚幼儿教育框架的理解。",
+      "sunway-alevel": "被誉为预科资历的 \"黄金标准\"。获全球顶尖大学广泛认可。",
+      "nottingham-fnd": "为学生培养必要的学术能力，助其顺利升读广泛的本科学位课程。",
+      "sunway-ausmat": "西澳大利亚教育证书（WACE）课程，提供澳大利亚大学入学资格。采用 50% 课程作业和 50% 考试的评估方式，提供灵活的科目组合，可直接升读澳大利亚及其他国际院校。",
+      "sunway-cimp": "基于安大略省高中文凭（OSSD）课程的加拿大大学预科课程。采用 100% 课程作业评估，无需参加期末考试，提供灵活的科目组合，可直接入读加拿大及其他国际院校。",
+      "help-test-fnd": "Test",
+      "sunway-test-fnd": "w",
+      "tarumt-acc-dip": "q",
+      "monash-cooking-fnd": "Cooking is cool",
+      "archive-test-1": "Testing archive functionality",
+      "ucsi-diploma-it-fnd": "ITITIT",
+      "taylors-abc-dip": "aaa"
+    },
+    "tags": {
+      "Industry Partner": "行业合作伙伴",
+      "Tech Focused": "专注科技",
+      "High Employability": "高就业能力",
+      "Practical Labs": "实用实验室",
+      "Government Linked": "政府相关",
+      "Focus on Multimedia": "专注多媒体",
+      "Digital Transformation": "数字化转型",
+      "E-commerce": "电子商务",
+      "Tech Business": "科技业务",
+      "Future Skills": "未来技能",
+      "VR/AR Development": "VR/AR开发",
+      "Interactive Media": "互动媒体",
+      "3D Design": "3D设计",
+      "Future Tech": "未来科技",
+      "Programming Fundamentals": "编程基础知识",
+      "Software Development": "软件开发",
+      "Data Structures": "数据结构",
+      "Industry Projects": "行业项目",
+      "Algorithm Design": "算法设计",
+      "Software Engineering": "软件工程",
+      "Affordable": "价格实惠",
+      "IT Infrastructure": "信息技术基础设施",
+      "Networking": "联网",
+      "Database Management": "数据库管理",
+      "IT Management": "信息技术管理",
+      "System Administration": "系统管理",
+      "Budget Friendly": "预算友好",
+      "Industry Certifications": "行业认证",
+      "Enterprise IT": "企业IT",
+      "Cloud Computing": "云计算",
+      "IT Security": "信息技术安全",
+      "Industry Collaboration": "行业合作",
+      "Systems Analysis": "系统分析",
+      "Business Systems": "业务系统",
+      "STEM Pathway": "STEM 途径",
+      "Laboratory Skills": "实验室技能",
+      "Technology Focus": "技术聚焦",
+      "Research Methods": "研究方法",
+      "Programming Basics": "编程基础知识",
+      "IT Fundamentals": "信息技术基础知识",
+      "Multimedia University": "多媒体大学",
+      "Tech Pathway": "技术途径",
+      "Creative Computing": "创意计算",
+      "Design Thinking": "设计思维",
+      "UK Curriculum": "英国课程",
+      "Innovation Focus": "创新焦点",
+      "Affordable Tech": "经济实惠的技术",
+      "Practical Skills": "实用技能",
+      "Industry-Ready": "行业就绪",
+      "STEM Education": "STEM教育",
+      "Practical IT Skills": "实用IT技能",
+      "Business Technology": "商业技术",
+      "Applied Sciences": "应用科学",
+      "Practical Applications": "实际应用",
+      "Industrial Sciences": "工业科学",
+      "Computer Systems": "计算机系统",
+      "Digital Literacy": "数字素养",
+      "ACCA Pathway": "ACCA 衔接课程",
+      "Business Focused": "专注于商业",
+      "Entrepreneurship": "创业精神",
+      "Flexible": "灵活的",
+      "Academic Excellence": "学术卓越",
+      "City Campus": "城市校区",
+      "CFA Pathway": "CFA 衔接课程",
+      "Investment Banking": "投资银行业务",
+      "Practical": "实际的",
+      "Monash Pathway": "莫纳什大学预科课程",
+      "Direct Degree Entry": "直接学位入学",
+      "Specialised Business": "专业业务",
+      "Australian Curriculum": "澳大利亚课程",
+      "Financial Analysis": "财务分析",
+      "Investment Management": "投资管理",
+      "Banking Operations": "银行业务",
+      "Portfolio Development": "投资组合开发",
+      "Corporate Finance": "企业融资",
+      "Financial Markets": "金融市场",
+      "FinTech": "金融科技",
+      "Risk Management": "风险管理",
+      "Professional Accounting": "专业会计",
+      "Digital Accounting": "数字会计",
+      "Tech Integration": "技术整合",
+      "Industry 4.0": "工业4.0",
+      "Professional Exams": "专业考试",
+      "ACCA Exemptions": "ACCA 豁免",
+      "Practical Training": "实践培训",
+      "Business Integration": "业务整合",
+      "CPA Pathway": "注册会计师途径",
+      "Financial Reporting": "财务报告",
+      "Management Accounting": "管理会计",
+      "Taxation": "税收",
+      "ACCA Recognition": "ACCA认可",
+      "Industry Partnerships": "行业合作伙伴",
+      "Professional Development": "专业发展",
+      "Ethical Accounting": "道德会计",
+      "Business Accounting": "商业会计",
+      "Corporate Reporting": "企业报告",
+      "Financial Management": "财务管理",
+      "Industry Ready": "行业就绪",
+      "Digital Business": "数字商务",
+      "Management Science": "管理科学",
+      "Tech-Driven": "技术驱动",
+      "Strategic Management": "战略管理",
+      "Leadership Development": "领导力发展",
+      "Industry Exposure": "行业曝光",
+      "Global Perspective": "全球视野",
+      "General Management": "综合管理",
+      "Organizational Behavior": "组织行为",
+      "Career Ready": "职业准备",
+      "Strategic Planning": "战略规划",
+      "Analytical Skills": "分析能力",
+      "Industry Integration": "产业整合",
+      "Business-IT Integration": "业务与IT集成",
+      "Tech Management": "技术管理",
+      "Database Design": "数据库设计",
+      "Business Processes": "业务流程",
+      "Enterprise Systems": "企业系统",
+      "Financial Services": "金融服务",
+      "Digital Marketing": "数字营销",
+      "Social Media": "社交媒体",
+      "SEO/SEM": "搜索引擎优化/搜索引擎营销",
+      "Investment Analysis": "投资分析",
+      "Portfolio Management": "投资组合管理",
+      "Risk Assessment": "风险评估",
+      "Talent Management": "人才管理",
+      "Industrial Relations": "劳资关系",
+      "Training & Development": "培训与发展",
+      "HR Analytics": "人力资源分析",
+      "Global Trade": "全球贸易",
+      "Cross-Cultural Management": "跨文化管理",
+      "Import-Export": "进出口",
+      "International Marketing": "国际营销",
+      "Supply Chain Operations": "供应链运营",
+      "Inventory Management": "库存管理",
+      "Transportation": "运输",
+      "Warehousing": "仓储",
+      "Marketing Strategy": "营销策略",
+      "Consumer Behavior": "消费者行为",
+      "Brand Management": "品牌管理",
+      "Market Research": "市场研究",
+      "Store Operations": "店铺运营",
+      "Merchandising": "商品推销",
+      "Customer Service": "客户服务",
+      "Retail Analytics": "零售分析",
+      "Business Applications": "商业应用",
+      "Systems Development": "系统开发",
+      "IT Solutions": "信息技术解决方案",
+      "Online Business": "网上业务",
+      "Digital Storefront": "数字店面",
+      "Payment Systems": "支付系统",
+      "E-commerce Strategy": "电商策略",
+      "Financial Analytics": "财务分析",
+      "Banking Systems": "银行系统",
+      "Data-Driven Finance": "数据驱动的金融",
+      "Property Management": "物业管理",
+      "Valuation": "估值",
+      "Real Estate Law": "房地产法",
+      "Startup Culture": "创业文化",
+      "Digital Business Models": "数字商业模式",
+      "Lean Methodology": "精益方法论",
+      "Pitch Training": "推介训练",
+      "Business Fundamentals": "业务基础知识",
+      "Multiple Pathways": "多种途径",
+      "Flexible Entry": "灵活进入",
+      "Global Business Perspective": "全球商业视角",
+      "Case Study Method": "案例研究法",
+      "Industry Connections": "行业联系",
+      "Accounting Fundamentals": "会计基础知识",
+      "Affordable Pathway": "经济实惠的途径",
+      "Professional Preparation": "专业准备",
+      "Organizational Management": "组织管理",
+      "Decision Making": "决策",
+      "Investment Strategies": "投资策略",
+      "FinTech Awareness": "金融科技意识",
+      "Financial Accounting": "财务会计",
+      "Audit Procedures": "审核程序",
+      "Business Operations": "业务运营",
+      "Leadership Skills": "领导技能",
+      "UK Accounting Standards": "英国会计准则",
+      "Professional Pathway": "专业途径",
+      "Management Principles": "管理原则",
+      "International Perspective": "国际视野",
+      "Mathematics Intensive": "数学强化",
+      "Statistics Focus": "统计焦点",
+      "Insurance Mathematics": "保险数学",
+      "Risk Analysis": "风险分析",
+      "Business Mathematics": "商业数学",
+      "Financial Concepts": "金融概念",
+      "Economic Principles": "经济原理",
+      "Campus Life": "校园生活",
+      "Practical approach": "实用方法",
+      "Construction Management": "施工管理",
+      "Cost Control": "成本控制",
+      "Building Economics": "建筑经济学",
+      "Professional Certification": "专业认证",
+      "Engineering Mathematics": "工程数学",
+      "Physics Principles": "物理原理",
+      "Technical Drawing": "技术图纸",
+      "Affordable Engineering": "经济实惠的工程",
+      "Technical Foundation": "技术基础",
+      "Circuit Design": "电路设计",
+      "Embedded Systems": "嵌入式系统",
+      "Digital Electronics": "数字电子产品",
+      "Communication Systems": "通讯系统",
+      "CAD/CAM": "计算机辅助设计/计算机辅助制造",
+      "Manufacturing Processes": "制造流程",
+      "Thermodynamics": "热力学",
+      "Machine Design": "机械设计",
+      "Mechatronics": "机电一体化",
+      "Automation": "自动化",
+      "3D Printing": "3D打印",
+      "Smart Manufacturing": "智能制造",
+      "Construction Economics": "建筑经济学",
+      "Cost Management": "成本管理",
+      "UK Standards": "英国标准",
+      "Affordable QS": "经济实惠的QS",
+      "Practical Measurement": "实际测量",
+      "Local Standards": "地方标准",
+      "Industry Attachment": "行业附件",
+      "Architecture Pathway": "建筑学途径",
+      "Urban Planning": "城市规划",
+      "Environmental Design": "环境设计",
+      "Built Environment Studies": "建筑环境研究",
+      "Quantity Surveying": "工料测量",
+      "Construction Studies": "建筑研究",
+      "Engineering Concepts": "工程概念",
+      "Pre-Med Pathway": "医学预科课程",
+      "Research Focused": "研究重点",
+      "Clinical Training": "临床培训",
+      "100% Employability": "100% 就业率",
+      "Premium Facilities": "优质设施",
+      "Global Recognition": "全球认可",
+      "Fitness Training": "健身训练",
+      "Sports Performance": "运动表现",
+      "Rehabilitation": "康复治疗",
+      "STEM Preparation": "STEM 准备",
+      "Flexible Pathways": "灵活的途径",
+      "Research Basics": "研究基础",
+      "Affordable Science": "负担得起的科学",
+      "Practical Focus": "实用重点",
+      "Industry-Relevant": "行业相关",
+      "Critical Thinking": "批判性思维",
+      "Research Methodology": "研究方法",
+      "Science Communication": "科学传播",
+      "Simulation Labs": "模拟实验室",
+      "International Standards": "国际标准",
+      "Pharmaceutical Sciences": "制药科学",
+      "Dispensing Skills": "点胶技巧",
+      "Clinical Pharmacy": "临床药学",
+      "Pharmacy Practice": "药学实践",
+      "Pre-Med": "医学预科",
+      "Biomedical Sciences": "生物医学科学",
+      "Health Sciences": "健康科学",
+      "Medical Preparation": "医疗准备",
+      "Pharmacy Preparation": "药剂配制",
+      "Pharmaceutical Chemistry": "药物化学",
+      "Drug Sciences": "药物科学",
+      "Healthcare Focus": "医疗保健焦点",
+      "Media Labs": "媒体实验室",
+      "Creative": "有创造力的",
+      "Digital Arts": "数字艺术",
+      "Animation": "动画片",
+      "Portfolio Building": "投资组合建设",
+      "Studio Access": "工作室访问",
+      "Technical Skills": "技术技能",
+      "Design Studio": "设计工作室",
+      "Digital Content Creation": "数字内容创作",
+      "Social Media Marketing": "社交媒体营销",
+      "Video Production": "视频制作",
+      "Fashion Illustration": "时尚插画",
+      "Pattern Making": "打版",
+      "Textile Design": "纺织品设计",
+      "Fashion Show Production": "时装秀制作",
+      "Traditional Techniques": "传统技术",
+      "Industry Links": "行业链接",
+      "Fashion Show": "时装秀",
+      "International Exposure": "国际曝光",
+      "Visual Communication": "视觉传达",
+      "Brand Identity": "品牌形象",
+      "Digital Design": "数字化设计",
+      "Creative Studio": "创意工作室",
+      "Advertising Design": "广告设计",
+      "Multimedia Integration": "多媒体整合",
+      "Media Production": "媒体制作",
+      "Journalism": "新闻学",
+      "Public Relations": "公共关系",
+      "Broadcasting": "广播",
+      "Digital Media": "数字媒体",
+      "Strategic Communication": "战略沟通",
+      "Media Research": "媒体研究",
+      "Fashion Tech": "时尚科技",
+      "Digital Pattern Making": "数码打版",
+      "Smart Textiles": "智能纺织品",
+      "3D Fashion Design": "3D时装设计",
+      "Fashion Journalism": "时尚新闻",
+      "Fashion Photography": "时尚摄影",
+      "Social Media Fashion": "社交媒体时尚",
+      "Fashion PR": "时尚公关",
+      "Theatre Arts": "戏剧艺术",
+      "Dance": "舞蹈",
+      "Music Performance": "音乐表演",
+      "Stage Production": "舞台制作",
+      "Film Production": "电影制作",
+      "Camera Techniques": "相机技巧",
+      "Lighting Design": "灯光设计",
+      "Visual Storytelling": "视觉讲故事",
+      "3D Animation": "3D动画",
+      "Character Modeling": "人物造型",
+      "Visual Effects": "视觉效果",
+      "Game Art": "游戏美术",
+      "Sound Design": "声音设计",
+      "Audio Production": "音频制作",
+      "Music Technology": "音乐技术",
+      "Post-Production": "后期制作",
+      "Content Creation": "内容创作",
+      "Digital Storytelling": "数字讲故事",
+      "Social Media Content": "社交媒体内容",
+      "Multimedia Production": "多媒体制作",
+      "Interactive Design": "交互设计",
+      "User Experience": "用户体验",
+      "Web Technologies": "网络技术",
+      "Digital Interfaces": "数字接口",
+      "Space Planning": "空间规划",
+      "3D Visualization": "3D可视化",
+      "Sustainable Design": "可持续设计",
+      "Residential & Commercial": "住宅及商业",
+      "UI/UX Design": "用户界面/用户体验设计",
+      "Digital Product Design": "数字产品设计",
+      "Interaction Design": "交互设计",
+      "Space Design": "空间设计",
+      "Sustainable Interiors": "可持续的室内设计",
+      "UK Curriculum Standards": "英国课程标准",
+      "Music Theory": "音乐理论",
+      "Performance Skills": "表演技巧",
+      "Creative Arts": "创意艺术",
+      "Design Principles": "设计原则",
+      "Hotel Operations": "酒店运营",
+      "Service Industry": "服务业",
+      "Tourism Industry": "旅游产业",
+      "Event Management": "活动管理",
+      "Internships": "实习",
+      "French Cuisine": "法国菜",
+      "Professional Baking": "专业烘焙",
+      "Artisan Pastry": "工匠糕点",
+      "Culinary Arts": "烹饪艺术",
+      "Industry Training": "行业培训",
+      "Hospitality Operations": "酒店业务",
+      "Front Office Management": "前厅管理",
+      "Food & Beverage": "食品及饮料",
+      "Luxury Hospitality": "豪华款待",
+      "Resort Management": "度假村管理",
+      "Sunway Resort Integration": "双威度假村整合",
+      "Hospitality Leadership": "酒店领导力",
+      "Service Excellence": "卓越服务",
+      "Corporate Events": "企业活动",
+      "Entertainment Production": "娱乐制作",
+      "Venue Management": "场地管理",
+      "Sunway Facilities": "双威设施",
+      "Affordable Events": "经济实惠的活动",
+      "Practical Planning": "实用规划",
+      "Local Industry": "本地产业",
+      "Budget Management": "预算管理",
+      "International Events": "国际活动",
+      "MICE Industry": "会展业",
+      "Hospitality Events": "酒店活动",
+      "Wedding Planning": "婚礼策划",
+      "Corporate Functions": "公司职能",
+      "Tour Operations": "旅游运营",
+      "Destination Management": "目的地管理",
+      "Travel Services": "旅游服务",
+      "Eco-Tourism": "生态旅游",
+      "Professional Kitchen": "专业厨房",
+      "Asian Cuisine": "亚洲美食",
+      "Western Techniques": "西方技术",
+      "Restaurant Operations": "餐厅营运",
+      "International Cuisine": "国际美食",
+      "Sunway Resort Facilities": "双威度假村设施",
+      "Fine Dining": "精致餐饮",
+      "Culinary Innovation": "烹饪创新",
+      "Affordable Culinary": "经济实惠的美食",
+      "Local Cuisine": "当地美食",
+      "Commercial Kitchen Skills": "商业厨房技能",
+      "Food Science": "食品科学",
+      "Kitchen Management": "厨房管理",
+      "Gastronomy": "美食",
+      "Hospitality Basics": "酒店基础知识",
+      "Tourism Principles": "旅游原理",
+      "Fisheries": "渔业",
+      "Sustainable Farming": "可持续农业",
+      "Hatchery Management": "孵化场管理",
+      "Sustainable Aquaculture": "可持续水产养殖",
+      "Aquabusiness": "水产商业",
+      "Startup Skills": "创业技巧",
+      "Human Behavior": "人类行为",
+      "Teaching": "教学",
+      "Pedagogy": "教育学",
+      "Teaching Practice": "教学实践",
+      "Curriculum Development": "课程开发",
+      "Pedagogical Skills": "教学技能",
+      "Education Technology": "教育技术",
+      "Child Development": "儿童发展",
+      "Preschool Education": "幼儿教育",
+      "Curriculum Design": "课程设计",
+      "Teaching Methods": "教学方法",
+      "Behavioral Science": "行为科学",
+      "Human Development": "人类发展",
+      "Tech-Integrated Psychology": "技术整合心理学",
+      "TESL Methodology": "对外英语教学方法论",
+      "Language Acquisition": "语言习得",
+      "Classroom Management": "课堂管理",
+      "Corporate Communication": "企业传播",
+      "Crisis Management": "危机管理",
+      "Mass Communication": "大众传播",
+      "Media Studies": "媒体研究",
+      "Affordable Education": "负担得起的教育",
+      "Preschool Teaching": "学前教育",
+      "Humanities": "人文学科",
+      "Social Studies": "社会研究",
+      "Legal Systems": "法律体系",
+      "Legal Practice": "法律实务",
+      "Administration": "行政",
+      "Diplomacy Training": "外交培训",
+      "Model UN": "模拟联合国",
+      "Foreign Policy": "对外政策",
+      "Global Affairs": "全球事务",
+      "Gold Standard": "黄金标准",
+      "Global University Entry": "全球大学入学",
+      "Coursework Based": "基于课程作业",
+      "Fast Track": "快速通道",
+      "Monash Entry": "莫纳什入学",
+      "Semester Based": "基于学期",
+      "Exam Based": "基于考试",
+      "Rigorous": "严格的",
+      "Fast-track": "快速通道",
+      "Western Australian Curriculum": "西澳大利亚课程",
+      "Australian University Entry": "澳大利亚大学入学",
+      "Ontario Curriculum": "安大略省课程",
+      "100% Coursework": "100% 课程作业",
+      "Canadian University Pathway": "加拿大大学衔接课程",
+      "Flexible Assessment": "灵活评估"
+    }
+  }
+}

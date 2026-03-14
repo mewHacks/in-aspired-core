@@ -1,0 +1,43 @@
+version: 2
+updates:
+  # Node.js Backend Dependencies
+  - package-ecosystem: "npm"
+    directory: "/server/node-backend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    target-branch: "main"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "mewHacks"
+    labels:
+      - "dependencies"
+      - "security"
+
+  # Client Frontend Dependencies  
+  - package-ecosystem: "npm"
+    directory: "/client"
+    schedule:
+      interval: "daily"
+      day: "monday"
+    target-branch: "main"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "mewHacks"
+    labels:
+      - "dependencies"
+      - "security"
+
+  # Python Backend Dependencies
+  - package-ecosystem: "pip"
+    directory: "/server/python-backend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    target-branch: "main"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "mewHacks"
+    labels:
+      - "dependencies"
+      - "security"

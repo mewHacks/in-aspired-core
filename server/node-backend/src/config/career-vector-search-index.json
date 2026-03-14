@@ -1,0 +1,39 @@
+{
+  "mappings": {
+    "dynamic": true,
+    "fields": {
+      "vectorEmbedding": {
+        "type": "vector",
+        "numDimensions": 768,
+        "similarity": "cosine"
+      },
+      "name": {
+        "type": "text",
+        "analyzer": "lucene.standard"
+      },
+      "description": {
+        "type": "text",
+        "analyzer": "lucene.standard"
+      },
+      "skills": {
+        "type": "text",
+        "analyzer": "lucene.standard"
+      },
+      "demand_level": {
+        "type": "token"
+      },
+      "job_type": {
+        "type": "token"
+      },
+      "education_level_required": {
+        "type": "token"
+      },
+      "industry": {
+        "type": "token"
+      },
+      "riasec_code": {
+        "type": "token"
+      }
+    }
+  }
+}
