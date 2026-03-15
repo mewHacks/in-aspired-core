@@ -95,7 +95,7 @@ describe('Recommendation Service', () => {
         expect(result[0].title).toBe('Calculus');
 
         // Check filtering (Art course excluded)
-        expect(result.find(c => c.id === 'c2')).toBeUndefined();
+        expect(result.find((c: { id: string }) => c.id === 'c2')).toBeUndefined();
 
         // Check hydration
         expect(result[0].institution).toBeDefined();

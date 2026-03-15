@@ -8,7 +8,7 @@ import { interestDomains } from '../data/domains'; // Import static domain data
 import { institutions } from '../data/institutions'; // Import static institution data
 import { AuthenticatedRequest } from '../types/express'; // Import custom request type
 import { codeToVector, scoresToVector, normalizeVector, cosineSimilarity } from '../utils/riasec.utils';
-import { RiasecScore } from '../types/education';
+import { RiasecScore, InterestDomain, Course, Institution } from '../types/education';
 
 // Weights for RIASEC scoring (same algorithm as recommendation.service.ts)
 const PRIMARY_WEIGHT = 2.0;
@@ -33,7 +33,7 @@ export const getRecommendations = async (req: Request, res: Response) => {
             scoreMap[s.type] = s.score;
         }
 
-        const rankedDomains = interestDomains.map(domain => {
+        const rankedDomains = interestDomains.map((domain: InterestDomain) => {
             let score = 0;
             for (const t of domain.riasecProfile.primary) {
                 score += (scoreMap[t] || 0) * PRIMARY_WEIGHT;
@@ -46,34 +46,34 @@ export const getRecommendations = async (req: Request, res: Response) => {
                 score: Math.round(score * 100) / 100,
                 matchExplanation: domain.matchExplanation || ''
             };
-        }).sort((a, b) => b.score - a.score);
+        }).sort((a: { score: number }, b: { score: number }) => b.score - a.score);
 
         console.log('2. Ranked domains calculated:', rankedDomains.length, 'items');
 
         // 2. Process Data (Hybrid Approach)
         // Slice top 3 domains
         const topRanked = rankedDomains.slice(0, 3);
-        const topDomainIds = topRanked.map(d => d.domainId);
+        const topDomainIds = topRanked.map((d: { domainId: string }) => d.domainId);
         console.log('3. Top Domain IDs:', topDomainIds);
 
         // Hydrate top domains with full static data (label, description)
-        const topDomains = topRanked.map(rankedItem => {
-            const staticDomain = interestDomains.find(d => d.id === rankedItem.domainId);
+        const topDomains = topRanked.map((rankedItem: { domainId: string; score: number; matchExplanation: string }) => {
+            const staticDomain = interestDomains.find((d: InterestDomain) => d.id === rankedItem.domainId);
             if (!staticDomain) console.warn('Warning: Domain not found:', rankedItem.domainId);
             return {
                 ...staticDomain,
                 matchExplanation: rankedItem.matchExplanation,
                 affinityScore: rankedItem.score
             };
-        }).filter((d: any) => d.id); // Filter out any that weren't found (safety)
+        }).filter((d: any): d is InterestDomain => d && d.id); // Filter out any that weren't found (safety)
         console.log('4. Top Domains Hydrated:', topDomains.length);
 
         // Filter and map courses
         // We find courses that match the user's top domains and attach institution details
         const recommendedCourses = courses
-            .filter(course => course.domainIds.some(id => topDomainIds.includes(id)))
-            .map(course => {
-                const institution = institutions.find(inst => inst.id === course.institutionId);
+            .filter((course: Course) => course.domainIds.some((id: string) => topDomainIds.includes(id)))
+            .map((course: Course) => {
+                const institution = institutions.find((inst: Institution) => inst.id === course.institutionId);
                 return {
                     ...course,
                     institution
@@ -210,7 +210,7 @@ export const getMatchingCareers = async (req: Request, res: Response) => {
 
         // Create dynamic domain ID to label mapping from official domains list
         const domainLabels: Record<string, string> = {};
-        interestDomains.forEach(domain => {
+        interestDomains.forEach((domain: InterestDomain) => {
             domainLabels[domain.id] = domain.label;
         });
 

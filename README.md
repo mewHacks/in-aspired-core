@@ -262,8 +262,9 @@ Open `http://localhost:5173`.
 | `VAPID_PRIVATE_KEY` | Push notifications | VAPID private key |
 | `VAPID_SUBJECT` | Push notifications | Mailto URI for VAPID contact |
 | `PUPPETEER_EXECUTABLE_PATH` | PDF (production) | Path to Chromium binary in Docker |
-
-> **Note**: Payment-related environment variables (LemonSqueezy) are proprietary and not included in this open source release.
+| `LEMONSQUEEZY_STORE_ID` | Payments | LemonSqueezy store ID |
+| `LEMONSQUEEZY_API_KEY` | Payments | LemonSqueezy API key |
+| `LEMONSQUEEZY_WEBHOOK_SECRET` | Payments | Secret for verifying LemonSqueezy webhooks |
 
 ### Frontend — `client/.env`
 
