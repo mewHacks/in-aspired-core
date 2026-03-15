@@ -5,7 +5,7 @@
 [![Live](https://img.shields.io/badge/Live-in--aspired.vercel.app-6366f1?style=flat-square)](https://in-aspired.vercel.app)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=flat-square)](https://www.typescriptlang.org/)
 [![Node](https://img.shields.io/badge/Node.js-20+-339933?style=flat-square)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
+[![License](https://img.shields.io/badge/License-AGPLv3-green?style=flat-square)](./LICENSE)
 
 ![In-Aspired Landing Page](./client/public/assets/readme/landing.png)
 
