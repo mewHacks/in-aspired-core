@@ -22,7 +22,7 @@
     "@types/qrcode": "^1.5.6",
     "@types/speakeasy": "^2.0.10",
     "axios": "^1.13.2",
-    "bcryptjs": "^2.4.3",
+    "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
